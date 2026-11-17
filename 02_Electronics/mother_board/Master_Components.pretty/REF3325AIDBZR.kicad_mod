@@ -1,0 +1,349 @@
+(footprint "REF3325AIDBZR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Series Voltage Reference IC Fixed 2.5V V ±0.15% 5 mA SOT-23-3")
+	(tags "REF3325AIDBZR ")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6f21b739-c51e-4973-80ae-342fb7323b75")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "REF3325AIDBZR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f501b0e5-3044-4c10-a969-772e5b00c243")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.digikey.co.za/en/products/detail/texas-instruments/REF3325AIDBZR/1900138"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a710a737-0f40-43c8-8953-2136cc65e64b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Series Voltage Reference IC Fixed 2.5V V ±0.15% 5 mA SOT-23-3"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb7f609d-87c9-4106-86b0-de928af4495a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.524 -0.6985)
+		(end -1.524 0.200916)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c60609cd-ee09-4f25-bdb7-ab8313c3b2e1")
+	)
+	(fp_line
+		(start -0.61214 -0.6985)
+		(end -1.524 -0.6985)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "13e5c3cb-a405-4105-a504-d2139e64301d")
+	)
+	(fp_line
+		(start -0.337861 0.6985)
+		(end 0.337861 0.6985)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f9a0ac10-c35d-4961-905f-42ac7a84bb59")
+	)
+	(fp_line
+		(start 1.524 -0.6985)
+		(end 0.61214 -0.6985)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e032cc5d-9265-4c94-ac63-3486b6ff5a9b")
+	)
+	(fp_line
+		(start 1.524 0.200916)
+		(end 1.524 -0.6985)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "604ad1d3-5526-4783-adfd-f1fb5fbbe58a")
+	)
+	(fp_line
+		(start -1.778 -1.9304)
+		(end 1.778 -1.9304)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5229e312-056a-4b5c-9381-65e30daf437d")
+	)
+	(fp_line
+		(start -1.778 1.9304)
+		(end -1.778 -1.9304)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "beaaab40-f303-4bf3-997f-ae078e5d4f88")
+	)
+	(fp_line
+		(start 1.778 -1.9304)
+		(end 1.778 1.9304)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0e04ecfa-08dd-41b5-b048-0cf49e84f5bf")
+	)
+	(fp_line
+		(start 1.778 1.9304)
+		(end -1.778 1.9304)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "396882f4-b429-45e9-b5cf-5d5c0f2eef5c")
+	)
+	(fp_line
+		(start -1.524 -0.6985)
+		(end -1.524 0.6985)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cd87295f-868e-404e-806e-8fababc6a727")
+	)
+	(fp_line
+		(start -1.524 0.6985)
+		(end 1.524 0.6985)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5669e9bf-b328-49c9-9128-34689c6b948e")
+	)
+	(fp_line
+		(start -1.204 0.6985)
+		(end -1.204 1.3208)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2a5c15e8-a5e0-4916-9b7e-e1ff839a4895")
+	)
+	(fp_line
+		(start -1.204 1.3208)
+		(end -0.696 1.3208)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0b9f1878-5d4d-461a-8176-7a2f279d929f")
+	)
+	(fp_line
+		(start -0.696 0.6985)
+		(end -1.204 0.6985)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6d905c57-25f9-4d6e-a24c-ac6f7ad74043")
+	)
+	(fp_line
+		(start -0.696 1.3208)
+		(end -0.696 0.6985)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "651688e2-cc8c-47be-a84b-5bc6740f59b7")
+	)
+	(fp_line
+		(start -0.254 -1.3208)
+		(end -0.254 -0.6985)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ce47baea-fe5e-4c94-8f43-34cde64efc58")
+	)
+	(fp_line
+		(start -0.254 -0.6985)
+		(end 0.254 -0.6985)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d501375f-37f3-4af2-a391-1d6390a6152d")
+	)
+	(fp_line
+		(start 0.254 -1.3208)
+		(end -0.254 -1.3208)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eb155d4d-59e0-4d37-adcb-22f288a9ddad")
+	)
+	(fp_line
+		(start 0.254 -0.6985)
+		(end 0.254 -1.3208)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5f915cac-7a52-41dd-a220-2bac527bd6cf")
+	)
+	(fp_line
+		(start 0.696 0.6985)
+		(end 0.696 1.3208)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cb7c63df-5ca3-4afe-b7aa-c28544ff8973")
+	)
+	(fp_line
+		(start 0.696 1.3208)
+		(end 1.204 1.3208)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fd595e76-8eb7-4856-b68e-a91b1099cbb2")
+	)
+	(fp_line
+		(start 1.204 0.6985)
+		(end 0.696 0.6985)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ae89fe81-7b0b-4b8b-bff2-61b997e9b2b9")
+	)
+	(fp_line
+		(start 1.204 1.3208)
+		(end 1.204 0.6985)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0100c905-5047-44df-bff0-4d7ac35784e6")
+	)
+	(fp_line
+		(start 1.524 -0.6985)
+		(end -1.524 -0.6985)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c3b9a30a-bcf9-42b6-9f6f-b6cf3e305f1f")
+	)
+	(fp_line
+		(start 1.524 0.6985)
+		(end 1.524 -0.6985)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "41af7caf-37b5-4ea9-8bf2-39816d274c4c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "db664646-7875-4a4d-b56b-d08f08a3c751")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.950001 1.016)
+		(size 0.5588 1.3208)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "530b43c1-d032-4815-87d9-558a1718695e")
+	)
+	(pad "2" smd rect
+		(at 0.950001 1.016)
+		(size 0.5588 1.3208)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fa12307c-dd87-4ef8-9e18-23025a300e28")
+	)
+	(pad "3" smd rect
+		(at 0 -0.88265)
+		(size 0.5588 1.5875)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0c6b963f-7ec4-4daa-9f14-13788bc33ebf")
+	)
+	(embedded_fonts no)
+	(model "${PARTS}/Temp/REF3325AIDBZR/DBZ0003A.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)

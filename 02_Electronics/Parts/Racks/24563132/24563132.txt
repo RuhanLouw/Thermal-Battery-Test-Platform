@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"30-18042018-088689";"";
+"REFERENCE";"24563132";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartTitle";"Kit";"";
+"TraceParts.InstanceId";"30-18042018-088689CFD5BIQJTGSFV6WPV07V5PC4B";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.ClassPath";"NVENT_SCHROFF:/F_NVENT_SCHROFF/NVENT_SCHROFF.1/NVENT_SCHROFF.1.1./NVENT_SCHROFF.1.1.1/30-18042018-088689";"";
+"SUPPLIER";"nVent SCHROFF";"";
+"DESIGN";"Kit, ""flexible"", unshielded, for backplane mounting ";"";
+"TraceParts.PartVersion";"1.0.1";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartStatusId";"";"";

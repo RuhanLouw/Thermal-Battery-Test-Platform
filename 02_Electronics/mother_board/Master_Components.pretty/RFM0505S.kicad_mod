@@ -1,0 +1,273 @@
+(footprint "RFM0505S"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Isolated DC/DC Converters - Through Hole 1W 5Vin 5Vout 200mA SIP4")
+	(tags "Power Supply")
+	(property "Reference" "PS**"
+		(at 3.81 -1.45 0)
+		(layer "F.SilkS")
+		(uuid "6700e9d3-9b7d-49be-b0d9-707dd390c4ab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "RFM0505S"
+		(at 3.81 -1.45 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ba56cf5d-9566-4456-adf6-c4731c8bdb68")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.co.za/ProductDetail/RECOM-Power/RFM-0505S?qs=lYGu3FyN48dRVYKTH5ipqg%3D%3D"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43eb03bb-2ae1-47ae-b14a-5e9ff8da915e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Isolated DC/DC Converters - Through Hole 1W 5Vin 5Vout 200mA SIP4"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a9b2466-234e-4d00-aada-8a38e5a750b5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.9 -4.75)
+		(end 9.6 -4.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fb12e870-3236-4903-9818-3bc309e1e361")
+	)
+	(fp_line
+		(start -1.9 1.25)
+		(end -1.9 -4.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7a3690aa-15c3-44fc-84b1-f0a584f52f99")
+	)
+	(fp_line
+		(start -0.4 1.8)
+		(end -0.4 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5fb8a9a8-3756-4f09-bf32-5c62a12c5449")
+	)
+	(fp_line
+		(start -0.3 1.8)
+		(end -0.3 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1f961ca3-4e93-4f9f-898f-154bfb89fab2")
+	)
+	(fp_line
+		(start 9.6 -4.75)
+		(end 9.6 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e59e6d87-3ea5-4328-838f-acfc436be081")
+	)
+	(fp_line
+		(start 9.6 1.25)
+		(end -1.9 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aaf117c6-09f4-41be-8de3-072630d8bf9b")
+	)
+	(fp_arc
+		(start -0.4 1.8)
+		(mid -0.35 1.75)
+		(end -0.3 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7cdb972c-36f1-421c-9fe3-d6573b2b86ae")
+	)
+	(fp_arc
+		(start -0.3 1.8)
+		(mid -0.35 1.85)
+		(end -0.4 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "49d6bf21-2c23-4b8b-9a8e-4e9502dbc9e6")
+	)
+	(fp_line
+		(start -2.94 -5.75)
+		(end 10.56 -5.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cffc4f72-af14-4ba1-9047-76e3faa057a0")
+	)
+	(fp_line
+		(start -2.94 2.85)
+		(end -2.94 -5.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0893db48-ede1-4f83-bef7-d0e38b83a559")
+	)
+	(fp_line
+		(start 10.56 -5.75)
+		(end 10.56 2.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "752b183b-1fb0-40aa-851d-7369e144f760")
+	)
+	(fp_line
+		(start 10.56 2.85)
+		(end -2.94 2.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6e94d299-f583-4af1-9996-7b9371fb7160")
+	)
+	(fp_line
+		(start -1.9 -4.75)
+		(end 9.6 -4.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4c6d6c69-8f68-43fa-b1bf-490fda46900c")
+	)
+	(fp_line
+		(start -1.9 1.25)
+		(end -1.9 -4.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "74d314d4-0076-420e-80f6-76d5d7da235b")
+	)
+	(fp_line
+		(start 9.6 -4.75)
+		(end 9.6 1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "36808d7b-000a-44fd-a0b7-4a97ce5b5933")
+	)
+	(fp_line
+		(start 9.6 1.25)
+		(end -1.9 1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2e389f39-10a3-4dce-8244-319cc11d7246")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.81 -1.45 0)
+		(layer "F.Fab")
+		(uuid "40455b28-a8e8-4271-8549-8b332cc3b05d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.725 1.725)
+		(drill 1.15)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0b1cc1f0-618f-47e4-bce5-3fe89d94743d")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.725 1.725)
+		(drill 1.15)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "09aa24dc-5b88-45b2-97ba-9df26bb2066c")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 1.725 1.725)
+		(drill 1.15)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "235bebc9-096c-42e3-8fd2-fdf870d718fc")
+	)
+	(pad "4" thru_hole circle
+		(at 7.62 0)
+		(size 1.725 1.725)
+		(drill 1.15)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4cad9499-bd52-4012-9276-d987041a7dbf")
+	)
+	(embedded_fonts no)
+	(model "${PARTS}/Power/LIB_RFM-0505S/RFM-0505S/3D/RFM-0505S.stp"
+		(offset
+			(xyz 3.809999886 1.450000026 0.5400000133)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

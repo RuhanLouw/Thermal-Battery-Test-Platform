@@ -1,0 +1,157 @@
+(footprint "10K 10W"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -29 -10.62 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2b19f1d6-5490-44be-869c-35fd76b44378")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "10K 10W"
+		(at -29 -9.12 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bc977d76-3bfc-4356-9f3d-67caba0cf6fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -58 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e1f85ca-798a-418b-9c98-5e5030a9ec75")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -58 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6bab6918-0f3a-4fb2-9335-0cead0c20f58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -60.54 -5.08)
+		(end 2.54 -5.08)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Margin")
+		(uuid "0df2d3bd-cd11-48fa-97f6-836a395bcfed")
+	)
+	(fp_line
+		(start -60.54 0)
+		(end -60.54 -5.08)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Margin")
+		(uuid "fd9230ed-1d75-43f6-8efe-fdc05864ab6c")
+	)
+	(fp_line
+		(start -60.54 5.08)
+		(end -60.54 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Margin")
+		(uuid "0bffedfa-2389-456f-8165-69211853d076")
+	)
+	(fp_line
+		(start 2.54 -5.08)
+		(end 2.54 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Margin")
+		(uuid "de684458-88cf-41e3-b634-254fb0680372")
+	)
+	(fp_line
+		(start 2.54 0)
+		(end 2.54 5.08)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Margin")
+		(uuid "2e1333ae-484b-443a-8aec-27a19c6ec94a")
+	)
+	(fp_line
+		(start 2.54 5.08)
+		(end -60.54 5.08)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Margin")
+		(uuid "66477c0c-067b-4f26-98ec-4d1c252fe440")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -29 -7.62 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6fe8e631-a81e-4a5c-a6a2-23e7cf4ac744")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -58 0)
+		(size 2.54 2.54)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ff61458e-4c3b-4c6b-8d09-e9b86f28aec7")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.54 2.54)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c0cc587a-d97c-4887-a907-e2425c637576")
+	)
+	(embedded_fonts no)
+	(model "${PARTS}/Resistors/SQP10AJB_10K/SQP10AJB-10K.STEP"
+		(offset
+			(xyz -29 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

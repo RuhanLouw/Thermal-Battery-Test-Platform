@@ -1,0 +1,232 @@
+(footprint "LA_20MM_LOW_LTF"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "390 V 6.5 kA Varistor 1 Circuit Through Hole Disc 20mm")
+	(tags "V250LA40AP ")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e07e4a75-61c8-41e2-800b-ab3d9a6d93c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "V250LA40AP"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1fa4e856-2a86-47d8-a0e7-ecc17da0f491")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.digikey.co.za/en/products/detail/littelfuse-inc/V250LA40AP/1009400https://www.digikey.co.za/en/products/detail/littelfuse-inc/V250LA40AP/1009400"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "636e8760-a7e9-4145-b5f5-fe826c2bc8c7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "390 V 6.5 kA Varistor 1 Circuit Through Hole Disc 20mm"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "799925a2-2a89-49ca-be88-c5285c5d65fc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -8.7122 -2.921)
+		(end 8.7122 -2.921)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1de12d87-d4aa-4700-93ca-dcb341b02e8a")
+	)
+	(fp_line
+		(start -8.7122 2.921)
+		(end 8.7122 2.921)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "226750a4-47f1-4c60-8475-b506a83a813c")
+	)
+	(fp_arc
+		(start -8.7122 2.921)
+		(mid -11.6332 0)
+		(end -8.7122 -2.921)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8e87fbce-c98e-472d-88ed-abcfe793194e")
+	)
+	(fp_arc
+		(start 8.7122 -2.921)
+		(mid 10.777659 -2.065459)
+		(end 11.6332 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1b537f9f-53cd-4225-906d-1749ef0fd5a4")
+	)
+	(fp_arc
+		(start 11.6332 0)
+		(mid 10.777659 2.065459)
+		(end 8.7122 2.921)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a13282a6-7172-45b2-9653-f4597b2916c3")
+	)
+	(fp_line
+		(start -11.7602 -3.048)
+		(end 11.7602 -3.048)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "41afb48e-9bf5-415d-9115-fa2647d983e3")
+	)
+	(fp_line
+		(start -11.7602 3.048)
+		(end -11.7602 -3.048)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2380472c-e938-4c9a-870d-ad18014c5e1d")
+	)
+	(fp_line
+		(start 11.7602 -3.048)
+		(end 11.7602 3.048)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3c852494-8254-4ecb-b1f2-952865b970d2")
+	)
+	(fp_line
+		(start 11.7602 3.048)
+		(end -11.7602 3.048)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "63ff008d-c6e1-40ed-a201-fcb9585eb0b2")
+	)
+	(fp_line
+		(start -8.7122 -2.794)
+		(end 8.7122 -2.794)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "08956f50-c6b5-474e-a8c6-22c24baec938")
+	)
+	(fp_line
+		(start -8.7122 2.794)
+		(end 8.7122 2.794)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "75e0c146-29cf-4af0-b34a-7bba63db1b51")
+	)
+	(fp_arc
+		(start -8.7122 2.794)
+		(mid -11.5062 0)
+		(end -8.7122 -2.794)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2ca6d232-2ce1-4341-a853-f69bddf76493")
+	)
+	(fp_arc
+		(start 8.7122 -2.794)
+		(mid 11.5062 0)
+		(end 8.7122 2.794)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "17995f33-f783-4453-bb99-3d4f52db48fb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bf2933c1-0eeb-4123-bbc7-1f5ed24d9105")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.75 -1.25)
+		(size 1.6256 1.6256)
+		(drill 1.1176)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d43575d4-3fcb-4905-ab83-175d12ca3d22")
+	)
+	(pad "2" thru_hole circle
+		(at 3.75 1.25)
+		(size 1.6256 1.6256)
+		(drill 1.1176)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8e4d391d-5e98-4472-96ba-b4d8a288bf84")
+	)
+	(embedded_fonts no)
+	(model "${PARTS}/Varistors/V250LA40AP/V250LA40AP.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -10)
+		)
+	)
+)

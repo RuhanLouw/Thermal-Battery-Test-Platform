@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Library")(type "KiCad")(uri "C:/Users/Ruhan Louw/OneDrive - Stellenbosch University/Masters/Masters/Electronics/mother_board/MasterCard_rev2/Library.pretty")(options "")(descr ""))
+  (lib (name "Master_Card")(type "KiCad")(uri "C:/Users/Ruhan Louw/OneDrive - Stellenbosch University/Masters/Masters/Electronics/mother_board/Master_Card.pretty")(options "")(descr ""))
+)

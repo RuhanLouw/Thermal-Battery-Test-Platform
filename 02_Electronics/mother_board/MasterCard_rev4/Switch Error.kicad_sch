@@ -1,0 +1,74 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f153576d-7344-4985-9f43-cd64ff7fe14b")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "Channel 1"
+		(shape input)
+		(at 194.31 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b0b4987d-e447-4c36-b592-05758a51f027")
+	)
+	(hierarchical_label "Channel 1"
+		(shape input)
+		(at 194.31 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b25ce646-1b13-4dc6-83a8-12fa5d124fa2")
+	)
+	(hierarchical_label "Channel 1"
+		(shape input)
+		(at 194.31 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c1d6f52d-4f5c-4fc3-927c-63e359cacf2c")
+	)
+	(hierarchical_label "Channel 1"
+		(shape input)
+		(at 194.31 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dca03895-ca65-4165-9b7b-847c4393e5e6")
+	)
+	(hierarchical_label "Channel 1"
+		(shape input)
+		(at 194.31 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de1d8b3f-a718-423f-b94d-b00fb7ef098d")
+	)
+	(hierarchical_label "Channel 1"
+		(shape input)
+		(at 194.31 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e7100df6-b69c-443d-bf03-7874e47ae83e")
+	)
+)

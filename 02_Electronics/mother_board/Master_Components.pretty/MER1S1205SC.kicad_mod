@@ -1,0 +1,273 @@
+(footprint "MER1S1205SC"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "1W 12-5V SIP SINGLE DC/DC")
+	(tags "Power Supply")
+	(property "Reference" "PS**"
+		(at 7.51 1.85 0)
+		(layer "F.SilkS")
+		(uuid "af94875a-1d68-4db5-9b50-b0bf552bf34d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "MER1S1205SC"
+		(at 7.51 1.85 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0858dfb8-b3ed-4390-8215-0a526270c920")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.co.za/ProductDetail/Murata-Power-Solutions/MER1S1205SC?qs=sGAEpiMZZMv0DJfhVcWlK8Czjp9%252BHT4lPxWWV1IoSzUFk2neOalOmA%3D%3D"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b730e134-6c04-4742-bd5c-3df16834eb90")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Isolated DC/DC Converters - Through Hole 1W 12-5V SIP SINGLE DC/DC"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b69e94e-e9d3-4cf8-b11f-a993b2b0ce4b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.6 0)
+		(end -2.6 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c98ea684-14b9-446f-8113-4315b47f4d2a")
+	)
+	(fp_line
+		(start -2.5 0)
+		(end -2.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "95a61f45-1423-4e27-8855-6d8145d11da5")
+	)
+	(fp_line
+		(start -2.03 -1.225)
+		(end -2.03 4.925)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2da0d815-8792-467c-ac82-ec422b1c8dbd")
+	)
+	(fp_line
+		(start -2.03 4.925)
+		(end 17.62 4.925)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5e051df8-ae9f-4f21-8661-a077c09a8d57")
+	)
+	(fp_line
+		(start 17.62 -1.225)
+		(end -2.03 -1.225)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b20fc272-4299-4032-aa3b-4a7bbb2eb426")
+	)
+	(fp_line
+		(start 17.62 4.925)
+		(end 17.62 -1.225)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e45c594a-549d-451e-ba02-b7f879ddf783")
+	)
+	(fp_arc
+		(start -2.6 0)
+		(mid -2.55 -0.05)
+		(end -2.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e2ff9636-ca9a-40b5-a664-c11fa64e1bf4")
+	)
+	(fp_arc
+		(start -2.5 0)
+		(mid -2.55 0.05)
+		(end -2.6 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "67dd4051-7c75-49fd-a182-6525635c641d")
+	)
+	(fp_line
+		(start -3.6 -2.225)
+		(end -3.6 5.925)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f66c3547-ebcf-4573-b3ee-b2a126c97801")
+	)
+	(fp_line
+		(start -3.6 5.925)
+		(end 18.62 5.925)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "085b95ec-883f-40fa-842e-f3e4a6949d76")
+	)
+	(fp_line
+		(start 18.62 -2.225)
+		(end -3.6 -2.225)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "07e24987-ff65-4159-9a5f-375671a2d0b3")
+	)
+	(fp_line
+		(start 18.62 5.925)
+		(end 18.62 -2.225)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7f7f9140-b224-43ab-80da-5e2442a39a1c")
+	)
+	(fp_line
+		(start -2.03 -1.225)
+		(end -2.03 4.925)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "36ceea4c-36a0-4e63-b87e-255bfe92ab77")
+	)
+	(fp_line
+		(start -2.03 4.925)
+		(end 17.62 4.925)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c3cc4fb9-6ec7-491f-997f-91d452bcd853")
+	)
+	(fp_line
+		(start 17.62 -1.225)
+		(end -2.03 -1.225)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "edcce35c-00bb-44ac-9262-033f65a5526b")
+	)
+	(fp_line
+		(start 17.62 4.925)
+		(end 17.62 -1.225)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d16a9c13-a6ff-49f2-ab7a-9903dc705897")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.51 1.85 0)
+		(layer "F.Fab")
+		(uuid "b14774f6-1915-44c9-a277-0000e5c6ec28")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.2 1.2)
+		(drill 0.76)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "15e35c25-c800-4a28-bb9e-ac89e7341e96")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.2 1.2)
+		(drill 0.76)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "28889b98-61d5-4911-b9b5-6b276bddc850")
+	)
+	(pad "4" thru_hole circle
+		(at 7.62 0)
+		(size 1.2 1.2)
+		(drill 0.76)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3026302d-d1be-41f5-b63f-23f12c73513c")
+	)
+	(pad "6" thru_hole circle
+		(at 12.7 0)
+		(size 1.2 1.2)
+		(drill 0.76)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7a0d94fb-b461-4c39-b3cb-df5b5fba7186")
+	)
+	(embedded_fonts no)
+	(model "${PARTS}/Power/LIB_MEF1S1203SPC/MEF1S1203SPC/3D/MEF1S1203SPC.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

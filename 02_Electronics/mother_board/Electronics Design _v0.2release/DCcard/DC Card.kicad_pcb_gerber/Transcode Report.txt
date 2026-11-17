@@ -1,0 +1,103 @@
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\DCcard\DC Card.kicad_pcb_gerber\DC Card-F_Paste.gbr' ----   Thu Jun 12 23:09:10 2025
+
+D10   --> D100
+D11   --> D101
+D12   --> D102
+D13   --> D103
+D14   --> D104
+D15   --> D105
+D16   --> D106
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\DCcard\DC Card.kicad_pcb_gerber\DC Card-F_Mask.gbr' ----   Thu Jun 12 23:09:10 2025
+
+D10   --> D107
+D11   --> D108
+D12   --> D109
+D13   --> D110
+D14   --> D111
+D15   --> D112
+D16   --> D113
+D17   --> D114
+D18   --> D115
+D19   --> D116
+D20   --> D117
+D21   --> D118
+D22   --> D119
+D23   --> D120
+D24   --> D121
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\DCcard\DC Card.kicad_pcb_gerber\DC Card-F_Cu.gbr' ----   Thu Jun 12 23:09:10 2025
+
+D10   --> D122
+D11   --> D123
+D12   --> D124
+D13   --> D125
+D14   --> D126
+D15   --> D127
+D16   --> D128
+D17   --> D129
+D18   --> D130
+D19   --> D131
+D20   --> D132
+D21   --> D133
+D22   --> D134
+D23   --> D135
+D24   --> D136
+D25   --> D137
+D26   --> D138
+D27   --> D139
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\DCcard\DC Card.kicad_pcb_gerber\DC Card-B_Cu.gbr' ----   Thu Jun 12 23:09:10 2025
+
+D10   --> D140
+D11   --> D141
+D12   --> D142
+D13   --> D143
+D14   --> D144
+D15   --> D145
+D16   --> D146
+D17   --> D147
+D18   --> D148
+D19   --> D149
+D20   --> D150
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\DCcard\DC Card.kicad_pcb_gerber\DC Card-B_Mask.gbr' ----   Thu Jun 12 23:09:10 2025
+
+D10   --> D151
+D11   --> D152
+D12   --> D153
+D13   --> D154
+D14   --> D155
+D15   --> D156
+D16   --> D157
+D17   --> D158
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\DCcard\DC Card.kicad_pcb_gerber\DC Card-B_SilkS.gbr' ----   Thu Jun 12 23:09:11 2025
+
+D10   --> D159
+D11   --> D160
+D12   --> D161
+D13   --> D162
+D14   --> D163
+D15   --> D164
+D16   --> D165
+D17   --> D166
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\DCcard\DC Card.kicad_pcb_gerber\DC Card-Edge_Cuts.gbr' ----   Thu Jun 12 23:09:11 2025
+
+D10   --> D167
+-----------------------------------------------------------------

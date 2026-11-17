@@ -1,0 +1,9 @@
+Manufacturer=Traco Power
+PartNumber=TSR 2-2433N
+PartCategory=Power Supply
+PackageCategory=Other
+PinCount=3
+Version=2.3
+Released=2024-12-27 11:33:03
+Downloaded=2025-02-21 08:49:56
+3D=Y

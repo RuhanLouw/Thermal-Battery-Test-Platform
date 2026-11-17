@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MEF1S1203SPC
+D Module DC-DC 12VIN 1-OUT 3.3V 0.303A 1W 4-Pin SIP Module
+K
+F 
+$ENDCMP
+#
+#End Doc Library

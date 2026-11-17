@@ -1,0 +1,345 @@
+(footprint "RES_SMF5_TYCO_TYC"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "68ohm 5W")
+	(tags "SMW568RJT ")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "63616150-0d6c-4b56-b28b-a8bc2581f473")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RES_SMF5_TYCO_TYC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a71d4bef-2ec8-49b8-ae5d-4a5650668291")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.digikey.co.za/en/products/detail/te-connectivity-passive-product/SMW568RJT/2367056"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a08738d-4034-44f6-bd06-77f26faa15ac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "68ohm 5W"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f432d5dd-bb1f-4c51-afee-1a718969387a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6.8834 -3.9243)
+		(end -6.8834 -2.03454)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5bffaa5f-27b8-4570-9dc5-ae810ac5c784")
+	)
+	(fp_line
+		(start -6.8834 2.03454)
+		(end -6.8834 3.9243)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "25043fb3-e877-48dd-a019-514a58e2ed4b")
+	)
+	(fp_line
+		(start -6.8834 3.9243)
+		(end 6.8834 3.9243)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6f24475d-ddb7-490d-9554-8f6ce8855f57")
+	)
+	(fp_line
+		(start 6.8834 -3.9243)
+		(end -6.8834 -3.9243)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "288d414d-6b88-4f3c-9352-0101bc791b60")
+	)
+	(fp_line
+		(start 6.8834 -2.03454)
+		(end 6.8834 -3.9243)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ecec652b-5013-427b-acca-cc22aca48181")
+	)
+	(fp_line
+		(start 6.8834 3.9243)
+		(end 6.8834 2.03454)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "31443d8a-cd62-43ec-b1a5-e195c8678542")
+	)
+	(fp_line
+		(start -10.2489 -1.9558)
+		(end -7.0104 -1.9558)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9282dbac-d515-4c5d-a603-2cc1e386ee65")
+	)
+	(fp_line
+		(start -10.2489 1.9558)
+		(end -10.2489 -1.9558)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "37be402a-b268-48cb-980a-ae83350cd43b")
+	)
+	(fp_line
+		(start -7.0104 -4.0513)
+		(end 7.0104 -4.0513)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6f58ef86-e635-47a7-9bfc-c7d447d30aee")
+	)
+	(fp_line
+		(start -7.0104 -1.9558)
+		(end -7.0104 -4.0513)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c24a7058-e884-436e-b09b-88f27258f0ca")
+	)
+	(fp_line
+		(start -7.0104 1.9558)
+		(end -10.2489 1.9558)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6ae9e034-00fc-4786-967c-a056da97340d")
+	)
+	(fp_line
+		(start -7.0104 4.0513)
+		(end -7.0104 1.9558)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e99d36d6-f317-470a-aed4-089f0ffda21b")
+	)
+	(fp_line
+		(start 7.0104 -4.0513)
+		(end 7.0104 -1.9558)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "091c6b69-0e76-449f-9fae-7cdc3b249e4e")
+	)
+	(fp_line
+		(start 7.0104 -1.9558)
+		(end 10.2489 -1.9558)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5271a3ae-ba16-4a9b-9658-1f49b63cc63b")
+	)
+	(fp_line
+		(start 7.0104 1.9558)
+		(end 7.0104 4.0513)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2ad5befa-51bf-4108-8669-60c0744101da")
+	)
+	(fp_line
+		(start 7.0104 4.0513)
+		(end -7.0104 4.0513)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4a44209b-92f8-4885-a372-9db9cfe84a0d")
+	)
+	(fp_line
+		(start 10.2489 -1.9558)
+		(end 10.2489 1.9558)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2919adfd-76da-451b-8a17-2a5ce8a2e590")
+	)
+	(fp_line
+		(start 10.2489 1.9558)
+		(end 7.0104 1.9558)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "26c45b0b-22be-473d-ac8f-90ffaed43731")
+	)
+	(fp_line
+		(start -6.7564 -3.7973)
+		(end -6.7564 3.7973)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0d1c7c71-6fcf-4834-a683-0946659aa578")
+	)
+	(fp_line
+		(start -6.7564 3.7973)
+		(end 6.7564 3.7973)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b2f1e9ca-a2b4-4509-b20a-4e8f3fae852e")
+	)
+	(fp_line
+		(start 6.7564 -3.7973)
+		(end -6.7564 -3.7973)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3cb1b858-7911-432c-9385-0a58333ac169")
+	)
+	(fp_line
+		(start 6.7564 3.7973)
+		(end 6.7564 -3.7973)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0d3536ee-523f-4ac3-ac21-f1001ae211de")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "916ec0ba-c1d1-4273-b773-b0a498748c71")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -7.747 0)
+		(size 4.4958 3.4036)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b035176e-3738-4bd4-9355-420c6f0fdfdd")
+	)
+	(pad "2" smd rect
+		(at 7.747 0)
+		(size 4.4958 3.4036)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1511bddd-a985-4499-a333-1b0fe70e2ee2")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "2e328b1c-a555-47cd-8c26-ade67a50a274")
+		(hatch full 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.254)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy -5.4483 -3.7465) (xy 5.4483 -3.7465) (xy 5.4483 3.7465) (xy -5.4483 3.7465)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${PARTS}/Resistors/SMW568RJT/RES_SMF5_TYCO_TYC.iges"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

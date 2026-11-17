@@ -1,0 +1,61 @@
+Archive:  db/43578.zip
+  inflating: db/43578/TIDA-050053.SchDoc  
+  inflating: db/43578/TIDA-050053.PcbDoc  
+Loading TIDA-050053.SchDoc
+
+Loading TIDA-050053.PcbDoc
+
+Done.
+Handling TIDA-050053-PcbDoc/Root Entry/Board6/Data.dat
+ASCII-TIDA-050053-PcbDoc.PcbDoc exists?
+Writing to TIDA-050053-PcbDoc/Root Entry/Board6/Data.dat.txt
+Writing to TIDA-050053-PcbDoc/Root Entry/Models/Data.dat.txt
+Writing to TIDA-050053-PcbDoc/Root Entry/UniqueIDPrimitiveInformation/Data.dat.txt
+Writing to TIDA-050053-PcbDoc/Root Entry/Rules6/Data.dat.txt
+Writing to TIDA-050053-PcbDoc/Root Entry/Classes6/Data.dat.txt
+Writing PCB to TIDA-050053-PcbDoc.kicad_pcb
+Writing to TIDA-050053-PcbDoc/Root Entry/Nets6/Data.dat.txt
+Writing to TIDA-050053-PcbDoc/Root Entry/Components6/Data.dat.txt
+Pads6...
+Writing to TIDA-050053-PcbDoc/Root Entry/ComponentBodies6/Data.dat.txt
+NOT FOUND: WE-PD_1280_m-base_744770xxx.wrl
+NOT FOUND: Keystone1502-2.wrl
+NOT FOUND: Keystone_5011.wrl
+NOT FOUND: SW3dPS-sot-3p290x130ll237h100.wrl
+NOT FOUND: ED1202DS.wrl
+NOT FOUND: IC_TPS62933DRLR_FCSOT8.wrl
+NOT FOUND: Keystone_5014.wrl
+NOT FOUND: Keystone_5010.wrl
+Writing to TIDA-050053-PcbDoc/Root Entry/ShapeBasedComponentBodies6/Data.dat.txt
+Writing to TIDA-050053-PcbDoc/Root Entry/Components6/Data.dat.txt
+Writing to TIDA-050053-PcbDoc/Root Entry/Arcs6/Data.dat.txt
+Writing to TIDA-050053-PcbDoc/Root Entry/Vias6/Data.dat.txt
+Writing to TIDA-050053-PcbDoc/Root Entry/Polygons6/Data.dat.txt
+Writing to TIDA-050053-PcbDoc/Root Entry/Tracks6/Data.dat.txt
+Writing to TIDA-050053-PcbDoc/Root Entry/Dimensions6/Data.dat.txt
+Writing to TIDA-050053-PcbDoc/Root Entry/FileVersionInfo/Data.dat.txt
+Writing to TIDA-050053-PcbDoc/Root Entry/Fills6/Data.dat.txt
+Writing to TIDA-050053-PcbDoc/Root Entry/Regions6/Data.dat.txt
+Overflow: verts:31232 ver:0 vpos:4 length:4 !
+Overflow: verts:31232 ver:0 vpos:4 length:4 !
+Overflow: verts:31232 ver:0 vpos:4 length:4 !
+Overflow: verts:31232 ver:0 vpos:4 length:4 !
+Overflow: verts:31232 ver:0 vpos:4 length:4 !
+Overflow: verts:31232 ver:0 vpos:4 length:4 !
+Overflow: verts:31232 ver:0 vpos:4 length:4 !
+Overflow: verts:31232 ver:0 vpos:4 length:4 !
+Overflow: verts:31232 ver:0 vpos:4 length:4 !
+Overflow: verts:31232 ver:0 vpos:4 length:4 !
+Overflow: verts:31232 ver:0 vpos:4 length:4 !
+Overflow: verts:31232 ver:0 vpos:4 length:4 !
+Overflow: verts:31232 ver:0 vpos:4 length:4 !
+Overflow: verts:31232 ver:0 vpos:4 length:4 !
+Overflow: verts:29691 ver:251 vpos:4020 length:4020 !
+Overflow: verts:31232 ver:0 vpos:4 length:4 !
+Overflow: verts:29979 ver:27 vpos:436 length:436 !
+Overflow: verts:31232 ver:0 vpos:4 length:4 !
+Texts6...
+Handling TIDA-050053-PcbDoc/Root Entry/FileHeader.dat
+Handling TIDA-050053-SchDoc/Root Entry/FileHeader.dat
+ERROR: ti_stk_1c_pos_rgb_jpg.jpg not found!
+Handling TIDA-050053.SchDoc

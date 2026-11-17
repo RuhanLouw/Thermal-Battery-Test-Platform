@@ -1,0 +1,16 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description,PARTREV,STANDARD,MAXIMUM_PACKAGE_HEIGHT,MANUFACTURER
+"C1, C2, C3, C4, C5",5,0.22u,CAP FILM 0.22UF 10 800VDC RAD,,,,tht,"0.22 µF Film Capacitor 650V 1600V (1.6kV) Polypropylene (PP), Metallized Radial",,,,
+"D1, D2, D3, D4, D5, D6",6,LED RED CLEAR 0805 SMD,LED_0805_2012Metric,,,,smt,Red 625nm LED Indication - Discrete 2V 0805 (2012 Metric),,,,
+J1,1,Control IN,61201021621,,,,tht,"Connector Header Through Hole 10 position 0.100"" (2.54mm)",,,,
+"J2, J8",2,Fan,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,,,,tht,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",,,,
+"J3, J4, J5, J6, J7",5,Screw_Terminal_01x02,TE_282857-2_screw,,,,tht,"Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",,,,
+"Q1, Q3, Q5, Q7, Q9",5,MOC3063S-TA1,MOC306XS_LTO,,,,smt,,,,,
+"Q10, Q2, Q4, Q6, Q8",5,BSS138L,SOT-23,,,,smt,MOSFET N-CH 50V 200MA SOT23-3,,,,
+"R1, R15, R22, R29, R36, R8",6,145,R_0603_1608Metric,,,,smt,RES 145 OHM 0.5% 1/10W 0603,,,,
+"R10, R17, R24, R3, R31",5,100,R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal,,,,tht,"100 Ohms ±5% 0.5W, 1/2W Through Hole Resistor Axial Carbon Film",,,,
+"R11, R18, R25, R32, R4",5,390,R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal,,,,tht,RES 390 OHM 5% 1/2W AXIAL,,,,
+"R12, R19, R26, R33, R5",5,51,R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal,,,,tht,"51 Ohms ±5% 3W Through Hole Resistor Axial Flame Retardant Coating, Pulse Withstanding, Safety Metal Film",,,,
+"R13, R20, R27, R34, R6",5,300,R_0603_1608Metric,,,,smt,RES SMD 300 OHM 5% 1/10W 0603,,,,
+"R14, R21, R28, R35, R7",5,10k,R_0603_1608Metric,,,,smt,RES 10K OHM 1% 1/10W 0603,,,,
+"R16, R2, R23, R30, R9",5,182,R_0603_1608Metric,,,,smt,RES 182 OHM 1% 1/10W 0603,,,,
+"T1, T2, T3, T4, T5",5,"BT138-800E,127",HSS-B20-NPR-02 heatsink,,,,tht,TRIAC SENS GATE 800V 12A TO220AB,02,IPC 7351B,19.35 mm,WeEn Semiconductors

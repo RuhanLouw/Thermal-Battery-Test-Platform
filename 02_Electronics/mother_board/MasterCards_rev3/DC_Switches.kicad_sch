@@ -1,0 +1,8773 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "43d65545-b7bf-4dcc-b571-1a2e3a525df2")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:Screw_Terminal_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Fuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Q_NMOS_DGS"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_NMOS_DGS"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-MOSFET transistor, drain/gate/source"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_NMOS_DGS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_NMOS_DGS_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:BSS138"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BSS138"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BSS138_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BSS138_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "masterCard:APV1121S"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at 13.97 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "APV1121S"
+				(at 12.7 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "Master_Card:SOP4PIN_PAN-M"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "APV1121S"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "APV1121S"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOP4PIN_PAN SOP4PIN_PAN-M SOP4PIN_PAN-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "APV1121S_0_1"
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 8.89 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 20.32 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 1.27) (xy 8.89 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 1.27) (xy 10.16 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -2.54) (xy 8.89 -3.81)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -3.81) (xy 10.16 -3.81)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 -0.635) (xy 10.795 -0.635)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 -1.905) (xy 10.795 -1.905)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -0.635) (xy 10.16 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -1.905) (xy 9.525 -0.635)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -1.905) (xy 10.16 -3.81)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.795 -0.635) (xy 10.16 -1.905)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -0.635) (xy 12.065 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.523 -1.4945) (xy 12.065 -0.9525)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.7475 0) (xy 12.065 -0.3175) (xy 12.3825 0.3175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.7475 -0.9525) (xy 12.065 -1.27) (xy 12.3825 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.335 1.27) (xy 14.605 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.335 0) (xy 14.605 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.335 -2.54) (xy 14.605 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.335 -3.81) (xy 14.605 -3.81)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.97 1.905) (xy 13.97 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.97 0) (xy 13.335 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.97 0) (xy 13.97 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.97 -3.81) (xy 13.335 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.97 -3.81) (xy 13.97 -4.445)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 14.605 1.27) (xy 13.97 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 14.605 -2.54) (xy 13.97 -3.81)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 1.27) (xy 17.78 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -3.81) (xy 15.24 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -3.81) (xy 17.78 -3.81)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.51 1.905) (xy 16.51 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 16.51 1.905)
+					(radius 0.127)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.51 -4.445) (xy 16.51 -3.81)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 16.51 -4.445)
+					(radius 0.127)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 1.27) (xy 17.78 -3.81)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 19.05 1.905) (xy 13.97 1.905)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 19.05 0) (xy 19.05 1.905)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 19.05 -2.54) (xy 19.05 -4.445)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 19.05 -2.54) (xy 20.32 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 19.05 -4.445) (xy 13.97 -4.445)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 2.54) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 0) (xy 19.05 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 -5.08) (xy 20.32 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 0 0)
+					(length 3.81)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 -2.54 0)
+					(length 3.81)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 24.13 0 180)
+					(length 3.81)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 24.13 -2.54 180)
+					(length 3.81)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GNDD"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDD"
+				(at 0 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDD_0_1"
+				(rectangle
+					(start -1.27 -1.524)
+					(end 1.27 -2.032)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDD_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "8V"
+		(exclude_from_sim no)
+		(at 99.06 -44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "03bfddbc-df57-4855-82ef-2e5b480b75c1")
+	)
+	(text "2.2V"
+		(exclude_from_sim no)
+		(at 52.07 -36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "04f99dbd-b55a-4efc-b875-0d21c971b449")
+	)
+	(text "20mA"
+		(exclude_from_sim no)
+		(at 77.47 -45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0c5743e0-6772-4ebb-9238-90cd6aa861d2")
+	)
+	(text "20mA"
+		(exclude_from_sim no)
+		(at 81.28 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2f691aa9-b2ef-4aae-9747-9e362575943a")
+	)
+	(text "8V"
+		(exclude_from_sim no)
+		(at 105.41 283.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "39e6fc62-25a4-4336-bffc-1857b557143a")
+	)
+	(text "1.21V"
+		(exclude_from_sim no)
+		(at 80.01 288.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3ec37d8f-70d0-407e-9dc5-e00938434166")
+	)
+	(text "2.2V"
+		(exclude_from_sim no)
+		(at 58.42 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "46f437ce-f51b-48a0-b4bd-bf92e9910cc4")
+	)
+	(text "1.21V"
+		(exclude_from_sim no)
+		(at 80.01 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4d0ffdb0-41f4-4ca7-a9d5-9888dc30e0b5")
+	)
+	(text "2.2V"
+		(exclude_from_sim no)
+		(at 55.88 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "50df6895-b5c8-4592-adff-78fa7b58c9eb")
+	)
+	(text "20mA"
+		(exclude_from_sim no)
+		(at 83.82 194.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "54aacac7-a5ed-4109-817f-9368ba594d62")
+	)
+	(text "2.2V"
+		(exclude_from_sim no)
+		(at 58.42 290.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5da34cb2-587f-48e7-b9ba-2c05eac6d101")
+	)
+	(text "20mA"
+		(exclude_from_sim no)
+		(at 62.23 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5f01e668-f98f-44e4-b8bc-53ee0e4b796c")
+	)
+	(text "20mA"
+		(exclude_from_sim no)
+		(at 83.82 281.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "61e8b95e-a354-420e-a133-3619f6b18555")
+	)
+	(text "20mA"
+		(exclude_from_sim no)
+		(at 64.77 274.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "767b1773-20e8-4cb3-8086-8a46e73a08eb")
+	)
+	(text "1.21V"
+		(exclude_from_sim no)
+		(at 76.2 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8f9494ca-0171-42e6-89d2-d2ef330c08fb")
+	)
+	(text "8V"
+		(exclude_from_sim no)
+		(at 101.6 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "acc47a87-edfc-4dae-a337-034c9b3fd595")
+	)
+	(text "20mA"
+		(exclude_from_sim no)
+		(at 64.77 186.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b85806cb-11e7-4408-adca-b30edcd92fc6")
+	)
+	(text "2.2V"
+		(exclude_from_sim no)
+		(at 54.61 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c0bff17c-ef8a-455c-aeab-3c222fd6afed")
+	)
+	(text "1.21V"
+		(exclude_from_sim no)
+		(at 73.66 -39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cca30ba9-32ec-46c4-8b3f-28ab5251f62d")
+	)
+	(text "20mA"
+		(exclude_from_sim no)
+		(at 60.96 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dad6e771-fc83-4ac0-9706-01d858641b99")
+	)
+	(text "8V"
+		(exclude_from_sim no)
+		(at 102.87 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dd194de1-86af-465c-92ed-f98d95696140")
+	)
+	(text "20mA"
+		(exclude_from_sim no)
+		(at 80.01 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e8734a48-3533-41de-8b14-be14113eb570")
+	)
+	(text "8V"
+		(exclude_from_sim no)
+		(at 105.41 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ed9a187c-62d6-4ea4-bd56-ea31c20ef3ff")
+	)
+	(text "20mA"
+		(exclude_from_sim no)
+		(at 58.42 -53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "efce5396-2c13-493e-8de0-f7af73fcef67")
+	)
+	(text "1.21V"
+		(exclude_from_sim no)
+		(at 77.47 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f5abe429-050a-470e-bae9-ddbdf1f95f05")
+	)
+	(junction
+		(at 114.3 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f5e7547-b675-47de-8e63-878d1789941f")
+	)
+	(junction
+		(at 59.69 -24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13bfb50c-e37f-487e-b4ec-1411160d9411")
+	)
+	(junction
+		(at 71.12 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "267fe828-13fb-40ee-87a7-d1da3acdd96a")
+	)
+	(junction
+		(at 63.5 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28be8641-be11-432e-8a35-eeccebac6f72")
+	)
+	(junction
+		(at 116.84 201.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d93af42-817f-49c3-9d8e-a1d872b61ef6")
+	)
+	(junction
+		(at 72.39 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a913a84-7052-4438-ae00-309bcea5ea06")
+	)
+	(junction
+		(at 69.85 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b9cd555-c7de-4d64-97c6-e0716afd00cc")
+	)
+	(junction
+		(at 66.04 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45570834-e046-4744-8d58-252308bc45dc")
+	)
+	(junction
+		(at 74.93 293.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b1777df-2485-4b44-bd32-dfd239430da9")
+	)
+	(junction
+		(at 113.03 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81b6a470-55da-4c5e-a432-56bfb5182c43")
+	)
+	(junction
+		(at 72.39 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e330821-089b-4118-9af8-907d5c20428f")
+	)
+	(junction
+		(at 71.12 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a44aba0a-bf3a-421f-a388-7fcc4a3b6e84")
+	)
+	(junction
+		(at 66.04 303.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aefae7bf-21a0-427b-ba07-bfa709c714a4")
+	)
+	(junction
+		(at 62.23 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5b28670-6b51-4c54-8dd3-0242dbf34342")
+	)
+	(junction
+		(at 68.58 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b860320f-5328-4c60-b281-0edc193329db")
+	)
+	(junction
+		(at 116.84 289.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c41c58a6-a467-4bf8-8d95-c32837fed595")
+	)
+	(junction
+		(at 68.58 -11.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4c0e1ef-188e-4fea-871b-3c48872b98b6")
+	)
+	(junction
+		(at 74.93 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5da9160-2aa8-4992-b77c-774032ddf7a6")
+	)
+	(junction
+		(at 66.04 -52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c60f242f-a118-41d2-92a5-b65fbe4145fb")
+	)
+	(junction
+		(at 72.39 275.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf7f7cbe-5d8f-4a3e-9d11-9190e73d2861")
+	)
+	(junction
+		(at 74.93 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d27a91a6-6510-45bd-b0b8-0ba75ad2e643")
+	)
+	(junction
+		(at 68.58 -34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f38d646d-2aa3-4ffd-b752-fd001357a4bb")
+	)
+	(junction
+		(at 72.39 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f46f6362-5745-4d7b-8c77-54aee6e457a2")
+	)
+	(junction
+		(at 110.49 -38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "feced5da-c000-40be-a9eb-28a2c9184819")
+	)
+	(junction
+		(at 74.93 316.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffa95e47-1a0f-463d-81f9-f0e29cbf0bfa")
+	)
+	(wire
+		(pts
+			(xy 104.14 201.93) (xy 116.84 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02e4190c-d187-4b00-b9d6-511b71aa97d9")
+	)
+	(wire
+		(pts
+			(xy 62.23 276.86) (xy 62.23 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cf34aec-2924-4b82-9c38-c5d730b2bf4f")
+	)
+	(wire
+		(pts
+			(xy 116.84 176.53) (xy 116.84 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0df81cc3-21e0-43f1-86c4-a4235ec790ba")
+	)
+	(wire
+		(pts
+			(xy 69.85 22.86) (xy 69.85 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fc92fb0-4dda-456c-86ca-9dded10f309c")
+	)
+	(wire
+		(pts
+			(xy 62.23 189.23) (xy 62.23 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10345afb-33cb-440a-a8a6-be0cc7c4cb69")
+	)
+	(wire
+		(pts
+			(xy 77.47 -40.64) (xy 77.47 -34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10c8db7d-f75b-44ed-bb7e-f7d629da758a")
+	)
+	(wire
+		(pts
+			(xy 104.14 284.48) (xy 109.22 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "148047c6-5e26-468f-957e-328b21f0e30f")
+	)
+	(wire
+		(pts
+			(xy 71.12 134.62) (xy 71.12 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14902041-8ef6-4275-82b8-94638bbe1164")
+	)
+	(wire
+		(pts
+			(xy 69.85 11.43) (xy 69.85 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15d1df28-44b1-4645-9f3c-7c17363a0a64")
+	)
+	(wire
+		(pts
+			(xy 110.49 -63.5) (xy 110.49 -50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "160b7757-c4c6-467f-87bb-010ee051ff3e")
+	)
+	(wire
+		(pts
+			(xy 97.79 -43.18) (xy 102.87 -43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1627696a-643c-4cb3-89cb-50c4ddaaea20")
+	)
+	(wire
+		(pts
+			(xy 104.14 289.56) (xy 116.84 289.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17c15d0f-c587-45df-bd3e-a2b694d0aa85")
+	)
+	(wire
+		(pts
+			(xy 113.03 102.87) (xy 128.27 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c4daf94-d092-4d41-844b-bad22af7c665")
+	)
+	(wire
+		(pts
+			(xy 59.69 -24.13) (xy 60.96 -24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d6e020b-72f5-42fb-8b6a-af74402f7005")
+	)
+	(wire
+		(pts
+			(xy 71.1454 142.24) (xy 71.1454 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e5c8290-b374-4433-8a37-dd995ce8c217")
+	)
+	(wire
+		(pts
+			(xy 59.69 24.13) (xy 59.69 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eb5ad02-24a7-48c8-b313-a1c27de7b3b1")
+	)
+	(wire
+		(pts
+			(xy 68.58 -29.21) (xy 68.58 -34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "210f1b8c-0950-4d4a-b253-5cdf4afd6999")
+	)
+	(wire
+		(pts
+			(xy 62.23 205.74) (xy 74.93 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23955ff5-7a7f-4545-9101-d92e81e56803")
+	)
+	(wire
+		(pts
+			(xy 69.85 31.75) (xy 81.28 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2460dfff-7479-45bc-b7c6-93e5ae16b6af")
+	)
+	(wire
+		(pts
+			(xy 110.49 -29.21) (xy 110.49 -38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "254b1589-8b58-4cac-9d77-4d56c0357339")
+	)
+	(wire
+		(pts
+			(xy 68.58 110.49) (xy 80.01 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2922fb8e-b71b-4bc5-90f2-f1c1b2e876a9")
+	)
+	(wire
+		(pts
+			(xy 74.93 316.23) (xy 74.9554 316.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29337425-938f-4afb-bb22-79cb22699ebf")
+	)
+	(wire
+		(pts
+			(xy 74.93 205.74) (xy 83.82 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b58ed20-eabf-4b53-a3db-80b4478d2f6d")
+	)
+	(wire
+		(pts
+			(xy 62.23 275.59) (xy 72.39 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ea1aa3e-04c5-4616-8c42-e625cb15adec")
+	)
+	(wire
+		(pts
+			(xy 128.27 105.41) (xy 113.03 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f315648-2769-4b65-9ed4-41a2e2ea8c67")
+	)
+	(wire
+		(pts
+			(xy 58.42 101.6) (xy 68.58 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30a0bdc6-bed7-499d-8582-daced51eb544")
+	)
+	(wire
+		(pts
+			(xy 59.69 -24.13) (xy 59.69 -19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "321ec029-42a8-4618-acb2-c133c80f105c")
+	)
+	(wire
+		(pts
+			(xy 81.28 34.29) (xy 81.28 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "321f2c00-1511-4eda-95ef-e05f8ba21e2b")
+	)
+	(wire
+		(pts
+			(xy 59.69 39.37) (xy 59.69 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3317e471-1805-42a3-b6be-d69db990f64e")
+	)
+	(wire
+		(pts
+			(xy 72.39 176.53) (xy 72.39 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37633975-e3d5-47fb-9aba-552c29c03b57")
+	)
+	(wire
+		(pts
+			(xy 100.33 110.49) (xy 105.41 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37da1c91-4c8f-4707-a715-053664414d69")
+	)
+	(wire
+		(pts
+			(xy 59.69 129.54) (xy 62.23 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3995dffb-c2a3-4c30-8fa3-23a46c265194")
+	)
+	(wire
+		(pts
+			(xy 71.12 119.38) (xy 80.01 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bd48b50-8d7d-40aa-be1a-cfaa50538989")
+	)
+	(wire
+		(pts
+			(xy 74.93 293.37) (xy 83.82 293.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ce23eee-b83a-41d0-bf3c-9c70c7876d33")
+	)
+	(wire
+		(pts
+			(xy 68.6054 -11.43) (xy 68.6054 -5.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d038787-1b16-4a47-998a-d503a8d51da8")
+	)
+	(wire
+		(pts
+			(xy 66.04 303.53) (xy 66.04 308.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d06163d-14d1-4bcb-b86b-796fa372deb8")
+	)
+	(wire
+		(pts
+			(xy 101.6 34.29) (xy 101.6 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d929907-fcd4-4293-80d3-3916d7c90953")
+	)
+	(wire
+		(pts
+			(xy 66.04 -63.5) (xy 66.04 -52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f38fece-caca-4608-acbb-4b5b448d73d5")
+	)
+	(wire
+		(pts
+			(xy 66.04 316.23) (xy 74.93 316.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "446bae40-d1d7-4d53-baa2-889bd5b29224")
+	)
+	(wire
+		(pts
+			(xy 104.14 196.85) (xy 109.22 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46b28da8-ba97-442f-9414-9e1697fb5e12")
+	)
+	(wire
+		(pts
+			(xy 66.04 215.9) (xy 67.31 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4720b576-04ee-426b-8dda-48fcef50d636")
+	)
+	(wire
+		(pts
+			(xy 55.88 -35.56) (xy 55.88 -34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e4f682d-681c-49a5-b02e-2a5b8e2b26e7")
+	)
+	(wire
+		(pts
+			(xy 116.84 264.16) (xy 116.84 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e60b4fb-c406-4cb2-b711-7b4dbb9f0b79")
+	)
+	(wire
+		(pts
+			(xy 72.39 196.85) (xy 83.82 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fe3d478-ed51-47ac-808b-ce3e2b66788f")
+	)
+	(wire
+		(pts
+			(xy 72.39 40.64) (xy 81.28 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "500e8214-b5c4-4eab-8b95-0c54533d7913")
+	)
+	(wire
+		(pts
+			(xy 55.88 -50.8) (xy 55.88 -52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50b862e2-023f-4a29-a1c7-8b6ee9d445dd")
+	)
+	(wire
+		(pts
+			(xy 72.39 45.72) (xy 72.39 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5174a9c3-98f5-403d-a064-6f1992c4c2ef")
+	)
+	(wire
+		(pts
+			(xy 62.23 187.96) (xy 72.39 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51fb933f-895a-406e-8115-ed0103afbf03")
+	)
+	(wire
+		(pts
+			(xy 113.03 90.17) (xy 113.03 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "526886de-ac3b-4a1f-8ffd-9a34a8df5e4d")
+	)
+	(wire
+		(pts
+			(xy 74.93 210.82) (xy 74.93 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55364956-ce2b-46b5-a35b-b8e6c24a067c")
+	)
+	(wire
+		(pts
+			(xy 74.9554 228.6) (xy 74.9554 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56acb909-37b9-4138-8943-71367d63feac")
+	)
+	(wire
+		(pts
+			(xy 116.84 276.86) (xy 132.08 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57ddc3a9-75de-429d-8025-6c13681dff9a")
+	)
+	(wire
+		(pts
+			(xy 114.3 11.43) (xy 114.3 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59cc3603-48a8-4460-b4a9-056534161cef")
+	)
+	(wire
+		(pts
+			(xy 55.88 -34.29) (xy 68.58 -34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b5b43da-f054-4aac-a093-52609aba9dcc")
+	)
+	(wire
+		(pts
+			(xy 66.04 -52.07) (xy 66.04 -50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f5bf642-5a07-4704-98c7-8ddbdee212b4")
+	)
+	(wire
+		(pts
+			(xy 68.58 -11.43) (xy 68.6054 -11.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60412eb3-f73b-493a-b548-ac16a30acc66")
+	)
+	(wire
+		(pts
+			(xy 59.69 22.86) (xy 69.85 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61b52b91-d905-4978-b85e-52153a4ea323")
+	)
+	(wire
+		(pts
+			(xy 72.39 63.5) (xy 72.4154 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "625a044d-cf41-4915-ae19-8c179062ab8b")
+	)
+	(wire
+		(pts
+			(xy 83.82 199.39) (xy 83.82 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "657602ed-93a3-493e-bcc5-e7803f15b232")
+	)
+	(wire
+		(pts
+			(xy 63.5 215.9) (xy 66.04 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66a9c8a4-af75-42ec-8e25-6b361cae6e23")
+	)
+	(wire
+		(pts
+			(xy 58.42 118.11) (xy 58.42 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "681f8d91-a787-409a-b9ea-8e54efd0cf88")
+	)
+	(wire
+		(pts
+			(xy 100.33 115.57) (xy 113.03 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a039616-fb2a-41ca-8a6e-1de3939bb30a")
+	)
+	(wire
+		(pts
+			(xy 104.14 287.02) (xy 104.14 289.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b4c37a7-e3eb-4331-920b-3cf339b34772")
+	)
+	(wire
+		(pts
+			(xy 114.3 24.13) (xy 129.54 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d89739a-8c1e-4c21-a05d-c94099df852d")
+	)
+	(wire
+		(pts
+			(xy 132.08 279.4) (xy 116.84 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70763e4f-ec4b-41da-afe0-97dfb6d49ad5")
+	)
+	(wire
+		(pts
+			(xy 57.15 -24.13) (xy 59.69 -24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a48fac9-44f4-402e-8072-082895006817")
+	)
+	(wire
+		(pts
+			(xy 83.82 287.02) (xy 83.82 293.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81dbd410-6b03-4966-bb04-815b57c30e1e")
+	)
+	(wire
+		(pts
+			(xy 110.49 -50.8) (xy 125.73 -50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82dce98b-b7bc-47b0-ad20-a349934e0727")
+	)
+	(wire
+		(pts
+			(xy 63.5 50.8) (xy 63.5 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "850e6280-caf9-4ef7-9537-4573273f7b62")
+	)
+	(wire
+		(pts
+			(xy 66.04 303.53) (xy 67.31 303.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85ddbb2b-848c-42cb-a976-7428de3197a9")
+	)
+	(wire
+		(pts
+			(xy 66.04 215.9) (xy 66.04 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "864dedd2-5b65-4111-9234-e79e8072323f")
+	)
+	(wire
+		(pts
+			(xy 74.93 298.45) (xy 74.93 293.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86a704e9-0b33-47bf-bae1-be52dac96bf5")
+	)
+	(wire
+		(pts
+			(xy 72.39 187.96) (xy 72.39 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d2582a5-0be8-4a8d-b7e6-ca15914d61c5")
+	)
+	(wire
+		(pts
+			(xy 125.73 -48.26) (xy 110.49 -48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e77bd0e-ed21-4194-8ac9-0474f9f6f43c")
+	)
+	(wire
+		(pts
+			(xy 97.79 -40.64) (xy 97.79 -38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fab4993-b5be-4493-8a5e-e4ee6f81fb5f")
+	)
+	(wire
+		(pts
+			(xy 113.03 124.46) (xy 113.03 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90ecc05c-34b3-43df-9db1-5aaa52cb0c3a")
+	)
+	(wire
+		(pts
+			(xy 74.93 308.61) (xy 74.93 316.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93be8a03-94e3-40c0-8d8a-ebc6450b570e")
+	)
+	(wire
+		(pts
+			(xy 72.39 264.16) (xy 72.39 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9590f6e6-4741-45bd-ab6d-24b052a3cc2d")
+	)
+	(wire
+		(pts
+			(xy 132.08 191.77) (xy 116.84 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95c71cd1-f222-4323-bd5a-f0b14ed42ae6")
+	)
+	(wire
+		(pts
+			(xy 62.23 142.24) (xy 71.12 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95caca04-e54d-45ed-86c4-0cf057777e5d")
+	)
+	(wire
+		(pts
+			(xy 58.42 119.38) (xy 71.12 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a6dc57a-f363-4a59-997b-1a1145e15bba")
+	)
+	(wire
+		(pts
+			(xy 74.9554 316.23) (xy 74.9554 322.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e14d194-808c-4528-bf7d-2fcd14ef86bc")
+	)
+	(wire
+		(pts
+			(xy 66.04 -43.18) (xy 77.47 -43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e5f0ba0-543b-4f7f-9ecc-3a6fae32d25a")
+	)
+	(wire
+		(pts
+			(xy 58.42 102.87) (xy 58.42 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a076aa1c-7ec3-4540-b131-bfd7426eb5f3")
+	)
+	(wire
+		(pts
+			(xy 59.69 -11.43) (xy 68.58 -11.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1c8a5ea-1d79-4a68-8e5d-26afb433c943")
+	)
+	(wire
+		(pts
+			(xy 62.23 129.54) (xy 62.23 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6f910d2-bc60-438e-9f7e-c81fa616e495")
+	)
+	(wire
+		(pts
+			(xy 74.93 220.98) (xy 74.93 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa02a5d9-ee61-462f-b8f0-d2ce23b87d38")
+	)
+	(wire
+		(pts
+			(xy 62.23 129.54) (xy 63.5 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac17c8eb-b73c-4279-95d4-f3c43dcca952")
+	)
+	(wire
+		(pts
+			(xy 101.6 36.83) (xy 114.3 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad7af419-d44b-4cee-ab27-f661f168b4c7")
+	)
+	(wire
+		(pts
+			(xy 60.96 50.8) (xy 63.5 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af9f2cc4-7fe7-4838-8179-4d3ea05b010b")
+	)
+	(wire
+		(pts
+			(xy 68.58 90.17) (xy 68.58 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b04fe837-c9e4-4859-b055-3769cc6a1494")
+	)
+	(wire
+		(pts
+			(xy 62.23 204.47) (xy 62.23 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b25f9d77-ff32-46cb-a2d9-d8e9274f2bd0")
+	)
+	(wire
+		(pts
+			(xy 72.39 55.88) (xy 72.39 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b56131c1-1ee9-4e5d-b664-cd5f14f561b9")
+	)
+	(wire
+		(pts
+			(xy 62.23 293.37) (xy 74.93 293.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5f2015e-c329-4bbe-85b4-d38cf9a33d82")
+	)
+	(wire
+		(pts
+			(xy 68.58 101.6) (xy 68.58 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8e2d40b-41f5-4bbe-b07a-61f8b31827f2")
+	)
+	(wire
+		(pts
+			(xy 55.88 -52.07) (xy 66.04 -52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba522a72-9b87-4a7e-ac7b-6c306d194104")
+	)
+	(wire
+		(pts
+			(xy 72.4154 63.5) (xy 72.4154 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be2477d2-921b-4b80-9202-9964734331b8")
+	)
+	(wire
+		(pts
+			(xy 59.69 40.64) (xy 72.39 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c24b60d3-6398-4592-a6f4-688abafe1252")
+	)
+	(wire
+		(pts
+			(xy 116.84 210.82) (xy 116.84 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c24bff88-0703-424c-8fb0-212bddb3305b")
+	)
+	(wire
+		(pts
+			(xy 62.23 292.1) (xy 62.23 293.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4a0b544-f818-4b7d-8cbf-2935c3ffd82c")
+	)
+	(wire
+		(pts
+			(xy 71.12 124.46) (xy 71.12 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c69a5f71-7d93-44fb-8697-2297cdcc2982")
+	)
+	(wire
+		(pts
+			(xy 71.12 142.24) (xy 71.1454 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c88a54b9-475f-4891-824f-8cc09f59c549")
+	)
+	(wire
+		(pts
+			(xy 63.5 63.5) (xy 72.39 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfd58420-0457-43d4-968f-81672b576e4c")
+	)
+	(wire
+		(pts
+			(xy 114.3 45.72) (xy 114.3 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2310e1c-6d39-4e57-a86c-38708cc736e7")
+	)
+	(wire
+		(pts
+			(xy 63.5 50.8) (xy 64.77 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d247c439-69d0-481b-8a68-4c1390c2cc99")
+	)
+	(wire
+		(pts
+			(xy 66.04 228.6) (xy 74.93 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d36c7f43-46f2-42eb-873f-360fdfda764a")
+	)
+	(wire
+		(pts
+			(xy 80.01 113.03) (xy 80.01 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3d6d774-1301-4550-87be-1949bc0f0133")
+	)
+	(wire
+		(pts
+			(xy 68.58 -34.29) (xy 77.47 -34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7f947ae-ec6f-4c46-a8d1-b9e220a2c99a")
+	)
+	(wire
+		(pts
+			(xy 63.5 303.53) (xy 66.04 303.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d90e741f-727b-494b-b45f-ece07393a113")
+	)
+	(wire
+		(pts
+			(xy 129.54 26.67) (xy 114.3 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d996fcbb-49b4-414d-b77d-d2f1413a37df")
+	)
+	(wire
+		(pts
+			(xy 74.93 228.6) (xy 74.9554 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e15c888a-8742-4c9c-be9c-67f77e39bb03")
+	)
+	(wire
+		(pts
+			(xy 116.84 298.45) (xy 116.84 289.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e224b761-ccd9-477e-bbc5-73bf755ee4d9")
+	)
+	(wire
+		(pts
+			(xy 104.14 199.39) (xy 104.14 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e56e2b49-590e-4947-99d2-cadd4062fe63")
+	)
+	(wire
+		(pts
+			(xy 72.39 284.48) (xy 83.82 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e79055c4-08ed-43c5-80cf-ff3a520ee3be")
+	)
+	(wire
+		(pts
+			(xy 101.6 31.75) (xy 106.68 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed3da935-0417-4689-bbbc-b802fe25fbdd")
+	)
+	(wire
+		(pts
+			(xy 97.79 -38.1) (xy 110.49 -38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeac7b38-e9f0-4bab-b6d1-6498c9866c56")
+	)
+	(wire
+		(pts
+			(xy 116.84 189.23) (xy 132.08 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efc94b4d-a0d1-44a7-92a7-90b27e7b21d8")
+	)
+	(wire
+		(pts
+			(xy 68.58 -19.05) (xy 68.58 -11.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f13dcb15-4727-4f22-9200-61c2851623d9")
+	)
+	(wire
+		(pts
+			(xy 72.39 275.59) (xy 72.39 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7f9df02-05a1-4fc6-8f74-b23b0bbe82a6")
+	)
+	(wire
+		(pts
+			(xy 100.33 113.03) (xy 100.33 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa179740-cb52-42e0-9e07-2f5f07449614")
+	)
+	(global_label "MCU_Evaporator_FAN"
+		(shape input)
+		(at 46.99 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "17c056db-424e-4ba5-bdf6-d6ae4ed7d1a1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.3503 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_HeatBed_2"
+		(shape input)
+		(at 49.53 303.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "273a814c-c311-4901-a1c2-24dd223c15d2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.5468 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_HeatBed_1"
+		(shape input)
+		(at 49.53 215.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9ddaa3dc-d4ed-45ea-9a67-5a007e4f6f22")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.5468 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_DC_Compressor_MAIN"
+		(shape input)
+		(at 43.18 -24.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a3460105-d7e2-47e0-8507-4d5fd5e1087b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 15.0973 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_HeatBed_FAN"
+		(shape input)
+		(at 45.72 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db5c01ab-f23f-4d3c-953d-c1b8f1bdf74f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.4386 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 68.58 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02a5a8d1-1dc9-43c3-b0b7-25fe5fb94162")
+		(property "Reference" "Q16"
+			(at 74.93 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS138L"
+			(at 74.93 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 73.66 131.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.co.za/en/products/detail/onsemi/BSS138L/5044751"
+			(at 73.66 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 68.58 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "83013d9e-8fcb-450f-9873-1748b6d4c75e")
+		)
+		(pin "2"
+			(uuid "266aaa98-e518-4ba1-ad65-b3685120f10a")
+		)
+		(pin "1"
+			(uuid "8be3aecb-2cd1-4618-9ede-b8610380bc49")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "Q16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 116.84 210.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08c9072f-90c9-4672-a3d9-9a8c6b97b0d2")
+		(property "Reference" "#PWR068"
+			(at 116.84 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_{CC}"
+			(at 116.84 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 116.84 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b86448b9-5eb8-47ad-88a2-9c5d9aa9769c")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 58.42 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10a31314-b541-442a-bfc4-eda90aa02e3b")
+		(property "Reference" "D9"
+			(at 63.5 114.6174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 63.5 117.1574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+			(at 58.42 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.co.za/en/products/detail/w%C3%BCrth-elektronik/150060VS75000/4489906"
+			(at 58.42 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 58.42 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "066726f3-9b46-48af-920d-0e58fdbacee6")
+		)
+		(pin "1"
+			(uuid "8ce0af00-b1de-4e22-bbe4-bb524c92491d")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 113.03 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12fb2426-593d-4fa4-a21c-687df3765f8d")
+		(property "Reference" "#PWR064"
+			(at 113.03 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_{CC}"
+			(at 113.03 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 113.03 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a040bfb3-770b-47d6-bc0c-7c2e1a8db0a9")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 113.03 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1601af15-cd12-413e-ae8c-5544d1e4e724")
+		(property "Reference" "#PWR063"
+			(at 113.03 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "12V_{CC}"
+			(at 109.22 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 113.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85439ec6-f9d1-4b03-a6ad-fb2e74faa5b0")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 72.39 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a5092a1-96bd-4a3c-b149-3c5cdc5385e9")
+		(property "Reference" "R48"
+			(at 74.93 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "187"
+			(at 74.93 194.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 73.406 193.294 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.co.za/en/products/detail/yageo/RC0603FR-07187RL/726998"
+			(at 72.39 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 72.39 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5c872649-3297-42c3-838a-926b0f96dc93")
+		)
+		(pin "1"
+			(uuid "4585228e-48a3-44ca-bdca-059287003fb1")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 66.04 -24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bee5268-270e-45f7-8227-d7145415b32a")
+		(property "Reference" "Q12"
+			(at 72.39 -25.4001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS138L"
+			(at 72.39 -22.8601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 71.12 -22.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.co.za/en/products/detail/onsemi/BSS138L/5044751"
+			(at 71.12 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 66.04 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "967738ff-9499-4226-b388-c5c4e72b57d4")
+		)
+		(pin "2"
+			(uuid "6ce9995b-d592-4dca-aedc-a6f7a206e5d9")
+		)
+		(pin "1"
+			(uuid "b0bbd823-ac47-440c-a319-6f5aa9bda69c")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "Q12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 62.23 288.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e9fb3e9-6760-4b59-9ec3-80df161cf230")
+		(property "Reference" "D11"
+			(at 67.31 288.6074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 67.31 291.1474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+			(at 62.23 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.co.za/en/products/detail/w%C3%BCrth-elektronik/150060VS75000/4489906"
+			(at 62.23 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 62.23 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f5350027-eba6-4bf2-bc96-f662635fe7bc")
+		)
+		(pin "1"
+			(uuid "077fdf3b-d4d5-4f73-aaed-7acb262a139e")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 149.86 276.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20cb3ab8-c81d-4fcb-a000-83b2245e59fe")
+		(property "Reference" "F5"
+			(at 149.86 270.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 149.86 273.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuseholder_Clip-6.3x32mm_Littelfuse_122_Inline_P34.21x7.62mm_D2.54mm_Horizontal"
+			(at 149.86 278.638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.co.za/en/products/detail/littelfuse-inc/01220088Z-1/16628012"
+			(at 149.86 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 149.86 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "824db3e3-355f-4470-85f4-5f9401b95803")
+		)
+		(pin "2"
+			(uuid "61cf96bd-9d19-47ce-ac9e-e8e3e135090f")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "F5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 63.5 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2252bb07-59fd-4bba-9dba-3bbd83047b1c")
+		(property "Reference" "R39"
+			(at 66.04 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 66.04 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 64.516 59.944 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 63.5 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fdfa668c-fe6c-487b-a4b2-7716268d79d6")
+		)
+		(pin "1"
+			(uuid "3886aaee-a0e7-46b5-935b-5f9a31b0acc6")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 62.23 280.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2576542f-8f2a-42ba-b74f-b036353a6f78")
+		(property "Reference" "R50"
+			(at 64.77 279.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "142"
+			(at 64.77 281.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 61.214 280.416 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.co.za/en/products/detail/koa-speer-electronics-inc/RN73H1JTTD1420F25/10682428"
+			(at 62.23 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 62.23 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "59aa730c-fa7f-4c5b-ace3-6b899694df4d")
+		)
+		(pin "1"
+			(uuid "44e96446-b039-45ef-a01a-1abbb8f5e8cb")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 69.85 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25ec969f-4358-4577-abef-b45c4a2c2b1a")
+		(property "Reference" "R40"
+			(at 72.39 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "187"
+			(at 72.39 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 70.866 28.194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.co.za/en/products/detail/yageo/RC0603FR-07187RL/726998"
+			(at 69.85 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 69.85 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "87f5ef4b-f564-4320-92e3-a5f4784249da")
+		)
+		(pin "1"
+			(uuid "550a9103-b337-44e1-9056-06bf5cb6f7cf")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 69.85 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2becf108-5231-4f1c-94f6-31405c1f6656")
+		(property "Reference" "Q14"
+			(at 76.2 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS138L"
+			(at 76.2 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 74.93 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.co.za/en/products/detail/onsemi/BSS138L/5044751"
+			(at 74.93 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 69.85 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c894efc6-ccce-4284-b43e-591ad330cf61")
+		)
+		(pin "2"
+			(uuid "e104ff36-a129-4827-80e6-f4cf948f037b")
+		)
+		(pin "1"
+			(uuid "22cf6524-0050-46f4-89d8-26e2c8dbf399")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "Q14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 53.34 -24.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3316e1c2-ae39-433f-93eb-72e1812e48a2")
+		(property "Reference" "R33"
+			(at 53.34 -30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "300"
+			(at 53.34 -27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 53.594 -25.146 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.co.za/en/products/detail/panasonic-electronic-components/ERJ-3GEYJ301V/29175"
+			(at 53.34 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 53.34 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a937c196-abf1-41b7-b350-975f4ebaa80e")
+		)
+		(pin "1"
+			(uuid "a74e5f59-e8a6-4a74-8c57-c939eefffbb8")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 134.62 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33896359-e4d8-4574-8443-47c97938f396")
+		(property "Reference" "J9"
+			(at 138.43 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 138.43 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Master_Components:TE_282857-2_screw"
+			(at 134.62 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 134.62 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d77a6718-8d73-49e6-9e1d-c16636b0518c")
+		)
+		(pin "1"
+			(uuid "75df5462-1af7-4d4e-8d27-b32636b7bd67")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "masterCard:APV1121S")
+		(at 80.01 196.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38363db3-8b6d-4a2c-acbd-882000522a6c")
+		(property "Reference" "K4"
+			(at 93.98 189.23 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "APV1121S"
+			(at 93.98 191.77 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Master_Card:SOP4PIN_PAN-M"
+			(at 80.01 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "APV1121S"
+			(at 80.01 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "441e838f-5f97-4d3b-a16d-4a994d4bc36b")
+		)
+		(pin "4"
+			(uuid "8a9920e5-0896-4c06-8507-3ebc593e6812")
+		)
+		(pin "1"
+			(uuid "65a28ec9-d2f3-4615-8daa-6bf2a6eeab5f")
+		)
+		(pin "3"
+			(uuid "4251d02c-ccd7-4e6c-86af-37a84103fb79")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "K4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 130.81 -50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3db6e81c-6745-4954-9d27-da5eea2e18b5")
+		(property "Reference" "J8"
+			(at 134.62 -50.8001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 134.62 -48.2601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Master_Components:TE_282857-2_screw"
+			(at 130.81 -50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 -50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 130.81 -50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "41fef9ff-7a4b-444f-8119-f5a54efe24b1")
+		)
+		(pin "1"
+			(uuid "b9093161-d5d9-4589-a33f-408b85b7fd10")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NMOS_DGS")
+		(at 107.95 -43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fbd927b-2166-45bb-96a2-c5d179f760ad")
+		(property "Reference" "Q13"
+			(at 114.3 -44.4501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CSD18502KCS"
+			(at 114.3 -41.9101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Master_Components:CSD18502KCS"
+			(at 113.03 -45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.co.za/en/products/detail/texas-instruments/CSD18502KCS/3661860"
+			(at 107.95 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/gate/source"
+			(at 107.95 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "84844116-95bf-4779-9ad5-6fb5fec2d9c9")
+		)
+		(pin "1"
+			(uuid "8e0d390c-b4ed-4268-8d9b-d2c9d5b30156")
+		)
+		(pin "2"
+			(uuid "c1d04d8e-7f39-4951-b7ce-30e826d16d25")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "Q13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 143.51 -50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fc94199-b36f-4566-9214-79df6173522d")
+		(property "Reference" "F1"
+			(at 143.51 -57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 143.51 -54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuseholder_Clip-6.3x32mm_Littelfuse_122_Inline_P34.21x7.62mm_D2.54mm_Horizontal"
+			(at 143.51 -49.022 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.co.za/en/products/detail/littelfuse-inc/01220088Z-1/16628012"
+			(at 143.51 -50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 143.51 -50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85d0826a-4dd4-4727-a99d-b43b42f6f9dd")
+		)
+		(pin "2"
+			(uuid "a964a60e-1494-45e8-914c-436ee728b8eb")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 137.16 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4360b8b9-b64f-46d6-8adb-b42e5fe81225")
+		(property "Reference" "J11"
+			(at 140.97 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 140.97 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Master_Components:TE_282857-2_screw"
+			(at 137.16 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 137.16 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ab0aa448-d57d-4428-b4e0-7a7d467d1734")
+		)
+		(pin "1"
+			(uuid "c5495655-4c9d-41a3-8c66-fc688989b2a2")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 68.58 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "448790b6-a75d-403c-afe9-469d4ca503e7")
+		(property "Reference" "R44"
+			(at 71.12 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "187"
+			(at 71.12 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 69.596 106.934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.co.za/en/products/detail/yageo/RC0603FR-07187RL/726998"
+			(at 68.58 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 68.58 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e79132f3-ddf4-44fd-b7ed-a4b3fdf8534b")
+		)
+		(pin "1"
+			(uuid "30f0413c-1058-4176-acc7-9aeb37326560")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 66.04 -46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4df4abc7-b154-45f0-b572-f3f8f1a14067")
+		(property "Reference" "R36"
+			(at 68.58 -48.2601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "187"
+			(at 68.58 -45.7201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 67.056 -46.736 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.co.za/en/products/detail/yageo/RC0603FR-07187RL/726998"
+			(at 66.04 -46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 66.04 -46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b8252b1-2d30-4ba8-809a-090c7fc0bc61")
+		)
+		(pin "1"
+			(uuid "9b2c4ff0-3263-47b7-90ef-5c567c4b4f8e")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 59.69 27.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ee17574-7aea-4550-b0b6-5ef3bde6c36d")
+		(property "Reference" "R38"
+			(at 62.23 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "142"
+			(at 62.23 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 58.674 27.686 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.co.za/en/products/detail/koa-speer-electronics-inc/RN73H1JTTD1420F25/10682428"
+			(at 59.69 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 59.69 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "564858fc-bb85-4fa4-b02c-9b986e2bb077")
+		)
+		(pin "1"
+			(uuid "7e6f2249-6243-4e44-b0f5-59c7cfb0acf7")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 72.39 280.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "592b540c-a2cd-48af-9f4c-85c2eacf6615")
+		(property "Reference" "R52"
+			(at 74.93 279.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "187"
+			(at 74.93 281.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 73.406 280.924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.co.za/en/products/detail/yageo/RC0603FR-07187RL/726998"
+			(at 72.39 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 72.39 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "41e5c155-8353-42e3-bd2b-21e95dc400ec")
+		)
+		(pin "1"
+			(uuid "9d59fa28-20f9-4bf1-b616-45e7017b3e52")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 110.49 -29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d643728-497c-42c8-9da6-7a2bb4c6f877")
+		(property "Reference" "#PWR024"
+			(at 110.49 -22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_{CC}"
+			(at 110.49 -25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 -29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 -29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 110.49 -29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ae87422-3d01-4391-a3b1-39ec3175fb50")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NMOS_DGS")
+		(at 114.3 284.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f319f15-22d5-4885-b147-efa947507f95")
+		(property "Reference" "Q21"
+			(at 120.65 283.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CSD18502KCS"
+			(at 120.65 285.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Master_Components:CSD18502KCS"
+			(at 119.38 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.co.za/en/products/detail/texas-instruments/CSD18502KCS/3661860"
+			(at 114.3 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/gate/source"
+			(at 114.3 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5656434f-f413-45ea-85b9-c55f84e199eb")
+		)
+		(pin "1"
+			(uuid "74c25175-a16b-46df-83d8-b410834b1889")
+		)
+		(pin "2"
+			(uuid "2f0e9ff3-616e-4f62-9082-492b64cfe161")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "Q21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 114.3 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "604eaa5d-9a35-4153-b373-96b5a3be41a0")
+		(property "Reference" "#PWR060"
+			(at 114.3 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_{CC}"
+			(at 114.3 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 114.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c6a6254-1b4b-4c18-adc3-13d45861114a")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 62.23 193.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c25bae1-6a38-40ac-b81b-1a4133a9bacd")
+		(property "Reference" "R46"
+			(at 64.77 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "142"
+			(at 64.77 194.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 61.214 192.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.co.za/en/products/detail/koa-speer-electronics-inc/RN73H1JTTD1420F25/10682428"
+			(at 62.23 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 62.23 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7f7ca525-e8ad-4349-a2b9-3bc5944b7739")
+		)
+		(pin "1"
+			(uuid "fdc2ffb5-e376-440e-a587-810326abb08f")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 58.42 106.68 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cfe6dab-8322-441b-ab6f-d951596695a8")
+		(property "Reference" "R42"
+			(at 60.96 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "142"
+			(at 60.96 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 57.404 106.426 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.co.za/en/products/detail/koa-speer-electronics-inc/RN73H1JTTD1420F25/10682428"
+			(at 58.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 58.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a86082d2-9b15-4dec-8b5a-5b40b54fe0d1")
+		)
+		(pin "1"
+			(uuid "7df0b1b5-ae16-402c-a351-132169eaaacb")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 72.4154 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7519bc44-d309-4b86-9db2-1d20c4471c30")
+		(property "Reference" "#PWR058"
+			(at 72.4154 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_{DD}"
+			(at 72.4154 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.4154 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.4154 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 72.4154 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f605484e-088c-4233-9788-235f63b0de23")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 59.69 -15.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f7e3f96-35ec-43fd-8e78-06e4b2c83a55")
+		(property "Reference" "R35"
+			(at 62.23 -16.5101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 62.23 -13.9701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 60.706 -14.986 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 59.69 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a07ef744-460d-4e43-8ee4-6ebc2d34f5c3")
+		)
+		(pin "1"
+			(uuid "33efe6af-cdab-4dcf-a145-1b9dae89dab6")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 69.85 11.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "815c6a89-d31d-4df6-a1b3-747c6ff3da0f")
+		(property "Reference" "#PWR027"
+			(at 69.85 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V_{DD}"
+			(at 67.31 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 69.85 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "122b5471-fc95-4758-bf2e-bfd0c652dca9")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 72.39 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82e917a9-aeeb-4a73-9bc3-6e19c8478983")
+		(property "Reference" "Q18"
+			(at 78.74 214.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS138L"
+			(at 78.74 217.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 77.47 217.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.co.za/en/products/detail/onsemi/BSS138L/5044751"
+			(at 77.47 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 72.39 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e633386c-8fd0-49f2-9df4-ebcb045c9c84")
+		)
+		(pin "2"
+			(uuid "7b97ac02-3eef-4e9b-9416-38d0e25bd079")
+		)
+		(pin "1"
+			(uuid "828de2d0-ea49-4a71-8b02-4248e2de0ec8")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "Q18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 62.23 200.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83f140db-c6c8-4804-b7ad-078daadc32e7")
+		(property "Reference" "D10"
+			(at 67.31 200.9774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 67.31 203.5174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+			(at 62.23 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.co.za/en/products/detail/w%C3%BCrth-elektronik/150060VS75000/4489906"
+			(at 62.23 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 62.23 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "21cd2fcb-ad95-45dd-9e91-af563db37842")
+		)
+		(pin "1"
+			(uuid "1c252e87-758b-4050-94d6-08cddd04706a")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 74.9554 322.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "880dbeb3-f98a-473a-98ff-1fa2bd13a011")
+		(property "Reference" "#PWR070"
+			(at 74.9554 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_{DD}"
+			(at 74.9554 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.9554 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.9554 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 74.9554 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "914cf2c0-9944-4a99-984b-cf9696fb7929")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 68.58 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8986cc96-6b66-4e65-8f60-0434145552ad")
+		(property "Reference" "#PWR061"
+			(at 68.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V_{DD}"
+			(at 66.04 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 68.58 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc7dd346-39ad-4433-8cdc-efad128f037b")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 116.84 298.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a279f07-e43c-4bc0-beb5-77808a7d6b18")
+		(property "Reference" "#PWR072"
+			(at 116.84 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_{CC}"
+			(at 116.84 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 116.84 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03a13fbf-ddee-40c6-863a-b193cb8da976")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 55.88 -46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9101ddf3-82ed-4bce-954e-f5265668072c")
+		(property "Reference" "R34"
+			(at 58.42 -48.2601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "142"
+			(at 58.42 -45.7201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 54.864 -47.244 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.co.za/en/products/detail/koa-speer-electronics-inc/RN73H1JTTD1420F25/10682428"
+			(at 55.88 -46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 55.88 -46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c662d821-3cf0-443b-8099-1d2fb5df91a9")
+		)
+		(pin "1"
+			(uuid "a8bc937b-d434-4d14-9a79-e982f75240e5")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 55.88 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91570e45-d0de-476e-ae74-a3e306870930")
+		(property "Reference" "R41"
+			(at 55.88 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "300"
+			(at 55.88 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 56.134 128.524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.co.za/en/products/detail/panasonic-electronic-components/ERJ-3GEYJ301V/29175"
+			(at 55.88 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 55.88 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8c477d80-f0eb-4d53-9e37-f1859fe5983d")
+		)
+		(pin "1"
+			(uuid "3dae71ac-5e15-430e-a8dd-2843974bdfdf")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 116.84 264.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9644f364-82b1-4372-bfb8-45e078da220b")
+		(property "Reference" "#PWR071"
+			(at 116.84 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "12V_{CC}"
+			(at 113.03 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 116.84 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d618e7e3-eca1-40d7-ab36-c48e6a1d1d09")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 72.39 303.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4fc753d-9f69-4f36-b7b9-6382d9d6359a")
+		(property "Reference" "Q20"
+			(at 78.74 302.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS138L"
+			(at 78.74 304.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 77.47 305.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.co.za/en/products/detail/onsemi/BSS138L/5044751"
+			(at 77.47 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 72.39 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "90f47419-4b98-44d9-afca-cec32c95fcfc")
+		)
+		(pin "2"
+			(uuid "24e876a8-c8bc-42cb-a482-73e0706b113a")
+		)
+		(pin "1"
+			(uuid "d0cc2c28-f257-4b4a-bfb7-bdcb71fe037b")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "Q20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 71.1454 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab845699-4982-4bf2-a8bf-59d967234f82")
+		(property "Reference" "#PWR062"
+			(at 71.1454 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_{DD}"
+			(at 71.1454 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.1454 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.1454 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 71.1454 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e96908e5-806d-43a9-9896-2ff7bb9cbbbc")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 114.3 11.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae66798d-d6eb-4517-b799-85c44ddcd475")
+		(property "Reference" "#PWR059"
+			(at 114.3 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "12V_{CC}"
+			(at 110.49 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 114.3 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "039fd6ab-beb2-47d7-981c-fc71d94e6f07")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 59.69 303.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae94ab63-cf9b-497f-a938-5732129377b9")
+		(property "Reference" "R49"
+			(at 59.69 297.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "300"
+			(at 59.69 299.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 59.944 302.514 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.co.za/en/products/detail/panasonic-electronic-components/ERJ-3GEYJ301V/29175"
+			(at 59.69 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 59.69 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "47b178cc-8d2a-4d9c-8e46-300149273cef")
+		)
+		(pin "1"
+			(uuid "d69d25cc-fccb-4a50-bc9a-2de5688419c7")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 137.16 276.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b201abc6-546d-4677-b57c-8f3e21179fe6")
+		(property "Reference" "J12"
+			(at 140.97 276.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 140.97 279.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Master_Components:TE_282857-2_screw"
+			(at 137.16 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 137.16 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "78dcf96f-f583-48a1-b45b-32c92d0b3b80")
+		)
+		(pin "1"
+			(uuid "528c078f-52c0-4b06-8f75-21ea8c941b61")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "masterCard:APV1121S")
+		(at 80.01 284.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b41ff04a-d268-4c99-b6d4-c8f63828e27a")
+		(property "Reference" "K5"
+			(at 93.98 276.86 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "APV1121S"
+			(at 93.98 279.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Master_Card:SOP4PIN_PAN-M"
+			(at 80.01 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "APV1121S"
+			(at 80.01 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7f0a9394-c5ff-4554-abae-d7c3b2d3f8d3")
+		)
+		(pin "4"
+			(uuid "21ea1be9-32f3-4e1d-9e1b-762935ae6f93")
+		)
+		(pin "1"
+			(uuid "4e04bb28-2688-4a41-894a-4f5f434b8877")
+		)
+		(pin "3"
+			(uuid "867dd4a3-be39-4f40-a058-0d24c7d4a08d")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "K5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 66.04 -63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b59e5c79-2680-463a-845e-4ed666909223")
+		(property "Reference" "#PWR04"
+			(at 66.04 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V_{DD}"
+			(at 63.5 -67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 -63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 -63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 66.04 -63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b64d6014-92c1-476e-937b-552c2399eaa2")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 66.04 224.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b75fa52f-2dc0-439c-af2f-0d515da0f89f")
+		(property "Reference" "R47"
+			(at 68.58 223.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 68.58 226.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 67.056 225.044 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 66.04 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b82f59e-ce7f-4c5a-831c-f0afc3933620")
+		)
+		(pin "1"
+			(uuid "13a5c34c-1c7f-45a0-81df-0cbdfecbab1a")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 149.86 189.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb102b0a-7185-4256-8ce2-a2666a42e08e")
+		(property "Reference" "F4"
+			(at 149.86 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 149.86 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuseholder_Clip-6.3x32mm_Littelfuse_122_Inline_P34.21x7.62mm_D2.54mm_Horizontal"
+			(at 149.86 191.008 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.co.za/en/products/detail/littelfuse-inc/01220088Z-1/16628012"
+			(at 149.86 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 149.86 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a98ddfea-5d66-425d-916f-7a1bcae6f8ce")
+		)
+		(pin "2"
+			(uuid "d434afdc-ccf2-4406-8dc2-ff8552742238")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "F4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 57.15 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb5765ed-aa36-4c5c-8dc9-18c1df62d7bc")
+		(property "Reference" "R37"
+			(at 57.15 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "300"
+			(at 57.15 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 57.404 49.784 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.co.za/en/products/detail/panasonic-electronic-components/ERJ-3GEYJ301V/29175"
+			(at 57.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 57.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "abbb4598-8db7-4f4b-942f-d2db16787c2d")
+		)
+		(pin "1"
+			(uuid "17d05898-c79a-4b97-a823-9ea3103f6283")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 62.23 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c084d58d-2e74-46ac-af0a-d3018a021acd")
+		(property "Reference" "R43"
+			(at 64.77 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 64.77 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 63.246 138.684 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 62.23 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "71edc66f-2bfa-4376-bb39-a2b36560d5d4")
+		)
+		(pin "1"
+			(uuid "16e251c8-74a8-4ff8-8efb-866690cb2e44")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 68.6054 -5.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0deb69c-c6c6-4dc9-a413-2b94fd1c7292")
+		(property "Reference" "#PWR05"
+			(at 68.6054 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_{DD}"
+			(at 68.6054 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.6054 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.6054 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 68.6054 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed632fe8-d295-4097-b617-dd036d21447a")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 66.04 312.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c17de1a3-891f-467b-9f2e-b56d5133e0bf")
+		(property "Reference" "R51"
+			(at 68.58 311.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 68.58 313.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 67.056 312.674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 66.04 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3ae23c3c-bf69-401b-bf2c-43881851ba0c")
+		)
+		(pin "1"
+			(uuid "0d76f9fe-c934-4a74-8127-7c0991e01502")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 72.39 264.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c27fb912-4957-4d7c-86b1-58b3d7c4493a")
+		(property "Reference" "#PWR069"
+			(at 72.39 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V_{DD}"
+			(at 69.85 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 72.39 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6e93dfd-ae53-41ad-a6b1-4f3d56f330b8")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "masterCard:APV1121S")
+		(at 76.2 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5793132-6522-46aa-9c26-3074034e3799")
+		(property "Reference" "K3"
+			(at 90.17 102.87 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "APV1121S"
+			(at 90.17 105.41 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Master_Card:SOP4PIN_PAN-M"
+			(at 76.2 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "APV1121S"
+			(at 76.2 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "08c025d6-ec5f-4b08-9490-0866f4f9ba17")
+		)
+		(pin "4"
+			(uuid "4d0724e6-ddfb-458e-9e89-7a79b217772c")
+		)
+		(pin "1"
+			(uuid "1d60966f-19e7-4845-b79e-0ddd150fa475")
+		)
+		(pin "3"
+			(uuid "b7e682a8-4801-4013-a812-15d35172e234")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "K3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 72.39 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7fc015f-51ef-470f-8508-750111706aac")
+		(property "Reference" "#PWR065"
+			(at 72.39 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V_{DD}"
+			(at 69.85 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 72.39 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "595191b9-ffb8-4a53-b555-35bff29cd0b1")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 59.69 215.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8071634-e06e-44b0-a2a2-dce24ff0d7f4")
+		(property "Reference" "R45"
+			(at 59.69 209.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "300"
+			(at 59.69 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 59.944 214.884 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.co.za/en/products/detail/panasonic-electronic-components/ERJ-3GEYJ301V/29175"
+			(at 59.69 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 59.69 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d1d14d53-7e56-4c7b-923c-e5acbbed36a5")
+		)
+		(pin "1"
+			(uuid "af7e9e4f-4bf6-44e3-8d0f-c8a03a9c2070")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 110.49 -63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cab76f9f-f428-495c-8399-ef3a0d0bbef5")
+		(property "Reference" "#PWR06"
+			(at 110.49 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "12V_{CC}"
+			(at 106.68 -67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 -63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 -63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 110.49 -63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48c582c7-e09d-4527-aa26-6dc508ad93a0")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 146.05 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce3dcd3d-7465-4eeb-9cfe-81a812ea5c3f")
+		(property "Reference" "F3"
+			(at 146.05 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 146.05 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuseholder_Clip-6.3x32mm_Littelfuse_122_Inline_P34.21x7.62mm_D2.54mm_Horizontal"
+			(at 146.05 104.648 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.co.za/en/products/detail/littelfuse-inc/01220088Z-1/16628012"
+			(at 146.05 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 146.05 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f8125d1-dbd4-45a0-b52e-c11a93479a3e")
+		)
+		(pin "2"
+			(uuid "e0e2e805-fc99-4698-ae69-49acf598720a")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "F3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 133.35 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ceb9c7a0-04de-4602-99e8-8acfe91f34ad")
+		(property "Reference" "J10"
+			(at 137.16 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 137.16 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Master_Components:TE_282857-2_screw"
+			(at 133.35 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 133.35 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "48ce27b1-e182-4955-961a-72bdbf180f5a")
+		)
+		(pin "1"
+			(uuid "8a92018d-d9e7-489a-9e6e-4139185da1c0")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 147.32 24.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf8ad96e-320e-41cc-abdf-19200c0fc1b5")
+		(property "Reference" "F2"
+			(at 147.32 17.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 147.32 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuseholder_Clip-6.3x32mm_Littelfuse_122_Inline_P34.21x7.62mm_D2.54mm_Horizontal"
+			(at 147.32 25.908 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.co.za/en/products/detail/littelfuse-inc/01220088Z-1/16628012"
+			(at 147.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 147.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c07d7bfd-012f-40ee-99e7-d88d3495b35e")
+		)
+		(pin "2"
+			(uuid "0928e558-7b22-4d23-9942-90baeb6c58d3")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "masterCard:APV1121S")
+		(at 73.66 -43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed812b10-3458-4a1b-ba15-efb8c0ebebac")
+		(property "Reference" "K1"
+			(at 87.63 -50.8 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "APV1121S"
+			(at 87.63 -48.26 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Master_Card:SOP4PIN_PAN-M"
+			(at 73.66 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "APV1121S"
+			(at 73.66 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e0595c14-f808-4883-93d5-339216c371a9")
+		)
+		(pin "4"
+			(uuid "9edc8bc9-42c8-4c28-a06b-4ab9e3fe7c8f")
+		)
+		(pin "1"
+			(uuid "325fed41-bb12-42a1-b0f3-b5c4aefba1a7")
+		)
+		(pin "3"
+			(uuid "6c888e8b-5c17-459b-83cc-4469d33da0da")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NMOS_DGS")
+		(at 111.76 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f09bbb37-73fb-40e8-bca8-1d9215b29925")
+		(property "Reference" "Q15"
+			(at 118.11 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CSD18502KCS"
+			(at 118.11 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Master_Components:CSD18502KCS"
+			(at 116.84 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.co.za/en/products/detail/texas-instruments/CSD18502KCS/3661860"
+			(at 111.76 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/gate/source"
+			(at 111.76 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ca7095da-2347-4ac7-adab-a09e5f3b4b82")
+		)
+		(pin "1"
+			(uuid "838a1197-f9e6-4bb0-977c-fc049e20eb9b")
+		)
+		(pin "2"
+			(uuid "0b3b7bfb-3fdc-465c-882e-3bc86a61c064")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "Q15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 116.84 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f19b175c-69ba-4671-b3c9-cce448694298")
+		(property "Reference" "#PWR067"
+			(at 116.84 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "12V_{CC}"
+			(at 113.03 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 116.84 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fa1cca1-5fd4-4e98-8435-5ed8a1e3b825")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NMOS_DGS")
+		(at 110.49 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8a7f594-bd9f-4f46-90c9-38106bbcfcff")
+		(property "Reference" "Q17"
+			(at 116.84 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CSD18502KCS"
+			(at 116.84 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Master_Components:CSD18502KCS"
+			(at 115.57 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.co.za/en/products/detail/texas-instruments/CSD18502KCS/3661860"
+			(at 110.49 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/gate/source"
+			(at 110.49 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "cc750009-9eb6-420b-a1fd-74467e30d353")
+		)
+		(pin "1"
+			(uuid "ba26d7d6-72f7-4a5d-b770-6c0cae51328f")
+		)
+		(pin "2"
+			(uuid "1b8fc4d4-e6e9-4ed3-8191-a12175a318c9")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "Q17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 59.69 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f916dc15-926c-41af-b2b3-83a28adae6af")
+		(property "Reference" "D8"
+			(at 64.77 35.8774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 64.77 38.4174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+			(at 59.69 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.co.za/en/products/detail/w%C3%BCrth-elektronik/150060VS75000/4489906"
+			(at 59.69 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 59.69 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "de0622d2-3988-4921-9643-f59427f862c3")
+		)
+		(pin "1"
+			(uuid "ecc03fd5-7a9c-44da-8e26-f359e05ec7d9")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 74.9554 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "faa0abed-e20d-4273-ad07-7a7041f093be")
+		(property "Reference" "#PWR066"
+			(at 74.9554 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_{DD}"
+			(at 74.9554 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.9554 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.9554 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 74.9554 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18cd2dc5-8bf0-4933-8921-d0f168d52904")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "masterCard:APV1121S")
+		(at 77.47 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd1aabed-347a-42b6-aba9-52dd42693fe3")
+		(property "Reference" "K2"
+			(at 91.44 24.13 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "APV1121S"
+			(at 91.44 26.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Master_Card:SOP4PIN_PAN-M"
+			(at 77.47 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "APV1121S"
+			(at 77.47 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4bdb786f-9bfa-4a5f-9085-fe5f4a7a0770")
+		)
+		(pin "4"
+			(uuid "5269c48d-7102-4700-b54b-b9b01aac4c02")
+		)
+		(pin "1"
+			(uuid "f429c85e-bafa-4855-8a61-372781016cf4")
+		)
+		(pin "3"
+			(uuid "76336b89-87b6-4298-9f5a-f64a617f6abf")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "K2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NMOS_DGS")
+		(at 114.3 196.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe3c79fe-1754-4ad8-a411-16753f419fa1")
+		(property "Reference" "Q19"
+			(at 120.65 195.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CSD18502KCS"
+			(at 120.65 198.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Master_Components:CSD18502KCS"
+			(at 119.38 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.co.za/en/products/detail/texas-instruments/CSD18502KCS/3661860"
+			(at 114.3 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/gate/source"
+			(at 114.3 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9c4c33aa-19a8-4dec-9aff-dc2257986122")
+		)
+		(pin "1"
+			(uuid "da2f7694-44ff-46a6-ba38-76024c43b48a")
+		)
+		(pin "2"
+			(uuid "894a47b7-c2cb-4497-9e2e-1678304afca3")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "Q19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 55.88 -39.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff866c30-b0e1-482f-826a-23c2468e896b")
+		(property "Reference" "D7"
+			(at 60.96 -39.0526 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 60.96 -36.5126 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+			(at 55.88 -39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.co.za/en/products/detail/w%C3%BCrth-elektronik/150060VS75000/4489906"
+			(at 55.88 -39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 55.88 -39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "647bec5e-d9c3-4ee2-a27f-72b378c4a62d")
+		)
+		(pin "1"
+			(uuid "f18b05fe-8e1e-4aed-b7f0-3e33f49b3abc")
+		)
+		(instances
+			(project "MasterCards_rev3"
+				(path "/a1c08745-b2b0-4cfc-836a-fbd54d434c7d/44d26741-8988-4a04-9ade-bc7fe7bb0485"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

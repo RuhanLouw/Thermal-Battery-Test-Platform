@@ -1,0 +1,276 @@
+(footprint "XTAL_HC49P488W46L1150T500H350"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "16 MHz ±20ppm Crystal 18pF 40 Ohms HC-49/US")
+	(property "Reference" "XTAL"
+		(at -2.825 -3.585 0)
+		(layer "F.SilkS")
+		(uuid "82fc14f0-6a6b-4531-8d1c-003503580231")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "XTAL_HC49P488W46L1150T500H350"
+		(at 12.415 3.585 0)
+		(layer "F.Fab")
+		(uuid "950f5d62-ad63-4173-864f-b13eddb0d3f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.digikey.co.za/en/products/detail/abracon-llc/ABL-16-000MHZ-B2/675236"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "483ec97f-267e-40b8-a4cc-e9e90f189f36")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "16 MHz ±20ppm Crystal 18pF 40 Ohms HC-49/US"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f7916b6-7caf-4143-afe3-1606c3ca0347")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.25 -2.5)
+		(end 3.25 -2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "85ed1b68-57b2-4e4b-bfa9-73d2314f7af2")
+	)
+	(fp_line
+		(start -3.25 2.5)
+		(end 3.25 2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "afcf15a0-bc5a-4be2-9f9a-230abdf854c1")
+	)
+	(fp_arc
+		(start -5.75 0)
+		(mid -5.017767 -1.767767)
+		(end -3.25 -2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d830dfe1-ac80-4c6d-bea3-99321b648af4")
+	)
+	(fp_arc
+		(start -3.25 2.5)
+		(mid -5.017767 1.767767)
+		(end -5.75 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cd8d6b8f-7d78-46de-9c58-bb947574da75")
+	)
+	(fp_arc
+		(start 3.25 -2.5)
+		(mid 5.017767 -1.767767)
+		(end 5.75 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "21089e1e-aebf-4eca-b408-58f909bc123f")
+	)
+	(fp_arc
+		(start 5.75 0)
+		(mid 5.017767 1.767767)
+		(end 3.25 2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a9500307-8233-41ab-a220-9a2df1ae55c3")
+	)
+	(fp_line
+		(start -3.25 -2.75)
+		(end 3.25 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d5eb5281-06b4-40eb-9de6-6daead9e61c0")
+	)
+	(fp_line
+		(start -3.25 2.75)
+		(end 3.25 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "919cd732-7e9b-47da-a6da-357a2792f140")
+	)
+	(fp_arc
+		(start -6 0)
+		(mid -5.194544 -1.944544)
+		(end -3.25 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "70fca02e-32cb-43eb-88a8-5e568ed0384d")
+	)
+	(fp_arc
+		(start -3.25 2.75)
+		(mid -5.194544 1.944544)
+		(end -6 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4e10821c-9902-4066-b123-5d6d2f9d350d")
+	)
+	(fp_arc
+		(start 3.25 -2.75)
+		(mid 5.194544 -1.944544)
+		(end 6 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "19195402-4e36-44f4-a288-dcbe0537814a")
+	)
+	(fp_arc
+		(start 6 0)
+		(mid 5.194544 1.944544)
+		(end 3.25 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "747a90e1-f359-4f32-b76b-6fe839728283")
+	)
+	(fp_line
+		(start -3.25 -2.5)
+		(end 3.25 -2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ae1d2a6d-2ec8-4dce-892f-9d9b5426ce15")
+	)
+	(fp_line
+		(start -3.25 2.5)
+		(end 3.25 2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "04f50bd4-5f7a-41fc-96bd-ac6c83e3c59b")
+	)
+	(fp_arc
+		(start -5.75 0)
+		(mid -5.017767 -1.767767)
+		(end -3.25 -2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "417b59d2-312c-43ab-9351-66ab1a8143c9")
+	)
+	(fp_arc
+		(start -3.25 2.5)
+		(mid -5.017767 1.767767)
+		(end -5.75 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a128077a-8c6d-4729-b0d6-b7fffd17daa5")
+	)
+	(fp_arc
+		(start 3.25 -2.5)
+		(mid 5.017767 -1.767767)
+		(end 5.75 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f5b8ddc9-5e14-409d-83d7-6810a7629057")
+	)
+	(fp_arc
+		(start 5.75 0)
+		(mid 5.017767 1.767767)
+		(end 3.25 2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "67569025-59bc-44e1-bddf-a1adac6b998d")
+	)
+	(pad "1" thru_hole circle
+		(at -2.44 0)
+		(size 1.007 1.007)
+		(drill 0.657)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "fbd7648c-973d-4664-92f0-d51cadf591a7")
+	)
+	(pad "2" thru_hole circle
+		(at 2.44 0)
+		(size 1.007 1.007)
+		(drill 0.657)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "dac05879-36fd-4685-9d63-57c6362fb2dc")
+	)
+	(embedded_fonts no)
+	(model "${PARTS}/Crystals/ABL_16_000MHZ_B2 (1)/ABL-16.000MHZ-B2.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

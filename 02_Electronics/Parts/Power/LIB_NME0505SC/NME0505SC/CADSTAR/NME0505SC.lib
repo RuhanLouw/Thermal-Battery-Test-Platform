@@ -1,0 +1,16 @@
+.NME0505SC :1 ;Murata Power Solutions NME 1W Isolated DC-DC Converter Through Hole, Vin 4.5  5.5 V dc, Vout 5V dc
+NME0505SC
+*STM PS
+*NGS
+*PLB 1="-VIN" 4="+VIN" 5="-VOUT" 7="+VOUT"
+*MXP 4
+*DFN NME0505SC
+~!Mouser Part Number (580-NME0505SC)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Murata-Power-Solutions/NME0505SC?qs=yh1HztRTBTgetAZQR0bDBg%3D%3D)
+~!Manufacturer_Name (Murata Electronics)
+~!Manufacturer_Part_Number (NME0505SC)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/8edb19afd12b5fd6ca72f64e044df19c.pdf)
+~!Height (10.25mm)
+~!3D_Model (NME0505SC)
+NME0505SC
+1.1!U 4.1!U 5.1!U 7.1!U 

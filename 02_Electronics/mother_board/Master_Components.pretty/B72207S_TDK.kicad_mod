@@ -1,0 +1,232 @@
+(footprint "B72207S_TDK"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "VARISTOR 510V 1.2KA DISC 7MM")
+	(tags "B72207S0321K101 ")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "81b820ac-7e57-4b3b-bcdc-5a604dd0ddae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "B72207S_TDK"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1c65ca64-4178-49c9-b182-b2ce442de899")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.digikey.co.za/en/products/detail/epcos-tdk-electronics/B72207S0321K101/6159894"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e39891ae-e435-45f2-8e7c-b41ef49e6743")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "VARISTOR 510V 1.2KA DISC 7MM"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1948ebd2-8c1a-48e5-bee2-548fcd10bf20")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.0955 -2.5273)
+		(end 2.0955 -2.5273)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "605b4bb5-dda8-48e0-942a-c77a613aebed")
+	)
+	(fp_line
+		(start -2.0955 2.5273)
+		(end 2.0955 2.5273)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "802acebc-c25b-4f15-a336-b819690aa780")
+	)
+	(fp_arc
+		(start -2.0955 2.5273)
+		(mid -4.6228 0)
+		(end -2.0955 -2.5273)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7e37a032-9387-42f5-9d14-827a572f4eaf")
+	)
+	(fp_arc
+		(start 2.0955 -2.5273)
+		(mid 3.882571 -1.787071)
+		(end 4.6228 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1c8a9959-d6ed-457f-8bb8-1abdec3d7755")
+	)
+	(fp_arc
+		(start 4.6228 0)
+		(mid 3.882571 1.787071)
+		(end 2.0955 2.5273)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6b08e8e4-3a46-427a-9733-8f77d23dc033")
+	)
+	(fp_line
+		(start -4.7498 -2.6543)
+		(end 4.7498 -2.6543)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1cefc369-bb3f-4990-b2e9-952f61c7cf03")
+	)
+	(fp_line
+		(start -4.7498 2.6543)
+		(end -4.7498 -2.6543)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ba5941ca-8ade-4ab2-a799-4c77f8756436")
+	)
+	(fp_line
+		(start 4.7498 -2.6543)
+		(end 4.7498 2.6543)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2fcff308-b972-46ca-bee0-4c2c2810b3d1")
+	)
+	(fp_line
+		(start 4.7498 2.6543)
+		(end -4.7498 2.6543)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e60e4e59-8ac6-4846-afc7-d352289e50ca")
+	)
+	(fp_line
+		(start -2.0955 -2.4003)
+		(end 2.0955 -2.4003)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ad68a1de-7b84-49a5-b801-0d8897559071")
+	)
+	(fp_line
+		(start -2.0955 2.4003)
+		(end 2.0955 2.4003)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7c582431-1971-423a-b4db-ae970711b2ff")
+	)
+	(fp_arc
+		(start -2.0955 2.4003)
+		(mid -4.4958 0)
+		(end -2.0955 -2.4003)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1e1c20ec-038e-4a9a-9c43-67c770985f40")
+	)
+	(fp_arc
+		(start 2.0955 -2.4003)
+		(mid 4.4958 0)
+		(end 2.0955 2.4003)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9a83be44-3e72-4e1f-9f62-36ef31b0b3c0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "db1ed134-b6d7-4a08-894b-4c41cc18cf6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -2.5 0.94996)
+		(size 1.4224 1.4224)
+		(drill 0.9144)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4653fdb9-2b67-47e7-a9fa-655fb4a552ca")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 -0.94996)
+		(size 1.4224 1.4224)
+		(drill 0.9144)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "77ba477b-2f33-4a0a-8f95-ae3976966d4b")
+	)
+	(embedded_fonts no)
+	(model "${PARTS}/Varistors/VARISTOR 510V 1.2KA DISC 7MM/B72207S_TDK.iges"
+		(offset
+			(xyz -2.5 0 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

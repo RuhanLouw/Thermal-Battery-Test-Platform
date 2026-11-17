@@ -1,0 +1,283 @@
+(footprint "NMG1205SC"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TH 2W 12-5V SIP DC/DC")
+	(tags "Power Supply")
+	(property "Reference" "PS**"
+		(at 7.795 2.6 0)
+		(layer "F.SilkS")
+		(uuid "dc8542db-47d6-45c5-959c-a7cdcaa31048")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "NMG1205SC"
+		(at 7.795 2.6 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c3ddbe98-c66c-41e3-b80c-1f2a4de2d9f1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.co.za/ProductDetail/Murata-Power-Solutions/NMG1205SC?qs=sGAEpiMZZMv0DJfhVcWlK9tpGBbzDSsq2VnzpVoL3LaoQjBF7OAnyA%3D%3D"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f96e477-7a9b-457c-b4a9-575a7fd96fc5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Isolated DC/DC Converters - Through Hole 2W TH 2W 12-5V SIP DC/DC"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1af5eda4-d6ce-489d-8708-463626008139")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.03 -1.225)
+		(end -2.03 6.425)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "148572d9-cda3-4745-a78d-fcca24a506fc")
+	)
+	(fp_line
+		(start -2.03 6.425)
+		(end 17.62 6.425)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e4ca19cd-413c-44d4-855b-018d851c14bd")
+	)
+	(fp_line
+		(start 0 -1.9)
+		(end 0 -1.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b6a3895-ee11-4e97-a6e7-563e5ad4c57e")
+	)
+	(fp_line
+		(start 0 -1.9)
+		(end 0 -1.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d57eccd6-d922-4be6-a206-40e0de61ef21")
+	)
+	(fp_line
+		(start 0 -1.8)
+		(end 0 -1.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "646749e6-2cb9-4cf5-bc48-c5291da48332")
+	)
+	(fp_line
+		(start 17.62 -1.225)
+		(end -2.03 -1.225)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d7682100-6ea4-4755-bc97-9099806f1908")
+	)
+	(fp_line
+		(start 17.62 6.425)
+		(end 17.62 -1.225)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "76c705b8-f3e2-4a56-9757-eecfc133056a")
+	)
+	(fp_arc
+		(start 0 -1.9)
+		(mid 0.05 -1.85)
+		(end 0 -1.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e2125a67-c686-429e-a8b1-208b8e135b9f")
+	)
+	(fp_arc
+		(start 0 -1.8)
+		(mid -0.05 -1.85)
+		(end 0 -1.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f17ab572-5b38-41a1-87fe-30a9acfa3d31")
+	)
+	(fp_line
+		(start -3.03 -2.225)
+		(end -3.03 7.425)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "44f9f23e-76c5-4b19-a3df-301202ba5509")
+	)
+	(fp_line
+		(start -3.03 7.425)
+		(end 18.62 7.425)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5af5f051-ad0c-4d19-866d-6fe02f4ffb52")
+	)
+	(fp_line
+		(start 18.62 -2.225)
+		(end -3.03 -2.225)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dc37520b-c1c9-4a32-91ec-baa0a25ffdf1")
+	)
+	(fp_line
+		(start 18.62 7.425)
+		(end 18.62 -2.225)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cdf71d58-e38b-437d-a2a0-5c6fb0f8b979")
+	)
+	(fp_line
+		(start -2.03 -1.225)
+		(end 17.62 -1.225)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a23190e6-907f-471a-a0e3-a93d5d0e45d3")
+	)
+	(fp_line
+		(start -2.03 6.425)
+		(end -2.03 -1.225)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a5849d78-1309-4a7d-9649-3b0e52a3956a")
+	)
+	(fp_line
+		(start 17.62 -1.225)
+		(end 17.62 6.425)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "49d7cf86-544e-477c-8086-0b8c27a6fafe")
+	)
+	(fp_line
+		(start 17.62 6.425)
+		(end -2.03 6.425)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6ed46908-9e8e-4b1a-b206-1d6c1c45241c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.795 2.6 0)
+		(layer "F.Fab")
+		(uuid "dfa035b2-bd7b-4a84-8f65-dff5b17d0016")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.612 1.612)
+		(drill 1.075)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2a503aea-5839-41ed-ab93-591f21e8b772")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.612 1.612)
+		(drill 1.075)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "43f69bb2-8583-48af-9f7c-9d21d8e3cbef")
+	)
+	(pad "4" thru_hole circle
+		(at 7.62 0)
+		(size 1.612 1.612)
+		(drill 1.075)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "134bf99d-0d28-4d30-b07a-50833e9ee011")
+	)
+	(pad "6" thru_hole circle
+		(at 12.7 0)
+		(size 1.612 1.612)
+		(drill 1.075)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b682d1ae-9d1c-44d9-9611-647027a5d127")
+	)
+	(embedded_fonts no)
+	(model "${PARTS}/Power/LIB_NMG1205SC/NMG1205SC/3D/NMG1205SC.stp"
+		(offset
+			(xyz 0 0 -4.07)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

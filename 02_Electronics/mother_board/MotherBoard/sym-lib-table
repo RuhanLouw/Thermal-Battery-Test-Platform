@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "mboard_conn")(type "KiCad")(uri "${KIPRJMOD}/1_Libraries/Files/backplane_connector/5650858-5.kicad_sym")(options "")(descr ""))
+  (lib (name "card_connector")(type "KiCad")(uri "${KIPRJMOD}/1_Libraries/card_5536386_5.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX232EIPWR")(type "KiCad")(uri "${KIPRJMOD}/1_Libraries/MAX232EIPWR.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX3221IPWR")(type "KiCad")(uri "${KIPRJMOD}/1_Libraries/MAX3221IPWR.kicad_sym")(options "")(descr ""))
+  (lib (name "SP3220ECY-L/TR")(type "KiCad")(uri "${KIPRJMOD}/1_Libraries/SP3220EEA-L_TR.kicad_sym")(options "")(descr ""))
+)

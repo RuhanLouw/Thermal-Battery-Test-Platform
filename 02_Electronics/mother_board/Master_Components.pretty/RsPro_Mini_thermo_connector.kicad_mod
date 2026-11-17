@@ -1,0 +1,254 @@
+(footprint "RsPro_Mini_thermo_connector"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "RS PRO Miniature Miniature PCB Socket Connector for Use with Type K Thermocouple, 4mm Probe, IEC, RoHS Compliant")
+	(property "Reference" "J"
+		(at -8.3 -11.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a35e73d1-c44a-4955-b531-4ff5a6759654")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Therm_Connector"
+		(at -8.3 -10.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bc64c98d-dcc4-4bbb-bf7c-61aaf91dcc2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://za.rs-online.com/web/p/sensor-accessories/3817564/?gb=s"
+		(at -8.3 -11.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a0746f8-64ab-4341-9389-c53f4be258cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Miniature PCB Socket Connector"
+		(at -8.3 -11.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca827053-deb1-456b-8db3-be5a113e9db5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -16.6 -20.5)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2b8168bf-f576-4f52-ba5d-9f6b4571e433")
+	)
+	(fp_circle
+		(center -8.3 -6)
+		(end -9.2 -7.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "02b31ca9-9388-410d-af42-69891b34b76e")
+	)
+	(fp_rect
+		(start -17.1 -21)
+		(end 0.5 0.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4bf7d266-7724-4728-a0a4-a6f768eab4b3")
+	)
+	(fp_line
+		(start -16.6 -16.25)
+		(end 0 -16.24)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "1d8da620-61f3-468a-a45a-d180be8c0df4")
+	)
+	(fp_line
+		(start -16.6 -6)
+		(end 0 -6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "921eab11-372f-43ea-b9b8-ab06b7d6a3bb")
+	)
+	(fp_line
+		(start -16.6 0)
+		(end -16.6 -16.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "720ae85b-9476-40bf-a0c6-bf80dc6e5741")
+	)
+	(fp_line
+		(start -16.6 0)
+		(end -16.6 -6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "7f9fb23d-bd54-4493-b70f-e39dfa3223b9")
+	)
+	(fp_line
+		(start -12.25 -16.245)
+		(end -12.25 -20.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "5ceeee05-9bdf-46b9-a48a-92887b497f3d")
+	)
+	(fp_line
+		(start -8.3 -20.5)
+		(end -8.3 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "0dbb5c7e-1410-4cf7-bce7-499b7deec955")
+	)
+	(fp_line
+		(start -8.3 -16.245)
+		(end -12.25 -16.245)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "3f05caae-28bb-4216-878c-ce30a0838b7d")
+	)
+	(fp_line
+		(start -8.3 -16.245)
+		(end -4.35 -16.245)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "5290deff-0284-4a6d-99e7-a51da71538c9")
+	)
+	(fp_line
+		(start -4.35 -16.245)
+		(end -4.35 -20.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "14479a9b-d68a-473a-9ae3-3419af8f4b0b")
+	)
+	(fp_rect
+		(start -16.6 -20.5)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b21f116b-59b6-46dd-8095-3ff43d02662a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -8.3 -8.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8405bfbb-8c85-4f48-bc4b-f21a49680263")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -12.25 -16.24738)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "c59a6a49-1e05-4b7a-8817-be7c687adbff")
+	)
+	(pad "2" thru_hole circle
+		(at -4.35 -16.245)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "4c18ae98-f4e1-4f10-ac81-7a2cef3384bf")
+	)
+	(embedded_fonts no)
+	(model "${PARTS}/Temp/1_Therm_Connector/pcb-socket-for-type-k-thermocouple-1.snapshot.7/AM-K-PCB.step"
+		(offset
+			(xyz -8.25 10.25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)

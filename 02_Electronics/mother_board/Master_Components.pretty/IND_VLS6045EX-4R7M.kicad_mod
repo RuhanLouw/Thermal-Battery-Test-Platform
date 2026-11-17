@@ -1,0 +1,220 @@
+(footprint "IND_VLS6045EX-4R7M"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "FIXED IND 4.7UH 4.2A 35 MOHM SMD")
+	(property "Reference" "REF**"
+		(at -1.268 -3.9064 0)
+		(layer "F.SilkS")
+		(uuid "fcbfc2e7-e12f-4560-a096-27724bc07909")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IND_VLS6045EX-4R7M"
+		(at 4.0152 3.9064 0)
+		(layer "F.Fab")
+		(uuid "6713e30e-de2a-4174-879b-b738599c72d5")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.digikey.co.za/en/products/detail/tdk-corporation/VLS6045EX-4R7M/5287379"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fb1f87b0-4614-4f13-8bb4-597a5d2b1dad")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "4.7 µH Shielded Drum Core, Wirewound Inductor 4.2 A 27mOhm Nonstandard"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e36a8f5c-b33f-420b-9b9f-cdb0817e1d8c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3 -3)
+		(end -3 -2.87)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fc1ef4a7-0673-4c75-905f-0141d1b0d8ab")
+	)
+	(fp_line
+		(start -3 -3)
+		(end 3 -3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "feaa1d4c-b797-475e-97ef-d6ab3505e7a3")
+	)
+	(fp_line
+		(start -3 3)
+		(end -3 2.87)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "057ba14b-9145-4daf-a362-ddd34785ead8")
+	)
+	(fp_line
+		(start -3 3)
+		(end 3 3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9de92925-05bd-4c1a-8e2f-6ec0899f2e0f")
+	)
+	(fp_line
+		(start 3 -3)
+		(end 3 -2.87)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3d5b233d-fb1d-47c2-a797-06ab70514459")
+	)
+	(fp_line
+		(start 3 3)
+		(end 3 2.87)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "992c8d7f-c354-4fb5-a65f-9deb700d92e6")
+	)
+	(fp_line
+		(start -3.3 -3.25)
+		(end -3.3 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fc71cb4e-a8db-4066-9135-b378b815e15e")
+	)
+	(fp_line
+		(start -3.3 3.25)
+		(end 3.3 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "097fee7c-52eb-4af6-bea6-6fdc0de0fd5f")
+	)
+	(fp_line
+		(start 3.3 -3.25)
+		(end -3.3 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "390fcbea-0f40-4f72-ad26-a3da186396f8")
+	)
+	(fp_line
+		(start 3.3 3.25)
+		(end 3.3 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d7651368-3c72-474e-be3b-9395f8dccb72")
+	)
+	(fp_line
+		(start -3 -3)
+		(end -3 3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8207e233-a9d6-49f7-a3ee-884c1ba24fb5")
+	)
+	(fp_line
+		(start -3 -3)
+		(end 3 -3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "38d7e3fc-d8c7-4cad-91f4-68d99d2ef9ec")
+	)
+	(fp_line
+		(start -3 3)
+		(end 3 3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c905fa41-a754-4571-b719-9a8f3b12a4da")
+	)
+	(fp_line
+		(start 3 -3)
+		(end 3 3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6225ade0-e612-45c8-aaa8-0a5afe7d95e9")
+	)
+	(pad "1" smd rect
+		(at -2.1 0)
+		(size 1.9 5.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "d8b11c5f-38aa-4e7c-8d35-1f637b43052f")
+	)
+	(pad "2" smd rect
+		(at 2.1 0)
+		(size 1.9 5.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "dee31c84-4797-4cdd-b73d-f119147f9d20")
+	)
+	(embedded_fonts no)
+	(model "${PARTS}/Inductor/VLS6045EX_4R7M/VLS6045EX-4R7M.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

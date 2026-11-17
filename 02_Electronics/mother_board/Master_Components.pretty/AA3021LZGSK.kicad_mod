@@ -1,0 +1,110 @@
+(footprint "AA3021LZGSK"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Green 525nm LED Indication - Discrete 2.65V 2-SMD, J-Lead")
+	(tags "LED")
+	(property "Reference" "REF**"
+		(at 0 -1.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "61286b47-8cc1-44f8-849f-8edfee8d1bf6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1397)
+			)
+		)
+	)
+	(property "Value" "AA3021LZGSK"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "51573f54-5f00-48dd-ac69-389e5b031cf7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.digikey.co.za/en/products/detail/kingbright/AA3021LZGSK/7318917"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "906c5471-871c-48e8-b3cd-88337e6b0d80")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Green 525nm LED Indication - Discrete 2.65V 2-SMD, J-Lead"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce29f70a-3ae3-4621-aa71-eeb517181a27")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.3 -0.95)
+		(end 2.3 0.95)
+		(stroke
+			(width 0.075)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "10cf9404-c9dd-4c47-b384-9d1acf8f1ca8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c4f3abfe-630c-4efd-90dc-6bc246ada1ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.4 0)
+		(size 1.4 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1071428571)
+		(thermal_bridge_angle 45)
+		(uuid "a18df67e-5bbb-48f5-a6d6-c3795c9fa420")
+	)
+	(pad "2" smd roundrect
+		(at 1.4 0)
+		(size 1.4 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1071428571)
+		(thermal_bridge_angle 45)
+		(uuid "38294fe6-79aa-472f-a386-7f3ef6fb8b63")
+	)
+	(embedded_fonts no)
+	(model "${PARTS}/LED/AA3021.IGS"
+		(offset
+			(xyz 0 -0.05 0.64)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

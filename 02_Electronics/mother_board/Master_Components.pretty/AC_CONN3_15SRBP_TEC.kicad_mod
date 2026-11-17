@@ -1,0 +1,258 @@
+(footprint "AC_CONN3_15SRBP_TEC"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Power Entry Connector Receptacle, Male Blades IEC 320-C14 Panel Mount, Flange; Through Hole, Right Angle")
+	(tags "15SRBP ")
+	(property "Reference" "REF**"
+		(at 6.604 13.9954 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "88ab0ef0-1e76-499c-8b1b-aae00d438d72")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "AC_CONN3_15SRBP_TEC"
+		(at 6.604 13.9954 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c449f4ce-0c02-451b-b545-cefc55892633")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.digikey.co.za/en/products/detail/te-connectivity-corcom-filters/4-6609987-5/2400586"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eab85a02-094a-4db6-87a9-ca6078d03242")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "PWR ENT RCPT IEC320-C14 PNL SLDR"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1dbe2286-24c0-44cc-9e75-57a6c045df45")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -19.4056 -10.3886)
+		(end -19.4056 31.5214)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c739229a-babb-432a-8c8b-40f62f969c8b")
+	)
+	(fp_line
+		(start -19.4056 31.5214)
+		(end 32.6136 31.5214)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea67e55c-7ea6-42dd-96b3-6c2c027c89e1")
+	)
+	(fp_line
+		(start 32.6136 -10.3886)
+		(end -19.4056 -10.3886)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "48cfa41e-b6eb-47a1-a590-7c15c99500a7")
+	)
+	(fp_line
+		(start 32.6136 31.5214)
+		(end 32.6136 -10.3886)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0224b728-b261-41f8-850b-56f24b70a16b")
+	)
+	(fp_circle
+		(center -21.1836 0)
+		(end -20.8026 0)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "273b8d7f-f54c-45cd-9e99-8a2f981f25ab")
+	)
+	(fp_circle
+		(center -21.1836 0)
+		(end -20.8026 0)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "9cfe77f3-6812-4825-800f-de7f262557b0")
+	)
+	(fp_line
+		(start -19.5326 -10.5156)
+		(end -19.5326 31.6484)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8eaa01ee-770e-41bc-8e8d-fc102282d395")
+	)
+	(fp_line
+		(start -19.5326 31.6484)
+		(end 32.7406 31.6484)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "342252fe-bbd6-4ae9-be1a-fde66904aefd")
+	)
+	(fp_line
+		(start 32.7406 -10.5156)
+		(end -19.5326 -10.5156)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "15094fda-6fe6-4352-a858-0660acfdf0da")
+	)
+	(fp_line
+		(start 32.7406 31.6484)
+		(end 32.7406 -10.5156)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f849ce75-9c21-45e4-bc0a-02c9d76b8821")
+	)
+	(fp_line
+		(start -19.2786 -10.2616)
+		(end -19.2786 31.3944)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a7e1f213-0c16-4af6-a459-526e36a0f0b1")
+	)
+	(fp_line
+		(start -19.2786 31.3944)
+		(end 32.4866 31.3944)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "123479bb-8498-4936-8245-9e9839e7ee0b")
+	)
+	(fp_line
+		(start 32.4866 -10.2616)
+		(end -19.2786 -10.2616)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1b3de130-9d10-4166-8b3e-c57912119f29")
+	)
+	(fp_line
+		(start 32.4866 31.3944)
+		(end 32.4866 -10.2616)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7f352a88-d3a2-4006-9ccd-b6b611ee96e4")
+	)
+	(fp_circle
+		(center 0 -15.9004)
+		(end 0.381 -15.9004)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "fc20b7af-c76a-4817-93a2-a498c5f833cd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 6.604 13.9954 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "159dbf37-57fb-4e4c-8503-d4b9ea606bce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.413 2.413)
+		(drill 1.905)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6f0f6bf7-db52-49a9-abad-0e0559f1ed1c")
+	)
+	(pad "2" thru_hole circle
+		(at 6.604 13.9954)
+		(size 2.413 2.413)
+		(drill 1.905)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c8a99595-1431-42b4-92d9-429636e6b9ae")
+	)
+	(pad "3" thru_hole circle
+		(at 13.208 0)
+		(size 2.413 2.413)
+		(drill 1.905)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "32767e4e-af2e-429a-bf7b-c8e30c71f79f")
+	)
+	(embedded_fonts no)
+	(model "${PARTS}/Connectors/AC_15SRBP/c-4-6609987-5-c-3d.stp"
+		(offset
+			(xyz 6.6 -31.5 14)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

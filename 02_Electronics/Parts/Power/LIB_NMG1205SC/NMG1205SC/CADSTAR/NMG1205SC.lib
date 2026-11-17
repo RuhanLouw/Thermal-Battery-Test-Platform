@@ -1,0 +1,16 @@
+.NMG1205SC :1 ;Isolated DC/DC Converters 2W 12Vin 5Vout Single Output
+NMG1205SC
+*STM PS
+*NGS
+*PLB 1=" +VIN" 2="-VIN" 4="-VOUT" 6="+VOUT"
+*MXP 4
+*DFN NMG1205SC
+~!Mouser Part Number (580-NMG1205SC)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Murata-Power-Solutions/NMG1205SC?qs=2as47fUcDMQti58Io2zAxw%3D%3D)
+~!Manufacturer_Name (Murata Electronics)
+~!Manufacturer_Part_Number (NMG1205SC)
+~!Link Datasheet (https://www.murata.com/products/productdata/8807031177246/kdc-nmg.pdf?1627394424000)
+~!Height (10.15mm)
+~!3D_Model (NMG1205SC)
+NMG1205SC
+1.1!U 2.1!U 4.1!U 6.1!U 

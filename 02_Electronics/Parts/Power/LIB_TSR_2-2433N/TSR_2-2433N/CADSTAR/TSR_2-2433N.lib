@@ -1,0 +1,16 @@
+.TSR_2-2433N :1 ;2 Amp POL switching regulator, wide input range, pos.-pos. circuit, cost efficient design, TO-220 compatible, SIP-3,4.6 - 36 VDC (12 VDC nom.),2.5 VDC
+TSR22433N
+*STM PS
+*NGS
+*PLB 1="+VIN" 2="GROUND" 3="+VOUT"
+*MXP 3
+*DFN TSR_2-2433N
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (Traco Power)
+~!Manufacturer_Part_Number (TSR 2-2433N)
+~!Link Datasheet (https://tracopower.com/tsr2n-datasheet/)
+~!Height (10.7mm)
+~!3D_Model (TSR_2-2433N)
+TSR_2-2433N
+1.1!U 2.1!U 3.1!U 

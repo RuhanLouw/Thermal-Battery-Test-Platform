@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NME0505SC
+D Murata Power Solutions NME 1W Isolated DC-DC Converter Through Hole, Vin 4.5  5.5 V dc, Vout 5V dc
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/8edb19afd12b5fd6ca72f64e044df19c.pdf
+$ENDCMP
+#
+#End Doc Library

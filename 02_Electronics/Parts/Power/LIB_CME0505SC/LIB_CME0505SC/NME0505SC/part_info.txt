@@ -1,0 +1,9 @@
+Manufacturer=Murata Electronics
+PartNumber=NME0505SC
+PartCategory=Power Supply
+PackageCategory=Other
+PinCount=4
+Version=1.2
+Released=2019-01-08 16:48:41
+Downloaded=2025-04-20 21:02:58
+3D=Y

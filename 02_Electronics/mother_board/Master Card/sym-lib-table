@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BTA06_600CWRG")(type "KiCad")(uri "C:/Users/Ruhan Louw/OneDrive - Stellenbosch University/Masters/Masters/Electronics/AC Switching/Parts EDA/BTA06_600CWRG/KiCADv6/2025-01-11_10-37-15.kicad_sym")(options "")(descr ""))
+  (lib (name "VOM160NT")(type "KiCad")(uri "C:/Users/Ruhan Louw/OneDrive - Stellenbosch University/Masters/Masters/Electronics/AC Switching/Parts EDA/VOM160NT/VOM160NT.kicad_sym")(options "")(descr ""))
+  (lib (name "New_Library")(type "KiCad")(uri "C:/Users/Ruhan Louw/OneDrive - Stellenbosch University/Masters/Masters/Electronics/mother_board/New_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "Mater_Card")(type "KiCad")(uri "C:/Users/Ruhan Louw/OneDrive - Stellenbosch University/Masters/Masters/Electronics/mother_board/Mater_Card.kicad_sym")(options "")(descr ""))
+)

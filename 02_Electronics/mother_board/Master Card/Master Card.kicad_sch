@@ -1,0 +1,51 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e32ca60d-c26e-4b17-b322-2972ddd35603")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 45.72 33.02)
+		(size 96.52 40.64)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9c5a7d48-8986-4fb8-94c7-4eab54bf622a")
+		(property "Sheetname" "AC Switches"
+			(at 45.72 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AC_switch.kicad_sch"
+			(at 45.72 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Master Card"
+				(path "/e32ca60d-c26e-4b17-b322-2972ddd35603"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

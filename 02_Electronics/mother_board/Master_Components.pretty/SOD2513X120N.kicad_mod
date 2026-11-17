@@ -1,0 +1,151 @@
+(footprint "SOD2513X120N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Diode 75 V 150mA Surface Mount SOD-323")
+	(tags "Diode ")
+	(property "Reference" "REF**"
+		(at -0.2 -1.275827 0)
+		(layer "F.SilkS")
+		(uuid "9b17202e-5fdf-4c77-9bf7-02d95c044e33")
+		(effects
+			(font
+				(size 0.480387 0.480387)
+				(thickness 0.08)
+			)
+		)
+	)
+	(property "Value" "SOD2513X120N"
+		(at 1.958058 1.365519 0)
+		(layer "F.Fab")
+		(uuid "ca613555-76ef-436a-b9c2-d6458003ecb7")
+		(effects
+			(font
+				(size 0.480113 0.480113)
+				(thickness 0.08)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.digikey.co.za/en/products/detail/diodes-incorporated/1N4148WS-7-F/815127"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab24d0bc-c771-4b37-acb6-5a9331876e5f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Description" "Diode 75 V 150mA Surface Mount SOD-323"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1829ecbc-8354-4876-bc2f-a4a00c923903")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -0.525153 -0.625) (xy -0.1 -0.625) (xy -0.1 0.625182) (xy -0.525153 0.625182)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "ea97a6f5-2759-4c28-8a71-ebaad2443af7")
+	)
+	(fp_line
+		(start -1.65 -0.9)
+		(end -1.65 0.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "431ac60c-2372-4a45-aef8-48e189ceb44b")
+	)
+	(fp_line
+		(start -1.65 0.9)
+		(end 1.65 0.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a3c30977-9c5d-4998-aae2-f5e2ed52a168")
+	)
+	(fp_line
+		(start 1.65 -0.9)
+		(end -1.65 -0.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dd60d505-8c74-4b63-b2e0-101377111509")
+	)
+	(fp_line
+		(start 1.65 0.9)
+		(end 1.65 -0.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cd7a63f8-00e3-4375-bdd0-1ad58468a9f7")
+	)
+	(fp_line
+		(start -0.85 0.65)
+		(end -0.85 -0.65)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3397edd7-4c49-42e7-805f-e66d3ec9402a")
+	)
+	(fp_line
+		(start 0.85 -0.65)
+		(end 0.85 0.65)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "635e7434-8c1d-4869-9033-9c6e6aa6d9b0")
+	)
+	(pad "1" smd rect
+		(at -1.05 0)
+		(size 0.6 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a35fec85-5e99-45a5-a18d-d0abfe30b81d")
+	)
+	(pad "2" smd rect
+		(at 1.05 0)
+		(size 0.6 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c4b0c1be-9cd6-490b-b9fe-09efa96d1ed5")
+	)
+	(embedded_fonts no)
+	(model "${PARTS}/Diodes/1N4148WS_7_F/1N4148WS-7-F.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

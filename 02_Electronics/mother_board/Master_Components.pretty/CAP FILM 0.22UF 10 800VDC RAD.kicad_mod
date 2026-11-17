@@ -1,0 +1,109 @@
+(footprint "CAP FILM 0.22UF 10 800VDC RAD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CAP FILM 0.22UF 10% 800VDC RAD")
+	(property "Reference" "C"
+		(at 0 -5.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "103ad89c-04ea-4dc5-a92f-71de39ffc15f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "0.22u"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "401bb21a-980c-4471-8eeb-c0b8e06670e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.digikey.co.za/en/products/detail/kemet/R53BI32205000K/15971840?_gl=1*g4aubi*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwzMi_BhACEiwAX4YZUOGJ8F18f70Dbif0ob6CDTZOB0rSpDk2Npdn0CWppQCLLXSICcGm0xoCYTUQAvD_BwE&gclsrc=aw.ds"
+		(at 0 -1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "44a0bbe6-ff7d-4476-af95-2f1448c39f0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "CAP FILM 0.22UF 10% 800VDC RAD"
+		(at 0 -1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24445043-9992-44ee-aa79-9d08708e5ef4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -9.25 -4.5)
+		(end 9.25 4.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "93bb9c7e-eec8-4190-a407-43516e29b805")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2e1b6ff0-291c-4cd6-9d67-3b322d5eee4f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -7.5 0)
+		(size 1.5 1.5)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5e3537a6-140f-4baf-ac5c-34bab1d59125")
+	)
+	(pad "2" thru_hole circle
+		(at 7.5 0)
+		(size 1.5 1.5)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d3c0e84c-ad91-4b60-a24a-9c295298e69e")
+	)
+	(embedded_fonts no)
+	(model "${PARTS}/Capacitors/R53BI32205000K.step"
+		(offset
+			(xyz -9.25 4.4 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

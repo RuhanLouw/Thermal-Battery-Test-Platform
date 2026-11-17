@@ -1,0 +1,9 @@
+Manufacturer=Murata Electronics
+PartNumber=NMG1205SC
+PartCategory=Power Supply
+PackageCategory=Other
+PinCount=4
+Version=1.1
+Released=2021-11-18 08:23:59
+Downloaded=2025-02-23 11:00:38
+3D=Y

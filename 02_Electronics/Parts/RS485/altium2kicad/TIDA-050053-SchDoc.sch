@@ -1,0 +1,1082 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr B 17000 11000
+encoding utf-8
+Sheet 1 1
+Title "TIDA-050053-SchDoc"
+Date "14 01 2025"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 15300 10600 0    60   ~ 0
+2
+Text Notes 15550 10600 0    60   ~ 0
+2
+Text Notes 13610 10500 0    60   ~ 0
+=title
+Text Notes 15200 10300 0    60   ~ 0
+Not shown in title block
+Text Notes 13320 10700 0    60   ~ 0
+Not shown in title block
+Wire Notes Line
+	15700 10500 13100 10500
+Wire Notes Line
+	13100 10700 16800 10700
+Text Notes 13130 10500 0    60   ~ 0
+Sheet Title:
+Text Notes 15230 10700 0    60   ~ 0
+Size:
+Text Notes 14720 10300 0    60   ~ 0
+Mod. Date:
+Text Notes 13130 10700 0    60   ~ 0
+File:
+Text Notes 15030 10600 0    60   ~ 0
+Sheet:
+Text Notes 15420 10600 0    60   ~ 0
+of
+Text Notes 15450 10700 0    60   ~ 0
+B
+Wire Notes Line
+	15700 10500 13100 10500
+Wire Notes Line
+	11600 10500 4100 10500
+Wire Notes Line
+	13100 10600 15700 10600
+Text Notes 15900 10700 0    60   ~ 0
+http://www.ti.com
+Text Notes 13130 10800 0    60   ~ 0
+Contact:
+Text Notes 13500 10800 0    60   ~ 0
+=TechSupport
+Wire Notes Line
+	14700 10300 14700 10200
+Wire Notes Line
+	15700 10400 13100 10400
+Text Notes 13650 10400 0    60   ~ 0
+=PRJ_Title
+Text Notes 13130 10400 0    60   ~ 0
+Project Title:
+Wire Notes Line
+	13100 10200 13100 10800
+Wire Notes Line
+	16800 10200 13100 10200
+Text Notes 13130 10300 0    60   ~ 0
+Designed for:
+Text Notes 13680 10300 0    60   ~ 0
+=PRJ_Customer
+Wire Notes Line
+	15000 10600 15000 10500
+Text Notes 13130 10600 0    60   ~ 0
+Assembly Variant:
+Text Notes 13870 10600 0    60   ~ 0
+=variantName
+Text Notes 15800 10800 0    48   ~ 0
+© Texas Instruments
+Text Notes 16500 10800 0    48   ~ 0
+=CopyrightYear
+Text Notes 11630 10700 0    60   ~ 0
+Drawn By:
+Text Notes 11630 10800 0    60   ~ 0
+Engineer:
+Text Notes 12050 10700 0    60   ~ 0
+Lucia Gao
+Text Notes 12050 10800 0    60   ~ 0
+=PRJ_Engineer
+Wire Notes Line
+	15700 10200 15700 10700
+Text Label 4150 10500 0 60 ~
+Texas Instruments and/or its licensors do not warrant the accuracy or completeness of this specification or any information contained therein. Texas Instruments and/or its licensors do not warrant that this design will meet the specifications, will be suitable for your application or fit for any particular purpose, or will operate in an implementation. Texas Instruments and/or its licensors do not warrant that the design is production worthy. You should completely validate and test your design implementation to confirm the system functionality for your application.
+Wire Notes Line
+	11600 10200 11600 10800
+Wire Notes Line
+	13100 10700 11600 10700
+Wire Notes Line
+	11600 10600 13100 10600
+Wire Notes Line
+	15200 10700 15200 10600
+Wire Notes Line
+	15700 10300 13100 10300
+Wire Notes Line
+	13100 10500 11600 10500
+Wire Notes Line
+	4100 10800 4100 10500
+Text Notes 12100 10600 0    60   ~ 0
+=VersionControl_RevNumber
+Text Notes 11630 10600 0    60   ~ 0
+SVN Rev:
+Text Notes 12000 10500 0    60   ~ 0
+=PRJ_Number
+Text Notes 11630 10500 0    60   ~ 0
+Number:
+Wire Notes Line
+	13100 10400 11600 10400
+Text Notes 12630 10500 0    60   ~ 0
+Rev:
+Wire Notes Line
+	12600 10500 12600 10400
+Text Notes 12900 10500 0    60   ~ 0
+=SCH_Rev
+Wire Notes Line
+	13100 10300 11600 10300
+Text Notes 11630 10400 0    60   ~ 0
+TID #:
+Text Notes 12100 10350 0    60   ~ 0
+=TID
+Wire Notes Line
+	13100 10200 11600 10200
+Text Notes 11630 10300 0    60   ~ 0
+Orderable:
+Text Notes 12100 10250 0    60   ~ 0
+=EVM_orderable
+Text Notes 2100 2700 0    60   ~ 0
+VIN = 8V - 16V
+Text Notes 14900 3130 0    60   ~ 0
+VOUT = -12V
+$Comp
+L power:GND #PWR?6786C700
+U 1 1 6786C700
+P 2200 3700
+F 0 "GND" H 2200 3840 20  0000 C CNN
+F 1 "GND" H 2200 3810 30  0000 C CNN
+F 2 "" H 2200 3700 70  0000 C CNN
+F 3 "" H 2200 3700 70  0000 C CNN
+	1    2200 3700
+	1    0    0    -1  
+$EndComp
+Text Notes 2700 3000 0    60   ~ 0
+S+
+Text Notes 2700 3500 0    60   ~ 0
+S-
+Text Notes 12450 3750 0    60   ~ 0
+S+
+Text Notes 12850 3000 0    60   ~ 0
+S-
+$Comp
+L power:GND #PWR?6786C6FF
+U 1 1 6786C6FF
+P 7400 7200
+F 0 "GND_2" H 7400 7340 20  0000 C CNN
+F 1 "GND" H 7400 7310 30  0000 C CNN
+F 2 "" H 7400 7200 70  0000 C CNN
+F 3 "" H 7400 7200 70  0000 C CNN
+	1    7400 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?6786C6FE
+U 1 1 6786C6FE
+P 7900 7200
+F 0 "GND_3" H 7900 7340 20  0000 C CNN
+F 1 "GND" H 7900 7310 30  0000 C CNN
+F 2 "" H 7900 7200 70  0000 C CNN
+F 3 "" H 7900 7200 70  0000 C CNN
+	1    7900 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?6786C6FD
+U 1 1 6786C6FD
+P 13700 3100
+F 0 "GND_4" H 13700 3240 20  0000 C CNN
+F 1 "GND" H 13700 3210 30  0000 C CNN
+F 2 "" H 13700 3100 70  0000 C CNN
+F 3 "" H 13700 3100 70  0000 C CNN
+	1    13700 3100
+	1    0    0    -1  
+$EndComp
+Text Label 5200 3500 0 70 ~
+100nF
+Text Label 12690 3490 0 70 ~
+100nF
+Text Label 9490 3290 0 70 ~
+100nF
+Text Label 8990 3230 0 70 ~
+0
+Text Label 10790 4730 0 70 ~
+0
+Text Label 9600 4600 0 70 ~
+10.2k
+Text Label 10490 4430 0 70 ~
+53.6k
+Text Label 10300 4800 0 70 ~
+47pF
+Text Label 13430 3690 0 70 ~
+49.9
+Text Label 11500 3500 0 70 ~
+22uF
+Text Label 11900 3500 0 70 ~
+22uF
+Text Label 12300 3500 0 70 ~
+22uF
+Text Label 6800 3100 0 60 ~
+VIN
+Text Label 6800 3500 0 60 ~
+EN
+Text Label 6800 3700 0 60 ~
+SS
+Text Label 6800 3900 0 60 ~
+RT
+Text Label 8600 3700 0 60 ~
+FB
+Text Label 8600 3500 0 60 ~
+SW
+Text Label 8600 3300 0 60 ~
+BST
+Text Label 7300 4100 0 70 ~
+TPS62933DRLR
+Text Label 6730 5090 0 70 ~
+0
+Text Label 4490 3490 0 70 ~
+10µF
+Text Label 4890 3490 0 70 ~
+10µF
+Text Label 4090 3490 0 70 ~
+10µF
+Text Label 10290 3230 0 70 ~
+12µH
+Text Label 6290 4690 0 70 ~
+33nF
+$Comp
+L power:GND #PWR?6786C6FC
+U 1 1 6786C6FC
+P 3700 5600
+F 0 "GND_5" H 3700 5740 20  0000 C CNN
+F 1 "GND" H 3700 5710 30  0000 C CNN
+F 2 "" H 3700 5600 70  0000 C CNN
+F 3 "" H 3700 5600 70  0000 C CNN
+	1    3700 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-Vo #PWR?6786C6FB
+U 1 1 6786C6FB
+P 9500 4900
+F 0 "-Vo" H 9500 4900 20  0000 C CNN
+F 1 "-Vo" H 9500 4830 30  0000 C CNN
+F 2 "" H 9500 4900 70  0000 C CNN
+F 3 "" H 9500 4900 70  0000 C CNN
+	1    9500 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-Vo #PWR?6786C6FA
+U 1 1 6786C6FA
+P 14100 3750
+F 0 "-Vo_2" H 14100 3750 20  0000 C CNN
+F 1 "-Vo" H 14100 3680 30  0000 C CNN
+F 2 "" H 14100 3750 70  0000 C CNN
+F 3 "" H 14100 3750 70  0000 C CNN
+	1    14100 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-Vo #PWR?6786C6F9
+U 1 1 6786C6F9
+P 12000 3700
+F 0 "-Vo_3" H 12000 3700 20  0000 C CNN
+F 1 "-Vo" H 12000 3630 30  0000 C CNN
+F 2 "" H 12000 3700 70  0000 C CNN
+F 3 "" H 12000 3700 70  0000 C CNN
+	1    12000 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-Vo #PWR?6786C6F8
+U 1 1 6786C6F8
+P 8900 4900
+F 0 "-Vo_4" H 8900 4900 20  0000 C CNN
+F 1 "-Vo" H 8900 4830 30  0000 C CNN
+F 2 "" H 8900 4900 70  0000 C CNN
+F 3 "" H 8900 4900 70  0000 C CNN
+	1    8900 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-Vo #PWR?6786C6F7
+U 1 1 6786C6F7
+P 6700 5500
+F 0 "-Vo_5" H 6700 5500 20  0000 C CNN
+F 1 "-Vo" H 6700 5430 30  0000 C CNN
+F 2 "" H 6700 5500 70  0000 C CNN
+F 3 "" H 6700 5500 70  0000 C CNN
+	1    6700 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-Vo #PWR?6786C6F6
+U 1 1 6786C6F6
+P 8820 7250
+F 0 "-Vo_6" H 8820 7250 20  0000 C CNN
+F 1 "-Vo" H 8820 7180 30  0000 C CNN
+F 2 "" H 8820 7250 70  0000 C CNN
+F 3 "" H 8820 7250 70  0000 C CNN
+	1    8820 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?6786C6F5
+U 1 1 6786C6F5
+P 8400 7200
+F 0 "GND_6" H 8400 7340 20  0000 C CNN
+F 1 "GND" H 8400 7310 30  0000 C CNN
+F 2 "" H 8400 7200 70  0000 C CNN
+F 3 "" H 8400 7200 70  0000 C CNN
+	1    8400 7200
+	1    0    0    -1  
+$EndComp
+Text Label 6510 3490 0 70 ~
+100nF
+$Comp
+L power:-Vo #PWR?6786C6F4
+U 1 1 6786C6F4
+P 6120 3300
+F 0 "-Vo_7" H 6120 3300 20  0000 C CNN
+F 1 "-Vo" H 6120 3230 30  0000 C CNN
+F 2 "" H 6120 3300 70  0000 C CNN
+F 3 "" H 6120 3300 70  0000 C CNN
+	1    6120 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 3100 4400 3200
+Wire Wire Line
+	2200 3600 2200 3200
+Wire Wire Line
+	10200 3100 9900 3100
+Wire Wire Line
+	2200 3600 2200 3700
+Wire Wire Line
+	9900 3100 9700 3100
+Wire Wire Line
+	4800 3100 4800 3200
+Wire Wire Line
+	4800 3600 4800 3500
+Wire Wire Line
+	4800 3100 4400 3100
+Wire Wire Line
+	4800 3100 5200 3100
+Wire Wire Line
+	5200 3100 5200 3200
+Wire Wire Line
+	10100 4300 9500 4300
+Wire Wire Line
+	10400 4300 10100 4300
+Wire Wire Line
+	9500 4310 9500 4300
+Wire Wire Line
+	13400 4310 13400 4300
+Wire Wire Line
+	7400 7200 7400 7100
+Wire Wire Line
+	7900 7200 7900 7100
+Wire Wire Line
+	9400 3100 9300 3100
+Wire Wire Line
+	11400 3200 11400 3100
+Wire Wire Line
+	10700 4600 10500 4600
+Wire Wire Line
+	4000 3100 4000 3200
+Wire Wire Line
+	4000 3500 4000 3600
+Wire Wire Line
+	6700 3900 6700 4400
+Wire Wire Line
+	7100 3900 6700 3900
+Wire Wire Line
+	9500 3700 8500 3700
+Wire Wire Line
+	9500 4300 9500 3700
+Wire Wire Line
+	8900 3300 8900 3100
+Wire Wire Line
+	8500 3300 8900 3300
+Wire Wire Line
+	10100 4600 10200 4600
+Wire Wire Line
+	10100 4300 10100 4600
+Wire Wire Line
+	9900 3500 8500 3500
+Wire Wire Line
+	9900 3100 9900 3500
+Wire Wire Line
+	11200 4600 11100 4600
+Wire Wire Line
+	11200 4300 11200 4600
+Wire Wire Line
+	13400 4300 11200 4300
+Wire Wire Line
+	13400 3800 13400 4300
+Wire Wire Line
+	11200 4300 10800 4300
+Wire Wire Line
+	6200 3700 6000 3700
+Wire Wire Line
+	6200 4400 6200 3700
+Wire Wire Line
+	6200 3700 7100 3700
+Wire Wire Line
+	5200 3600 5200 3500
+Wire Wire Line
+	4800 3600 5200 3600
+Wire Wire Line
+	4400 3600 4800 3600
+Wire Wire Line
+	4400 3500 4400 3600
+Wire Wire Line
+	4000 3600 4400 3600
+Wire Wire Line
+	2800 3600 4000 3600
+Wire Wire Line
+	2500 3600 2800 3600
+Wire Wire Line
+	2200 3600 2500 3600
+Wire Wire Line
+	6700 5300 6700 5500
+Wire Wire Line
+	6700 5200 6700 5300
+Wire Wire Line
+	6700 4500 6700 4800
+Wire Wire Line
+	3200 3100 3200 3900
+Wire Wire Line
+	3700 5400 3700 4900
+Wire Wire Line
+	3200 5400 3700 5400
+Wire Wire Line
+	3200 5300 3200 5400
+Wire Wire Line
+	4600 3800 3700 3800
+Wire Wire Line
+	4600 4000 4600 3800
+Wire Wire Line
+	4600 4800 4600 4600
+Wire Wire Line
+	4770 4800 4600 4800
+Wire Wire Line
+	5400 5300 5400 5200
+Wire Wire Line
+	6200 5300 5400 5300
+Wire Wire Line
+	6700 5300 6200 5300
+Wire Wire Line
+	6200 5300 6200 4700
+Wire Wire Line
+	3700 5600 3700 5400
+Wire Wire Line
+	3200 4700 3500 4700
+Wire Wire Line
+	3200 4300 3200 4700
+Wire Wire Line
+	3200 4900 3200 4700
+Wire Wire Line
+	2500 3100 2200 3100
+Wire Wire Line
+	2800 3100 2500 3100
+Wire Wire Line
+	3200 3100 2800 3100
+Wire Wire Line
+	3700 3100 3200 3100
+Wire Wire Line
+	4000 3100 3700 3100
+Wire Wire Line
+	4400 3100 4000 3100
+Wire Wire Line
+	3700 4300 3700 4500
+Wire Wire Line
+	3920 4300 3700 4300
+Wire Wire Line
+	3700 3800 3700 3900
+Wire Wire Line
+	3700 3100 3700 3800
+Wire Wire Line
+	5400 3500 7100 3500
+Wire Wire Line
+	5400 3700 5400 3500
+Wire Wire Line
+	5400 4800 5400 3700
+Wire Wire Line
+	5170 4800 5400 4800
+Wire Wire Line
+	11800 3600 11800 3500
+Wire Wire Line
+	11400 3600 11800 3600
+Wire Wire Line
+	11400 3500 11400 3600
+Wire Wire Line
+	12200 3100 11800 3100
+Wire Wire Line
+	12200 3200 12200 3100
+Wire Wire Line
+	12600 3100 12600 3200
+Wire Wire Line
+	12200 3100 12600 3100
+Wire Wire Line
+	13400 3100 13400 3400
+Wire Wire Line
+	13000 3100 13400 3100
+Wire Wire Line
+	12600 3100 13000 3100
+Wire Wire Line
+	14100 3100 14100 3000
+Wire Wire Line
+	13700 3100 14100 3100
+Wire Wire Line
+	13400 3100 13700 3100
+Wire Wire Line
+	4320 4300 4300 4300
+Wire Wire Line
+	12600 3600 12600 3500
+Wire Wire Line
+	12200 3600 12600 3600
+Wire Wire Line
+	12000 3700 12000 3600
+Wire Wire Line
+	12000 3600 11800 3600
+Wire Wire Line
+	12200 3600 12000 3600
+Wire Wire Line
+	12200 3500 12200 3600
+Wire Wire Line
+	12600 3600 12600 3700
+Wire Wire Line
+	13000 3100 13000 3000
+Wire Wire Line
+	14100 3630 14100 3750
+Wire Wire Line
+	8900 3900 8900 4900
+Wire Wire Line
+	8500 3900 8900 3900
+Wire Wire Line
+	9500 4710 9500 4900
+Wire Wire Line
+	11800 3100 11800 3200
+Wire Wire Line
+	11400 3100 11800 3100
+Wire Wire Line
+	8820 7250 8820 7100
+Wire Wire Line
+	14100 3100 14170 3100
+Wire Wire Line
+	14100 3200 14170 3200
+Wire Wire Line
+	14100 3630 14100 3200
+Wire Wire Line
+	14170 3630 14100 3630
+Wire Wire Line
+	8400 7200 8400 7100
+Wire Wire Line
+	6120 3300 6420 3300
+Wire Wire Line
+	7100 3100 5200 3100
+Wire Wire Line
+	7100 3300 7100 3100
+Wire Wire Line
+	6720 3300 7100 3300
+Wire Wire Line
+	10800 3100 11400 3100
+Connection ~ 2200 3600
+Connection ~ 2500 3600
+Connection ~ 2500 3100
+Connection ~ 2800 3600
+Connection ~ 2800 3100
+Connection ~ 3200 4700
+Connection ~ 3200 3100
+Connection ~ 3700 5400
+Connection ~ 3700 4300
+Connection ~ 3700 3800
+Connection ~ 3700 3100
+Connection ~ 4000 3600
+Connection ~ 4000 3100
+Connection ~ 4400 3600
+Connection ~ 4400 3100
+Connection ~ 4800 3600
+Connection ~ 4800 3100
+Connection ~ 5200 3100
+Connection ~ 5400 4800
+Connection ~ 5400 3700
+Connection ~ 6200 5300
+Connection ~ 6200 3700
+Connection ~ 6700 5300
+Connection ~ 7100 3300
+Connection ~ 9500 4300
+Connection ~ 9900 3500
+Connection ~ 9900 3100
+Connection ~ 10100 4300
+Connection ~ 11200 4300
+Connection ~ 11400 3100
+Connection ~ 11800 3600
+Connection ~ 11800 3100
+Connection ~ 12000 3600
+Connection ~ 12200 3600
+Connection ~ 12200 3100
+Connection ~ 12600 3600
+Connection ~ 12600 3100
+Connection ~ 13000 3100
+Connection ~ 13400 4300
+Connection ~ 13400 3100
+Connection ~ 13700 3100
+Connection ~ 14100 3630
+Connection ~ 14100 3100
+$Comp
+L Turret TP1
+U 1 1 6786C6F3
+P 2500 3000
+F 0 "TP1" H 2400 3100 60  0000 L BNN
+	1    2500 3000
+	1    0    0    -1
+$EndComp
+$Comp
+L Resistor R5
+U 1 1 6786C6F2
+P 10900 4600
+F 0 "R5" H 10790 4630 60  0000 L BNN
+F 4 "" V 1400 2000 60  0001 C CNN "ValueDisplayed"
+	1    10900 4600
+	1    0    0    -1
+$EndComp
+$Comp
+L Resistor R4
+U 1 1 6786C6F1
+P 9500 4510
+F 0 "R4" V 9510 4410 60  0000 R TNN
+F 4 "10.2k" V 1400 2000 60  0001 C CNN "ValueDisplayed"
+	1    9500 4510
+	0    -1   -1   0
+$EndComp
+$Comp
+L Resistor R3
+U 1 1 6786C6F0
+P 10600 4300
+F 0 "R3" H 10490 4330 60  0000 L BNN
+F 4 "53.6k" V 1400 2000 60  0001 C CNN "ValueDisplayed"
+	1    10600 4300
+	1    0    0    -1
+$EndComp
+$Comp
+L Capacitor C11
+U 1 1 6786C6EF
+P 10300 4600
+F 0 "C11" H 10290 4690 60  0000 L BNN
+F 4 "47pF" V 1400 2000 60  0001 C CNN "ValueDisplayed"
+	1    10300 4600
+	1    0    0    -1
+$EndComp
+$Comp
+L Resistor R2
+U 1 1 6786C6EE
+P 13400 3600
+F 0 "R2" V 13410 3570 60  0000 R TNN
+F 4 "49.9" V 1400 2000 60  0001 C CNN "ValueDisplayed"
+	1    13400 3600
+	0    -1   -1   0
+$EndComp
+$Comp
+L Capacitor C2
+U 1 1 6786C6ED
+P 11400 3400
+F 0 "C2" V 11410 3310 60  0000 R TNN
+F 4 "22uF" V 1400 2000 60  0001 C CNN "ValueDisplayed"
+	1    11400 3400
+	0    -1   -1   0
+$EndComp
+$Comp
+L Capacitor C3
+U 1 1 6786C6EC
+P 11800 3400
+F 0 "C3" V 11810 3310 60  0000 R TNN
+F 4 "22uF" V 1400 2000 60  0001 C CNN "ValueDisplayed"
+	1    11800 3400
+	0    -1   -1   0
+$EndComp
+$Comp
+L Capacitor C4
+U 1 1 6786C6EB
+P 12200 3400
+F 0 "C4" V 12210 3310 60  0000 R TNN
+F 4 "22uF" V 1400 2000 60  0001 C CNN "ValueDisplayed"
+	1    12200 3400
+	0    -1   -1   0
+$EndComp
+$Comp
+L SYM-TPS62933DRLR U1
+U 1 1 6786C6EA
+P 7100 3300
+F 0 "U1" H 7300 3500 60  0000 L BNN
+F 4 "TPS62933DRLR" V 1400 2000 60  0001 C CNN "PartNumber"
+	1    7100 3300
+	1    0    0    -1
+$EndComp
+$Comp
+L Resistor R6
+U 1 1 6786C6E9
+P 6700 5000
+F 0 "R6" V 6710 4970 60  0000 R TNN
+F 4 "" V 1400 2000 60  0001 C CNN "ValueDisplayed"
+	1    6700 5000
+	0    -1   -1   0
+$EndComp
+$Comp
+L Turret TP2
+U 1 1 6786C6E8
+P 2500 3500
+F 0 "TP2" H 2400 3600 60  0000 L BNN
+	1    2500 3500
+	1    0    0    -1
+$EndComp
+$Comp
+L Capacitor C7
+U 1 1 6786C6E7
+P 4400 3400
+F 0 "C7" V 4410 3310 60  0000 R TNN
+F 4 "10µF" V 1400 2000 60  0001 C CNN "ValueDisplayed"
+	1    4400 3400
+	0    -1   -1   0
+$EndComp
+$Comp
+L Capacitor C8
+U 1 1 6786C6E6
+P 4800 3400
+F 0 "C8" V 4810 3310 60  0000 R TNN
+F 4 "10µF" V 1400 2000 60  0001 C CNN "ValueDisplayed"
+	1    4800 3400
+	0    -1   -1   0
+$EndComp
+$Comp
+L Receptacle_2x1 J2
+U 1 1 6786C6E5
+P 1900 3200
+F 0 "J2" H 2000 3400 60  0000 R BNN
+	1    1900 3200
+	-1    0    0    -1
+$EndComp
+$Comp
+L Receptacle_2x1 J1
+U 1 1 6786C6E4
+P 14470 3200
+F 0 "J1" H 14365 3000 60  0000 L BNN
+	1    14470 3200
+	1    0    0    -1
+$EndComp
+$Comp
+L Capacitor C6
+U 1 1 6786C6E3
+P 4000 3400
+F 0 "C6" V 4010 3310 60  0000 R TNN
+F 4 "10µF" V 1400 2000 60  0001 C CNN "ValueDisplayed"
+	1    4000 3400
+	0    -1   -1   0
+$EndComp
+$Comp
+L CMP-0055147-1 TP3
+U 1 1 6786C6E2
+P 2800 3000
+F 0 "TP3" H 2900 3000 60  0000 L BNN
+F 1 "VIN" H 2900 2900 60  0000 L BNN
+F 2 "" H 2900 2900 60  0000 C CNN
+F 3 "" H 2900 2900 60  0000 C CNN
+	1    2800 3000
+	1    0    0    -1
+$EndComp
+$Comp
+L CMP-0055148-1 TP4
+U 1 1 6786C6E1
+P 2800 3500
+F 0 "TP4" H 2850 3500 60  0000 L BNN
+F 1 "GND" H 2850 3400 60  0000 L BNN
+F 2 "" H 2850 3400 60  0000 C CNN
+F 3 "" H 2850 3400 60  0000 C CNN
+	1    2800 3500
+	1    0    0    -1
+$EndComp
+$Comp
+L CMP-0055151-1 TP11
+U 1 1 6786C6E0
+P 5900 3700
+F 0 "TP11" V 5675 3825 60  0000 R TNN
+F 1 "SS" V 5750 3800 60  0000 R TNN
+F 2 "" H 5750 3800 60  0000 C CNN
+F 3 "" H 5750 3800 60  0000 C CNN
+	1    5900 3700
+	0    -1   -1   0
+$EndComp
+$Comp
+L CMP-0055151-1 TP9
+U 1 1 6786C6DF
+P 9900 3600
+F 0 "TP9" H 9940 3780 60  0000 R TNN
+F 1 "SW" H 9940 3880 60  0000 R TNN
+F 2 "" H 9940 3880 60  0000 C CNN
+F 3 "" H 9940 3880 60  0000 C CNN
+	1    9900 3600
+	-1   0    0    1
+$EndComp
+$Comp
+L CMP-0055147-1 TP7
+U 1 1 6786C6DE
+P 12600 3800
+F 0 "TP7" H 12640 3980 60  0000 R TNN
+F 1 "-VOUT" H 12640 4080 60  0000 R TNN
+F 2 "" H 12640 4080 60  0000 C CNN
+F 3 "" H 12640 4080 60  0000 C CNN
+	1    12600 3800
+	-1   0    0    1
+$EndComp
+$Comp
+L Turret TP5
+U 1 1 6786C6DD
+P 14100 2900
+F 0 "TP5" H 14000 3000 60  0000 L BNN
+	1    14100 2900
+	1    0    0    -1
+$EndComp
+$Comp
+L CMP-0055148-1 TP8
+U 1 1 6786C6DC
+P 13000 2900
+F 0 "TP8" H 12960 2980 60  0000 L BNN
+F 1 "GND" H 13075 2800 60  0000 L BNN
+F 2 "" H 13075 2800 60  0000 C CNN
+F 3 "" H 13075 2800 60  0000 C CNN
+	1    13000 2900
+	1    0    0    -1
+$EndComp
+$Comp
+L CMP-0055151-1 TP10
+U 1 1 6786C6DB
+P 13500 4300
+F 0 "TP10" V 13460 4300 60  0000 L BNN
+F 1 "Bode" V 13640 4300 60  0000 L BNN
+F 2 "" H 13640 4300 60  0000 C CNN
+F 3 "" H 13640 4300 60  0000 C CNN
+	1    13500 4300
+	0    1    1    0
+$EndComp
+$Comp
+L CMP-0055148-1 TP13
+U 1 1 6786C6DA
+P 7400 7000
+F 0 "TP13" H 7450 7000 60  0000 L BNN
+F 1 "GND" H 7450 6900 60  0000 L BNN
+F 2 "" H 7450 6900 60  0000 C CNN
+F 3 "" H 7450 6900 60  0000 C CNN
+	1    7400 7000
+	1    0    0    -1
+$EndComp
+$Comp
+L CMP-0055148-1 TP14
+U 1 1 6786C6D9
+P 7900 7000
+F 0 "TP14" H 7950 7000 60  0000 L BNN
+F 1 "GND" H 7950 6900 60  0000 L BNN
+F 2 "" H 7950 6900 60  0000 C CNN
+F 3 "" H 7950 6900 60  0000 C CNN
+	1    7900 7000
+	1    0    0    -1
+$EndComp
+$Comp
+L Inductor_Iron L1
+U 1 1 6786C6D8
+P 10500 3100
+F 0 "L1" H 10290 3260 60  0000 L BNN
+F 4 "12µH" V 1400 2000 60  0001 C CNN "ValueDisplayed"
+	1    10500 3100
+	1    0    0    -1
+$EndComp
+$Comp
+L Capacitor C10
+U 1 1 6786C6D7
+P 6200 4600
+F 0 "C10" V 6210 4510 60  0000 R TNN
+F 4 "33nF" V 1400 2000 60  0001 C CNN "Cap_F"
+	1    6200 4600
+	0    -1   -1   0
+$EndComp
+$Comp
+L LM431BCM3 U2
+U 1 1 6786C6D6
+P 3800 4600
+F 0 "U2" H 3820 4510 60  0000 R BNN
+F 1 "LM431BCM3" H 3900 4300 60  0000 R BNN
+F 2 "" H 3900 4300 60  0000 C CNN
+F 3 "" H 3900 4300 60  0000 C CNN
+	1    3800 4600
+	-1    0    0    -1
+$EndComp
+$Comp
+L RC0603JR-0710KL R7
+U 1 1 6786C6D5
+P 3200 4100
+F 0 "R7" V 3210 4070 60  0000 R TNN
+F 1 "45.3k" V 3290 4070 60  0000 L TNN
+F 2 "" H 3290 4070 60  0000 C CNN
+F 3 "" H 3290 4070 60  0000 C CNN
+	1    3200 4100
+	0    -1   -1   0
+$EndComp
+$Comp
+L RC0603JR-0710KL R8
+U 1 1 6786C6D4
+P 3200 5100
+F 0 "R8" V 3210 5070 60  0000 R TNN
+F 1 "24.9k" V 3290 5070 60  0000 L TNN
+F 2 "" H 3290 5070 60  0000 C CNN
+F 3 "" H 3290 5070 60  0000 C CNN
+	1    3200 5100
+	0    -1   -1   0
+$EndComp
+$Comp
+L RC0603FR-0749K9L R9
+U 1 1 6786C6D3
+P 3700 4100
+F 0 "R9" V 3710 4070 60  0000 R TNN
+F 1 "49.9k" V 3610 4070 60  0000 R TNN
+F 2 "" H 3610 4070 60  0000 C CNN
+F 3 "" H 3610 4070 60  0000 C CNN
+	1    3700 4100
+	0    -1   -1   0
+$EndComp
+$Comp
+L Turret TP6
+U 1 1 6786C6D2
+P 14270 3630
+F 0 "TP6" V 14365 3735 60  0000 L BNN
+	1    14270 3630
+	0    1    1    0
+$EndComp
+$Comp
+L RC0603FR-0720K5L R10
+U 1 1 6786C6D1
+P 4120 4300
+F 0 "R10" H 4015 4330 60  0000 L BNN
+F 1 "10k" H 4225 4170 60  0000 R BNN
+F 2 "" H 4225 4170 60  0000 C CNN
+F 3 "" H 4225 4170 60  0000 C CNN
+	1    4120 4300
+	1    0    0    -1
+$EndComp
+$Comp
+L MMBT3906-7-F,_Diodes_Inc. Q1
+U 1 1 6786C6D0
+P 4500 4300
+F 0 "Q1" H 4630 4310 60  0000 L BNN
+F 1 "ZXTP19100CFFTA" H 4630 4210 60  0000 L BNN
+F 2 "" H 4630 4210 60  0000 C CNN
+F 3 "" H 4630 4210 60  0000 C CNN
+	1    4500 4300
+	1    0    0    -1
+$EndComp
+$Comp
+L RC0603FR-0749K9L R11
+U 1 1 6786C6CF
+P 4970 4800
+F 0 "R11" H 4865 4830 60  0000 L BNN
+F 1 "63.4k" H 4865 4670 60  0000 L BNN
+F 2 "" H 4865 4670 60  0000 C CNN
+F 3 "" H 4865 4670 60  0000 C CNN
+	1    4970 4800
+	1    0    0    -1
+$EndComp
+$Comp
+L RC0603JR-0715KL R12
+U 1 1 6786C6CE
+P 5400 5000
+F 0 "R12" V 5410 4970 60  0000 R TNN
+F 1 "13.2k" V 5310 4970 60  0000 R TNN
+F 2 "" H 5310 4970 60  0000 C CNN
+F 3 "" H 5310 4970 60  0000 C CNN
+	1    5400 5000
+	0    -1   -1   0
+$EndComp
+$Comp
+L CMP-0055151-1 TP12
+U 1 1 6786C6CD
+P 5500 3700
+F 0 "TP12" V 5725 3675 60  0000 L BNN
+F 1 "EN" V 5640 3700 60  0000 L BNN
+F 2 "" H 5640 3700 60  0000 C CNN
+F 3 "" H 5640 3700 60  0000 C CNN
+	1    5500 3700
+	0    1    1    0
+$EndComp
+$Comp
+L CMP-0055147-1 TP16
+U 1 1 6786C6CC
+P 8820 7000
+F 0 "TP16" H 8900 7000 60  0000 L BNN
+F 1 "-VOUT" H 8875 6900 60  0000 L BNN
+F 2 "" H 8875 6900 60  0000 C CNN
+F 3 "" H 8875 6900 60  0000 C CNN
+	1    8820 7000
+	1    0    0    -1
+$EndComp
+$Comp
+L CMP-0055148-1 TP15
+U 1 1 6786C6CB
+P 8400 7000
+F 0 "TP15" H 8450 7000 60  0000 L BNN
+F 1 "GND" H 8450 6900 60  0000 L BNN
+F 2 "" H 8450 6900 60  0000 C CNN
+F 3 "" H 8450 6900 60  0000 C CNN
+	1    8400 7000
+	1    0    0    -1
+$EndComp
+$Comp
+L Capacitor C13
+U 1 1 6786C6CA
+P 6520 3300
+F 0 "C13" H 6515 3390 60  0000 L BNN
+F 4 "100nF" V 1400 2000 60  0001 C CNN "Cap_F"
+	1    6520 3300
+	1    0    0    -1
+$EndComp
+$Comp
+L Header_2x1 JP1
+U 1 1 6786C6C9
+P 6900 4400
+F 0 "JP1" H 6890 4100 60  0000 L BNN
+	1    6900 4400
+	1    0    0    -1
+$EndComp
+$Comp
+L Capacitor C9
+U 1 1 6786C6C8
+P 5200 3400
+F 0 "C9" V 5210 3310 60  0000 R TNN
+F 4 "100nF" V 1400 2000 60  0001 C CNN "Cap_F"
+	1    5200 3400
+	0    -1   -1   0
+$EndComp
+$Comp
+L Capacitor C5
+U 1 1 6786C6C7
+P 12600 3400
+F 0 "C5" V 12610 3310 60  0000 R TNN
+F 4 "100nF" V 1400 2000 60  0001 C CNN "Cap_F"
+	1    12600 3400
+	0    -1   -1   0
+$EndComp
+$Comp
+L Capacitor C1
+U 1 1 6786C6C6
+P 9500 3100
+F 0 "C1" H 9490 3190 60  0000 L BNN
+F 4 "100nF" V 1400 2000 60  0001 C CNN "Cap_F"
+	1    9500 3100
+	1    0    0    -1
+$EndComp
+$Comp
+L Resistor R1
+U 1 1 6786C6C5
+P 9100 3100
+F 0 "R1" H 8990 3130 60  0000 L BNN
+F 4 "" V 1400 2000 60  0001 C CNN "ValueDisplayed"
+	1    9100 3100
+	1    0    0    -1
+$EndComp
+$EndSCHEMATC

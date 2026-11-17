@@ -1,0 +1,14 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description
+"D1, D2, D3, D4, D5, D6, D7, D8, D9",9,LED,R_0805_2012Metric,,,,smt,LED RED CLEAR 0805 SMD
+J1,1,61201021621,61201021621,,,,tht,"Connector Header Through Hole 10 position 0.100"" (2.54mm)"
+"J10, J11",2,Conn_01x02,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,,,,tht,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+"J2, J3, J4, J5, J6, J7, J8, J9",8,SW Conn,TE_282857-2_screw,,,,tht,"Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+"K1, K2, K3, K4, K5, K6, K7, K8",8,APV1121S,SOP4PIN_PAN-M,,,,smt,Optoisolator Photovoltaic Output 2500Vrms 1 Channel 4-SOP
+"Q1, Q2, Q4, Q5",4,IRFB7545PBF,HSS-B20-NPR-02 heatsink,,,,tht,
+"Q10, Q11, Q13, Q14, Q16, Q17, Q19, Q20, Q22, Q23, Q7, Q8",12,IRFB7545PBF,TO-220-3_Vertical,,,,tht,N-Channel 60 V 95A (Tc) 125W (Tc) Through Hole TO-220
+"Q12, Q15, Q18, Q21, Q24, Q3, Q6, Q9",8,BSS138L,SOT-23,,,,smt,"50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+"R1, R13, R17, R21, R25, R29, R5, R9",8,145,R_0603_1608Metric,,,,smt,RES 145 OHM 0.5% 1/10W 0603
+"R10, R14, R18, R2, R22, R26, R30, R6",8,182,R_0603_1608Metric,,,,smt,RES 182 OHM 1% 1/10W 0603
+"R11, R15, R19, R23, R27, R3, R31, R7",8,300,R_0603_1608Metric,,,,smt,RES SMD 300 OHM 5% 1/10W 0603
+"R12, R16, R20, R24, R28, R32, R4, R8",8,10k,R_0603_1608Metric,,,,smt,RES 10K OHM 1% 1/10W 0603
+R33,1,150,R_0603_1608Metric,,,,smt,RES SMD 150 OHM 0.1% 1/10W 0603

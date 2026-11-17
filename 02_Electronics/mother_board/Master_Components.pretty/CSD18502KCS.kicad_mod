@@ -1,0 +1,331 @@
+(footprint "CSD18502KCS"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "CSD18502KCS ")
+	(property "Reference" "U"
+		(at -3.4 -3.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9cc4da8b-d0da-4281-92e8-c1b29db8ac93")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CSD18502KCS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4a9ab83b-09b9-483f-b72d-e7bf6b619dd5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.digikey.co.za/en/models/3661860"
+		(at 2.54 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "977c1720-2a2b-4a46-aace-0f03e4cff738")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "MOSFET N-CH 40V 100A TO220-3"
+		(at 2.54 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6854d7a8-7086-46e5-9264-097b7b94080d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -15 -6)
+		(end -15 6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6cb5729d-6612-4982-80bc-2d81e948c881")
+	)
+	(fp_line
+		(start -15 6)
+		(end 15 6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7ce5e486-9ac6-49e9-a3e0-e0932bd423da")
+	)
+	(fp_line
+		(start -5.334 -2.3495)
+		(end -5.334 2.3495)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a3bb16ed-2489-4ee4-a3f5-a4a9487c392f")
+	)
+	(fp_line
+		(start -5.334 2.3495)
+		(end 5.334 2.3495)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b6f7b03c-9f84-48c9-a7c6-788d6d498632")
+	)
+	(fp_line
+		(start 5.334 -2.3495)
+		(end -5.334 -2.3495)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cc4c7af2-0185-4ae7-b4f2-05e047541c7f")
+	)
+	(fp_line
+		(start 5.334 2.3495)
+		(end 5.334 -2.3495)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "184e566b-d6a4-4ea4-a27c-87f5fd158267")
+	)
+	(fp_line
+		(start 15 -6)
+		(end -15 -6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f8e1478e-978c-4d37-9dec-bf1b8d50348d")
+	)
+	(fp_line
+		(start 15 6)
+		(end 15 -6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "821acfea-74fa-469e-88e8-b7f4e0c2a595")
+	)
+	(fp_circle
+		(center -7.239 0)
+		(end -7.112 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6648f76a-0744-4a1c-87cf-3ecff2a16775")
+	)
+	(fp_circle
+		(center -12.7 -3)
+		(end -11.1 -3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "a8207042-4407-4a65-9665-e77fcfc18a4d")
+	)
+	(fp_circle
+		(center 12.7 -3)
+		(end 14.3 -3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "b2c4f496-02ef-40a9-bf90-8b7ece2921eb")
+	)
+	(fp_line
+		(start -5.588 -2.6035)
+		(end -5.588 2.6035)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "be28ae75-8acd-4141-b892-8ce777da45f3")
+	)
+	(fp_line
+		(start -5.588 2.6035)
+		(end 5.588 2.6035)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d4e810e8-547f-43b0-b1b2-cc9e3c9c9af4")
+	)
+	(fp_line
+		(start 5.588 -2.6035)
+		(end -5.588 -2.6035)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a2a67a28-eb7c-4712-b830-29587bff63f1")
+	)
+	(fp_line
+		(start 5.588 2.6035)
+		(end 5.588 -2.6035)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "52f6d596-8a1a-4ce5-ac8d-f3eac34f129d")
+	)
+	(fp_line
+		(start -5.334 -2.3495)
+		(end -5.334 2.3495)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "627282f5-f863-4f81-b124-a3550ce1cdb4")
+	)
+	(fp_line
+		(start -5.334 2.3495)
+		(end 5.334 2.3495)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d62cb071-4458-42a8-a115-e2e75d6ec7d4")
+	)
+	(fp_line
+		(start 5.334 -2.3495)
+		(end -5.334 -2.3495)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "867c8573-b3ac-44f8-b3ec-ab24dd320232")
+	)
+	(fp_line
+		(start 5.334 2.3495)
+		(end 5.334 -2.3495)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2563bbb1-781e-4ee9-aaf8-2dafdded7304")
+	)
+	(fp_circle
+		(center -7.239 0)
+		(end -7.112 0)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3aa05fa9-f3cc-4c6b-9619-2a571b76bb16")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "16a11dde-b78e-4df0-98d7-5a596f6d411f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.54 0)
+		(size 1.651 1.651)
+		(drill 1.143)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "52619791-f3a7-4ea5-bb67-19dd8bb3ed76")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.651 1.651)
+		(drill 1.143)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2ab30886-5f6c-465a-a71c-e90a852115bb")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0)
+		(size 1.651 1.651)
+		(drill 1.143)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c24bdd5d-5637-42bf-88d8-1876d1501f49")
+	)
+	(embedded_fonts no)
+	(model "${PARTS}/mosfet/CSD18502KCS/CSD18502KCS/KCS0003B.iges"
+		(offset
+			(xyz 0.04 2.9 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${PARTS}/Heatsinks/flat_TO_220_V2008B/v2008b.igs"
+		(hide yes)
+		(offset
+			(xyz 22.04 3.5 3.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 180)
+		)
+	)
+	(model "${PARTS}/Heatsinks/V6560W/v6560w.igs"
+		(offset
+			(xyz -14.96 6 25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -0 -0)
+		)
+	)
+)

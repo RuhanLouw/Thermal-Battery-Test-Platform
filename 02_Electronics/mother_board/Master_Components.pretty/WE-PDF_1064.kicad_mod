@@ -1,0 +1,212 @@
+(footprint "WE-PDF_1064"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "FIXED IND 3.6UH 12A 5.95 MOHM")
+	(property "Reference" "REF**"
+		(at -0.14 -6.735 0)
+		(layer "F.SilkS")
+		(uuid "5457adcc-73aa-4d60-b4aa-fc79c488ff24")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "7447798360"
+		(at 3.085 6.495 0)
+		(layer "F.Fab")
+		(uuid "694cbd73-8929-4826-9013-243646899481")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.digikey.co.za/en/products/detail/w%C3%BCrth-elektronik/7447798360/2268623"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80000c7b-df77-4982-9226-db342fa38477")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "FIXED IND 3.6UH 12A 5.95 MOHM"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "61926538-e499-4f46-8cf0-727ea03b3deb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.2 -5.2)
+		(end 4.7 -5.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ac49327c-fe59-43c6-8feb-6be5dca5b663")
+	)
+	(fp_line
+		(start -5.2 -2.1)
+		(end -5.2 -5.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "18de83f0-ee7b-48cb-b691-fc21ff4ff9f8")
+	)
+	(fp_line
+		(start -5.2 2.1)
+		(end -5.2 5.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "73f85e94-ece1-448a-9485-105f1eac5b9b")
+	)
+	(fp_line
+		(start -5.2 5.2)
+		(end 5.2 5.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d401cd51-3787-4926-9857-585603b72481")
+	)
+	(fp_line
+		(start 4.7 -5.2)
+		(end 5.2 -4.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e13154ef-7048-43f4-abae-f396f4d19635")
+	)
+	(fp_line
+		(start 5.2 -4.7)
+		(end 5.2 -2.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e2b2c946-0d30-43ca-90eb-ac324a552357")
+	)
+	(fp_line
+		(start 5.2 5.2)
+		(end 5.2 2.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b4bb5201-eeda-4508-8c36-53ad9aa34d7e")
+	)
+	(fp_poly
+		(pts
+			(xy 5.5 -5.4) (xy 5.5 5.4) (xy -5.5 5.4) (xy -5.5 -5.4)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "0c495cd3-9830-4c89-a5f9-3b24841bd2e5")
+	)
+	(fp_line
+		(start -5.1 -5.1)
+		(end -5.1 5.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "994406c1-2b25-43aa-8512-ab553036cbfc")
+	)
+	(fp_line
+		(start 4.6 -5.1)
+		(end -5.1 -5.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "23c17d70-efe5-44be-94de-9ba568241302")
+	)
+	(fp_line
+		(start 4.6 -5.1)
+		(end 5.1 -4.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "94e1bf5e-d55b-4820-942d-687c4de561e2")
+	)
+	(fp_line
+		(start 5.1 -4.6)
+		(end 5.1 5.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d6b29a24-b6ee-49e4-9515-9130ed8cafe3")
+	)
+	(fp_line
+		(start 5.1 5.1)
+		(end -5.1 5.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "561de001-ba1e-45be-a35a-c2349c50f7b2")
+	)
+	(pad "1" smd rect
+		(at -4.1 0)
+		(size 2.4 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "cd5369c9-8c69-4f26-b2da-f6b59077ac8b")
+	)
+	(pad "2" smd rect
+		(at 4.1 0)
+		(size 2.4 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "d6624064-54b7-40df-bb9e-e18a9d5993c1")
+	)
+	(embedded_fonts no)
+	(model "${PARTS}/Inductor/7447798360 (1)/WE-PDF_1064.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)

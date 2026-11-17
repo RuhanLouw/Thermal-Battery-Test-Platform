@@ -1,0 +1,133 @@
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\ACcard\AC Card.kicad_pcb_gerber\AC Card-F_Paste.gbr' ----   Thu Jun 12 22:58:46 2025
+
+D10   --> D100
+D11   --> D101
+D12   --> D102
+D13   --> D103
+D14   --> D104
+D15   --> D105
+D16   --> D106
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\ACcard\AC Card.kicad_pcb_gerber\AC Card-F_Mask.gbr' ----   Thu Jun 12 22:58:46 2025
+
+D10   --> D107
+D11   --> D108
+D12   --> D109
+D13   --> D110
+D14   --> D111
+D15   --> D112
+D16   --> D113
+D17   --> D114
+D18   --> D115
+D19   --> D116
+D20   --> D117
+D21   --> D118
+D22   --> D119
+D23   --> D120
+D24   --> D121
+D25   --> D122
+D26   --> D123
+D27   --> D124
+D28   --> D125
+D29   --> D126
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\ACcard\AC Card.kicad_pcb_gerber\AC Card-F_Cu.gbr' ----   Thu Jun 12 22:58:46 2025
+
+D10   --> D127
+D11   --> D128
+D12   --> D129
+D13   --> D130
+D14   --> D131
+D15   --> D132
+D16   --> D133
+D17   --> D134
+D18   --> D135
+D19   --> D136
+D20   --> D137
+D21   --> D138
+D22   --> D139
+D23   --> D140
+D24   --> D141
+D25   --> D142
+D26   --> D143
+D27   --> D144
+D28   --> D145
+D29   --> D146
+D30   --> D147
+D31   --> D148
+D32   --> D149
+D33   --> D150
+D34   --> D151
+D35   --> D152
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\ACcard\AC Card.kicad_pcb_gerber\AC Card-B_Cu.gbr' ----   Thu Jun 12 22:58:47 2025
+
+D10   --> D153
+D11   --> D154
+D12   --> D155
+D13   --> D156
+D14   --> D157
+D15   --> D158
+D16   --> D159
+D17   --> D160
+D18   --> D161
+D19   --> D162
+D20   --> D163
+D21   --> D164
+D22   --> D165
+D23   --> D166
+D24   --> D167
+D25   --> D168
+D26   --> D169
+D27   --> D170
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\ACcard\AC Card.kicad_pcb_gerber\AC Card-B_Mask.gbr' ----   Thu Jun 12 22:58:47 2025
+
+D10   --> D171
+D11   --> D172
+D12   --> D173
+D13   --> D174
+D14   --> D175
+D15   --> D176
+D16   --> D177
+D17   --> D178
+D18   --> D179
+D19   --> D180
+D20   --> D181
+D21   --> D182
+D22   --> D183
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\ACcard\AC Card.kicad_pcb_gerber\AC Card-B_SilkS.gbr' ----   Thu Jun 12 22:58:47 2025
+
+D10   --> D184
+D11   --> D185
+D12   --> D186
+D13   --> D187
+D14   --> D188
+D15   --> D189
+D16   --> D190
+D17   --> D191
+D18   --> D192
+D19   --> D193
+D20   --> D194
+D21   --> D195
+D22   --> D196
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\ACcard\AC Card.kicad_pcb_gerber\AC Card-Edge_Cuts.gbr' ----   Thu Jun 12 22:58:47 2025
+
+D10   --> D197
+-----------------------------------------------------------------

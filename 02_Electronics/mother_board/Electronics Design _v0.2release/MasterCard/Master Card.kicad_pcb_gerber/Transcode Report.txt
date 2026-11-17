@@ -1,0 +1,603 @@
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\MasterCard\Master Card\Master Card.kicad_pcb_gerber\Master Card-F_Paste.gbr' ----   Thu Jun 12 21:47:26 2025
+
+D10   --> D100
+D11   --> D101
+D12   --> D102
+D13   --> D103
+D14   --> D104
+D15   --> D105
+D16   --> D106
+D17   --> D107
+D18   --> D108
+D19   --> D109
+D21   --> D110
+D22   --> D111
+D23   --> D112
+D24   --> D113
+D25   --> D114
+D26   --> D115
+D27   --> D116
+D28   --> D117
+D29   --> D118
+D30   --> D119
+D31   --> D120
+D32   --> D121
+D33   --> D122
+D34   --> D123
+D35   --> D124
+D36   --> D125
+D37   --> D126
+D38   --> D127
+D39   --> D128
+D40   --> D129
+D41   --> D130
+D42   --> D131
+D43   --> D132
+D44   --> D133
+D45   --> D134
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\MasterCard\Master Card\Master Card.kicad_pcb_gerber\Master Card-F_Mask.gbr' ----   Thu Jun 12 21:47:27 2025
+
+D10   --> D135
+D11   --> D136
+D12   --> D137
+D13   --> D138
+D14   --> D139
+D15   --> D140
+D16   --> D141
+D17   --> D142
+D18   --> D143
+D19   --> D144
+D20   --> D145
+D21   --> D146
+D22   --> D147
+D23   --> D148
+D24   --> D149
+D25   --> D150
+D26   --> D151
+D27   --> D152
+D28   --> D153
+D29   --> D154
+D30   --> D155
+D31   --> D156
+D32   --> D157
+D33   --> D158
+D34   --> D159
+D35   --> D160
+D36   --> D161
+D37   --> D162
+D38   --> D163
+D39   --> D164
+D40   --> D165
+D41   --> D166
+D42   --> D167
+D43   --> D168
+D44   --> D169
+D45   --> D170
+D46   --> D171
+D47   --> D172
+D48   --> D173
+D49   --> D174
+D50   --> D175
+D51   --> D176
+D52   --> D177
+D53   --> D178
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\MasterCard\Master Card\Master Card.kicad_pcb_gerber\Master Card-F_Cu.gbr' ----   Thu Jun 12 21:47:27 2025
+
+D11   --> D179
+D12   --> D180
+D13   --> D181
+D14   --> D182
+D15   --> D183
+D16   --> D184
+D17   --> D185
+D18   --> D186
+D19   --> D187
+D20   --> D188
+D21   --> D189
+D22   --> D190
+D23   --> D191
+D24   --> D192
+D25   --> D193
+D26   --> D194
+D27   --> D195
+D28   --> D196
+D29   --> D197
+D30   --> D198
+D31   --> D199
+D32   --> D200
+D33   --> D201
+D34   --> D202
+D35   --> D203
+D36   --> D204
+D37   --> D205
+D38   --> D206
+D39   --> D207
+D40   --> D208
+D41   --> D209
+D42   --> D210
+D43   --> D211
+D44   --> D212
+D45   --> D213
+D46   --> D214
+D47   --> D215
+D48   --> D216
+D49   --> D217
+D50   --> D218
+D51   --> D219
+D52   --> D220
+D53   --> D221
+D54   --> D222
+D55   --> D223
+D56   --> D224
+D57   --> D225
+D58   --> D226
+D59   --> D227
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\MasterCard\Master Card\Master Card.kicad_pcb_gerber\Master Card-B_Cu.gbr' ----   Thu Jun 12 21:47:27 2025
+
+D10   --> D228
+D11   --> D229
+D12   --> D230
+D13   --> D231
+D14   --> D232
+D15   --> D233
+D16   --> D234
+D17   --> D235
+D18   --> D236
+D19   --> D237
+D20   --> D238
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\MasterCard\Master Card\Master Card.kicad_pcb_gerber\Master Card-B_Mask.gbr' ----   Thu Jun 12 21:47:27 2025
+
+D10   --> D239
+D11   --> D240
+D12   --> D241
+D13   --> D242
+D14   --> D243
+D15   --> D244
+D16   --> D245
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\MasterCard\Master Card\Master Card.kicad_pcb_gerber\Master Card-B_SilkS.gbr' ----   Thu Jun 12 21:47:27 2025
+
+D10   --> D246
+D11   --> D247
+D12   --> D248
+D13   --> D249
+D14   --> D250
+D15   --> D251
+D16   --> D252
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\MasterCard\Master Card\Master Card.kicad_pcb_gerber\Master Card-Edge_Cuts.gbr' ----   Thu Jun 12 21:47:27 2025
+
+D10   --> D253
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\MasterCard\Master Card.kicad_pcb_gerber\Master Card-F_SilkS.gbr' ----   Thu Jun 12 23:11:35 2025
+
+D10   --> D168
+D11   --> D169
+D12   --> D170
+D13   --> D171
+D14   --> D172
+D15   --> D173
+D16   --> D174
+D19   --> D175
+D21   --> D176
+D22   --> D177
+D23   --> D178
+D24   --> D179
+D25   --> D180
+D26   --> D181
+D27   --> D182
+D28   --> D183
+D29   --> D184
+D30   --> D185
+D31   --> D186
+D32   --> D187
+D33   --> D188
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\MasterCard\Master Card.kicad_pcb_gerber\Master Card-F_Paste.gbr' ----   Thu Jun 12 23:11:35 2025
+
+D10   --> D189
+D11   --> D190
+D12   --> D191
+D13   --> D192
+D14   --> D193
+D15   --> D194
+D16   --> D195
+D17   --> D196
+D18   --> D197
+D19   --> D198
+D20   --> D199
+D21   --> D200
+D22   --> D201
+D23   --> D202
+D24   --> D203
+D25   --> D204
+D26   --> D205
+D27   --> D206
+D28   --> D207
+D29   --> D208
+D30   --> D209
+D31   --> D210
+D32   --> D211
+D33   --> D212
+D34   --> D213
+D35   --> D214
+D36   --> D215
+D37   --> D216
+D38   --> D217
+D39   --> D218
+D40   --> D219
+D41   --> D220
+D42   --> D221
+D43   --> D222
+D44   --> D223
+D45   --> D224
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\MasterCard\Master Card.kicad_pcb_gerber\Master Card-F_Mask.gbr' ----   Thu Jun 12 23:11:36 2025
+
+D10   --> D225
+D11   --> D226
+D12   --> D227
+D13   --> D228
+D14   --> D229
+D15   --> D230
+D16   --> D231
+D17   --> D232
+D18   --> D233
+D19   --> D234
+D20   --> D235
+D21   --> D236
+D22   --> D237
+D23   --> D238
+D24   --> D239
+D26   --> D240
+D27   --> D241
+D28   --> D242
+D29   --> D243
+D30   --> D244
+D31   --> D245
+D32   --> D246
+D33   --> D247
+D34   --> D248
+D35   --> D249
+D36   --> D250
+D37   --> D251
+D38   --> D252
+D39   --> D253
+D40   --> D254
+D41   --> D255
+D42   --> D256
+D43   --> D257
+D44   --> D258
+D45   --> D259
+D46   --> D260
+D47   --> D261
+D48   --> D262
+D49   --> D263
+D50   --> D264
+D51   --> D265
+D52   --> D266
+D53   --> D267
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\MasterCard\Master Card.kicad_pcb_gerber\Master Card-F_Cu.gbr' ----   Thu Jun 12 23:11:36 2025
+
+D10   --> D268
+D11   --> D269
+D12   --> D270
+D13   --> D271
+D14   --> D272
+D15   --> D273
+D16   --> D274
+D17   --> D275
+D18   --> D276
+D19   --> D277
+D20   --> D278
+D21   --> D279
+D22   --> D280
+D23   --> D281
+D24   --> D282
+D25   --> D283
+D26   --> D284
+D27   --> D285
+D28   --> D286
+D29   --> D287
+D30   --> D288
+D31   --> D289
+D32   --> D290
+D34   --> D291
+D35   --> D292
+D36   --> D293
+D37   --> D294
+D38   --> D295
+D39   --> D296
+D40   --> D297
+D41   --> D298
+D42   --> D299
+D43   --> D300
+D44   --> D301
+D45   --> D302
+D46   --> D303
+D47   --> D304
+D48   --> D305
+D49   --> D306
+D50   --> D307
+D51   --> D308
+D52   --> D309
+D53   --> D310
+D54   --> D311
+D55   --> D312
+D56   --> D313
+D57   --> D314
+D58   --> D315
+D59   --> D316
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\MasterCard\Master Card.kicad_pcb_gerber\Master Card-B_Cu.gbr' ----   Thu Jun 12 23:11:36 2025
+
+D10   --> D317
+D11   --> D318
+D12   --> D319
+D13   --> D320
+D14   --> D321
+D15   --> D322
+D16   --> D323
+D17   --> D324
+D18   --> D325
+D19   --> D326
+D20   --> D327
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\MasterCard\Master Card.kicad_pcb_gerber\Master Card-B_Mask.gbr' ----   Thu Jun 12 23:11:36 2025
+
+D10   --> D328
+D11   --> D329
+D12   --> D330
+D13   --> D331
+D14   --> D332
+D15   --> D333
+D16   --> D334
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\MasterCard\Master Card.kicad_pcb_gerber\Master Card-B_SilkS.gbr' ----   Thu Jun 12 23:11:36 2025
+
+D10   --> D335
+D11   --> D336
+D12   --> D337
+D13   --> D338
+D14   --> D339
+D15   --> D340
+D16   --> D341
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\MasterCard\Master Card.kicad_pcb_gerber\Master Card-Edge_Cuts.gbr' ----   Thu Jun 12 23:11:36 2025
+
+D10   --> D342
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\MasterCard\Master Card.kicad_pcb_gerber\Master Card-PTH.drl' ----   Thu Jun 12 23:11:36 2025
+
+T2   --> T6
+T3   --> T7
+T4   --> T8
+T5   --> T9
+T6   --> T10
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\MasterCard\Master Card.kicad_pcb_gerber\Master Card-F_Paste.gbr' ----   Thu Jun 12 23:11:49 2025
+
+D10   --> D100
+D11   --> D101
+D12   --> D102
+D13   --> D103
+D14   --> D104
+D15   --> D105
+D16   --> D106
+D17   --> D107
+D18   --> D108
+D19   --> D109
+D21   --> D110
+D22   --> D111
+D23   --> D112
+D24   --> D113
+D25   --> D114
+D26   --> D115
+D27   --> D116
+D28   --> D117
+D29   --> D118
+D30   --> D119
+D31   --> D120
+D32   --> D121
+D33   --> D122
+D34   --> D123
+D35   --> D124
+D36   --> D125
+D37   --> D126
+D38   --> D127
+D39   --> D128
+D40   --> D129
+D41   --> D130
+D42   --> D131
+D43   --> D132
+D44   --> D133
+D45   --> D134
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\MasterCard\Master Card.kicad_pcb_gerber\Master Card-F_Mask.gbr' ----   Thu Jun 12 23:11:49 2025
+
+D10   --> D135
+D11   --> D136
+D12   --> D137
+D13   --> D138
+D14   --> D139
+D15   --> D140
+D16   --> D141
+D17   --> D142
+D18   --> D143
+D19   --> D144
+D20   --> D145
+D21   --> D146
+D22   --> D147
+D23   --> D148
+D24   --> D149
+D25   --> D150
+D26   --> D151
+D27   --> D152
+D28   --> D153
+D29   --> D154
+D30   --> D155
+D31   --> D156
+D32   --> D157
+D33   --> D158
+D34   --> D159
+D35   --> D160
+D36   --> D161
+D37   --> D162
+D38   --> D163
+D39   --> D164
+D40   --> D165
+D41   --> D166
+D42   --> D167
+D43   --> D168
+D44   --> D169
+D45   --> D170
+D46   --> D171
+D47   --> D172
+D48   --> D173
+D49   --> D174
+D50   --> D175
+D51   --> D176
+D52   --> D177
+D53   --> D178
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\MasterCard\Master Card.kicad_pcb_gerber\Master Card-F_Cu.gbr' ----   Thu Jun 12 23:11:50 2025
+
+D11   --> D179
+D12   --> D180
+D13   --> D181
+D14   --> D182
+D15   --> D183
+D16   --> D184
+D17   --> D185
+D18   --> D186
+D19   --> D187
+D20   --> D188
+D21   --> D189
+D22   --> D190
+D23   --> D191
+D24   --> D192
+D25   --> D193
+D26   --> D194
+D27   --> D195
+D28   --> D196
+D29   --> D197
+D30   --> D198
+D31   --> D199
+D32   --> D200
+D33   --> D201
+D34   --> D202
+D35   --> D203
+D36   --> D204
+D37   --> D205
+D38   --> D206
+D39   --> D207
+D40   --> D208
+D41   --> D209
+D42   --> D210
+D43   --> D211
+D44   --> D212
+D45   --> D213
+D46   --> D214
+D47   --> D215
+D48   --> D216
+D49   --> D217
+D50   --> D218
+D51   --> D219
+D52   --> D220
+D53   --> D221
+D54   --> D222
+D55   --> D223
+D56   --> D224
+D57   --> D225
+D58   --> D226
+D59   --> D227
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\MasterCard\Master Card.kicad_pcb_gerber\Master Card-B_Cu.gbr' ----   Thu Jun 12 23:11:50 2025
+
+D10   --> D228
+D11   --> D229
+D12   --> D230
+D13   --> D231
+D14   --> D232
+D15   --> D233
+D16   --> D234
+D17   --> D235
+D18   --> D236
+D19   --> D237
+D20   --> D238
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\MasterCard\Master Card.kicad_pcb_gerber\Master Card-B_Mask.gbr' ----   Thu Jun 12 23:11:50 2025
+
+D10   --> D239
+D11   --> D240
+D12   --> D241
+D13   --> D242
+D14   --> D243
+D15   --> D244
+D16   --> D245
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\MasterCard\Master Card.kicad_pcb_gerber\Master Card-B_SilkS.gbr' ----   Thu Jun 12 23:11:50 2025
+
+D10   --> D246
+D11   --> D247
+D12   --> D248
+D13   --> D249
+D14   --> D250
+D15   --> D251
+D16   --> D252
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\MasterCard\Master Card.kicad_pcb_gerber\Master Card-Edge_Cuts.gbr' ----   Thu Jun 12 23:11:50 2025
+
+D10   --> D253
+-----------------------------------------------------------------

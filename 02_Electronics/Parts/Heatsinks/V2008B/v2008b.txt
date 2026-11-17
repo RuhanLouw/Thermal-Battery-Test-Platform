@@ -1,0 +1,10 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"90-27012023-064701";"";
+"REFERENCE";"V2008B";"";
+"TraceParts.PartTitle";"Finger-and small heatsinks finger-shaped-heatsinks 7K/W 36,83x44,45x9,4mm black anodized for TO-220";"";
+"TraceParts.InstanceId";"90-27012023-06470178P2ST6ENTHNY6M228NL8S6AD";"";
+"SUPPLIER";"ASSMANN WSW components";"";
+"DESIGN";"Finger-and small heatsinks finger-shaped-heatsinks 7K/W 36,83x44,45x9,4mm black anodized for TO-220";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.0.0";"";

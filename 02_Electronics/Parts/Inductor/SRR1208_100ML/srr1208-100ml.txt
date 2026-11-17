@@ -1,0 +1,10 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"90-13062022-068044";"";
+"REFERENCE";"SRR1208-100ML";"";
+"TraceParts.PartTitle";"SRR1208 Shielded  Power Inductor,10uH";"";
+"TraceParts.InstanceId";"90-13062022-0680442N3XX9WWY2MK673V115V3T3RA";"";
+"SUPPLIER";"BOURNS";"";
+"DESIGN";"SRR1208 Shielded  Power Inductor,10uH";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.0.0";"";

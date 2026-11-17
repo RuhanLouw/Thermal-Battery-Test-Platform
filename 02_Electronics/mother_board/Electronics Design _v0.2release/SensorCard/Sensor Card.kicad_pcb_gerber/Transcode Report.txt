@@ -1,0 +1,205 @@
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\SensorCard\Sensor Card.kicad_pcb_gerber\Sensor Card-F_Paste.gbr' ----   Fri Jun 13 06:53:45 2025
+
+D10   --> D100
+D11   --> D101
+D12   --> D102
+D13   --> D103
+D14   --> D104
+D15   --> D105
+D16   --> D106
+D17   --> D107
+D18   --> D108
+D20   --> D109
+D21   --> D110
+D22   --> D111
+D23   --> D112
+D24   --> D113
+D25   --> D114
+D26   --> D115
+D27   --> D116
+D28   --> D117
+D29   --> D118
+D30   --> D119
+D31   --> D120
+D32   --> D121
+D33   --> D122
+D34   --> D123
+D35   --> D124
+D36   --> D125
+D37   --> D126
+D38   --> D127
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\SensorCard\Sensor Card.kicad_pcb_gerber\Sensor Card-F_Mask.gbr' ----   Fri Jun 13 06:53:45 2025
+
+D10   --> D128
+D11   --> D129
+D12   --> D130
+D13   --> D131
+D14   --> D132
+D15   --> D133
+D16   --> D134
+D17   --> D135
+D18   --> D136
+D20   --> D137
+D21   --> D138
+D22   --> D139
+D23   --> D140
+D24   --> D141
+D25   --> D142
+D26   --> D143
+D27   --> D144
+D28   --> D145
+D29   --> D146
+D30   --> D147
+D31   --> D148
+D32   --> D149
+D33   --> D150
+D34   --> D151
+D35   --> D152
+D36   --> D153
+D37   --> D154
+D38   --> D155
+D39   --> D156
+D40   --> D157
+D41   --> D158
+D42   --> D159
+D43   --> D160
+D44   --> D161
+D45   --> D162
+D46   --> D163
+D47   --> D164
+D48   --> D165
+D49   --> D166
+D50   --> D167
+D51   --> D168
+D52   --> D169
+D53   --> D170
+D54   --> D171
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\SensorCard\Sensor Card.kicad_pcb_gerber\Sensor Card-F_Cu.gbr' ----   Fri Jun 13 06:53:45 2025
+
+D10   --> D172
+D11   --> D173
+D12   --> D174
+D13   --> D175
+D14   --> D176
+D15   --> D177
+D16   --> D178
+D17   --> D179
+D18   --> D180
+D20   --> D181
+D21   --> D182
+D22   --> D183
+D23   --> D184
+D24   --> D185
+D25   --> D186
+D26   --> D187
+D27   --> D188
+D28   --> D189
+D29   --> D190
+D30   --> D191
+D31   --> D192
+D32   --> D193
+D33   --> D194
+D34   --> D195
+D35   --> D196
+D36   --> D197
+D37   --> D198
+D38   --> D199
+D39   --> D200
+D40   --> D201
+D41   --> D202
+D42   --> D203
+D43   --> D204
+D44   --> D205
+D46   --> D206
+D47   --> D207
+D48   --> D208
+D49   --> D209
+D50   --> D210
+D51   --> D211
+D52   --> D212
+D53   --> D213
+D54   --> D214
+D55   --> D215
+D56   --> D216
+D57   --> D217
+D58   --> D218
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\SensorCard\Sensor Card.kicad_pcb_gerber\Sensor Card-B_Cu.gbr' ----   Fri Jun 13 06:53:45 2025
+
+D10   --> D219
+D11   --> D220
+D12   --> D221
+D13   --> D222
+D14   --> D223
+D15   --> D224
+D16   --> D225
+D17   --> D226
+D18   --> D227
+D19   --> D228
+D20   --> D229
+D21   --> D230
+D22   --> D231
+D23   --> D232
+D24   --> D233
+D25   --> D234
+D26   --> D235
+D27   --> D236
+D28   --> D237
+D29   --> D238
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\SensorCard\Sensor Card.kicad_pcb_gerber\Sensor Card-B_Mask.gbr' ----   Fri Jun 13 06:53:45 2025
+
+D10   --> D239
+D11   --> D240
+D12   --> D241
+D13   --> D242
+D14   --> D243
+D15   --> D244
+D16   --> D245
+D17   --> D246
+D18   --> D247
+D19   --> D248
+D20   --> D249
+D21   --> D250
+D22   --> D251
+D23   --> D252
+D24   --> D253
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\SensorCard\Sensor Card.kicad_pcb_gerber\Sensor Card-B_SilkS.gbr' ----   Fri Jun 13 06:53:45 2025
+
+D10   --> D254
+D11   --> D255
+D12   --> D256
+D13   --> D257
+D14   --> D258
+D15   --> D259
+D16   --> D260
+D17   --> D261
+D18   --> D262
+D19   --> D263
+D20   --> D264
+D21   --> D265
+D22   --> D266
+D23   --> D267
+D24   --> D268
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Ruhan Louw\OneDrive - Stellenbosch University\Masters\Masters\Electronics\Final Electronics Design _2\SensorCard\Sensor Card.kicad_pcb_gerber\Sensor Card-Edge_Cuts.gbr' ----   Fri Jun 13 06:53:45 2025
+
+D10   --> D269
+-----------------------------------------------------------------

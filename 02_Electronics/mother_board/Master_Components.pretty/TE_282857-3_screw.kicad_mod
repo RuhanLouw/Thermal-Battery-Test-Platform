@@ -1,0 +1,234 @@
+(footprint "TE_282857-3_screw"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -5.445 -6.635 0)
+		(layer "F.SilkS")
+		(uuid "a3cc1715-37ae-4d9f-917c-00c3df7673e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TE_282857-3_screw"
+		(at -1.635 6.615 0)
+		(layer "F.Fab")
+		(uuid "737617e9-359a-4b48-8fc0-9f710ad04e61")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.digikey.co.za/en/products/detail/te-connectivity-amp-connectors/282857-2/1153273"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "312c7534-7338-4d8d-a895-40b64ebab7ee")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5a46031-0238-44a3-84a6-8923854a6125")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -7.62 -5)
+		(end 7.62 -5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "95f70253-1cfe-4ef0-b7e0-f6fd3c0d7a28")
+	)
+	(fp_line
+		(start -7.62 5)
+		(end -7.62 -5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "55ba25cd-7e7d-4310-a2f6-b3382bae1ca0")
+	)
+	(fp_line
+		(start 7.62 -5)
+		(end 7.62 5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d45311bd-76cb-45bd-9e33-7e001a5531cf")
+	)
+	(fp_line
+		(start 7.62 5)
+		(end -7.62 5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6ba4813c-9b04-4cf9-896c-327924c5c594")
+	)
+	(fp_circle
+		(center -5.08 -5.6)
+		(end -4.98 -5.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e0244a5d-4c47-48ec-a325-a5848db66565")
+	)
+	(fp_line
+		(start -7.87 -5.25)
+		(end 7.87 -5.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9a5d453f-a50c-4b3b-b1d5-80db916fed91")
+	)
+	(fp_line
+		(start -7.87 5.25)
+		(end -7.87 -5.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "173c17b4-f340-4f5a-a8fb-9bb33e1950d9")
+	)
+	(fp_line
+		(start 7.87 -5.25)
+		(end 7.87 5.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7ed1fb7f-14a9-417a-9655-65870d8c2735")
+	)
+	(fp_line
+		(start 7.87 5.25)
+		(end -7.87 5.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6c04dd0a-c50d-48e2-a4fe-75275d786429")
+	)
+	(fp_line
+		(start -7.62 -5)
+		(end 7.62 -5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d1e41961-3307-4ae8-a821-9c5660f83b80")
+	)
+	(fp_line
+		(start -7.62 5)
+		(end -7.62 -5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7fc23fca-553d-4aab-931f-5cbbaa31db5f")
+	)
+	(fp_line
+		(start 7.62 -5)
+		(end 7.62 5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2b147412-0e85-4d2c-b442-08595389143a")
+	)
+	(fp_line
+		(start 7.62 5)
+		(end -7.62 5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "debdf183-7336-48d5-816f-edd1e90d5b0f")
+	)
+	(fp_circle
+		(center -5.08 -5.6)
+		(end -4.98 -5.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "86727e05-abfb-4624-a39c-814eb801f968")
+	)
+	(pad "1" thru_hole rect
+		(at -5.08 0)
+		(size 2.1 2.1)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "71a6b607-d9c3-410a-a6a4-fb49255cbb1a")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 2.1 2.1)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "39417705-b9c0-4c02-95d1-f7480373efbf")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 2.1 2.1)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "5f103608-9fd8-4c42-9a11-92a67a21bf4b")
+	)
+	(embedded_fonts no)
+	(model "${PARTS}/Connectors/screw connectors 5-08/282857_3/282857-3.step"
+		(offset
+			(xyz 0 0 19)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 180)
+		)
+	)
+)

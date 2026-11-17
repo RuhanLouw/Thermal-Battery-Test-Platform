@@ -1,0 +1,15 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description
+C1,1,C22u,C_0402_1005Metric,,,,smt,Unpolarized capacitor
+C2,1,C1u,C_0402_1005Metric,,,,smt,Unpolarized capacitor
+C3,1,C0.1u,C_0402_1005Metric,,,,smt,Unpolarized capacitor
+"D1, D2",2,VCUT0714A-HD1-GS08,DIO_VCUT0714A-HD1-GS08,,,,smt,Bidirectional transient-voltage-suppression diode
+J1,1,Conn_01x03,691210910003,,,,tht,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+"Q1, Q2, Q3",3,BSS84,SOT-23,,,,smt,"-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"
+R1,1,R16.5k,R_0402_1005Metric,,,,smt,"Resistor, US symbol"
+"R2, R3",2,R109.3,R_0402_1005Metric,,,,smt,"Resistor, US symbol"
+R4,1,R215.5,R_0402_1005Metric,,,,smt,"Resistor, US symbol"
+"R5, R6",2,R10k,R_0402_1005Metric,,,,smt,"Resistor, US symbol"
+"R8, R9",2,R15,R_0805_2012Metric,,,,smt,"Resistor, US symbol"
+"U1, U2, U3",3,HCPL-0501-500E,SO8_HCPL-0501-500_BRA,,,,smt,
+U4,1,SP485ECN-L,NSOIC-8,,,,smt,RS485
+U5,1,TMA-0505S,Converter_DCDC_TRACO_TMA-05xxS_12xxS_Single_THT,,,,tht,"1W DC/DC converter unregulated, 4.5-5.5V input, 5V fixed output voltage, 200mA output, 1.0kVDC isolation, SIP-7"

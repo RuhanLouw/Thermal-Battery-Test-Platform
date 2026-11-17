@@ -1,0 +1,245 @@
+(footprint "PHOENIX_1888700"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "4 Position Wire to Board Terminal Block Horizontal with Board 0.200\" (5.08mm) Through Hole")
+	(tags "4")
+	(property "Reference" "REF**"
+		(at 3.175 -10.885 0)
+		(layer "F.SilkS")
+		(uuid "d35d058f-01ec-44f1-b160-e914be931822")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PHOENIX_1888700"
+		(at 9.525 1.115 0)
+		(layer "F.Fab")
+		(uuid "f03d68ad-a90b-4c99-ac35-7e3c02812dde")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.digikey.co.za/en/products/detail/phoenix-contact/1888700/2511097"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a5fcac1-ca1e-453f-8a66-ac04a3ac2b4e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "TERM BLK 4P SIDE ENT 5.08MM PCB"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f03a695-41dc-4c79-ab33-604f05affce0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0 -9.5)
+		(end 20.32 -9.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "25d7b7a6-dd33-4a00-b43e-3c42b9a79d85")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -9.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "719e3113-96f5-4697-b7d6-ef86ab8ede82")
+	)
+	(fp_line
+		(start 0 0)
+		(end 20.32 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "df6e86f5-6bcf-48d7-b6de-3f48da2a8b72")
+	)
+	(fp_line
+		(start 20.32 0)
+		(end 20.32 -9.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "72a526ae-1dcb-411f-8b16-d90bc6d56c11")
+	)
+	(fp_circle
+		(center -1.1 -4.75)
+		(end -1 -4.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "bb276bad-fe55-42ad-826d-4387c1783c53")
+	)
+	(fp_line
+		(start -0.82 -9.75)
+		(end -0.82 0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "03484fca-61e5-450a-865f-6a3c3cfd20b7")
+	)
+	(fp_line
+		(start -0.82 0.25)
+		(end 20.82 0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8e77961b-e7f8-4ce3-bc10-9820137104e1")
+	)
+	(fp_line
+		(start 20.82 -9.75)
+		(end -0.82 -9.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c99abd66-af8d-497c-9daf-a69fb6ee9381")
+	)
+	(fp_line
+		(start 20.82 0.25)
+		(end 20.82 -9.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0e0ecad8-a95a-41c6-87c5-fa46c49b87ec")
+	)
+	(fp_line
+		(start 0 -9.5)
+		(end 20.32 -9.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "200b2c0f-869c-45d6-ab31-2d99a0c4b7d3")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -9.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5c2dee15-3887-4c94-bd3e-944a9b1a96c5")
+	)
+	(fp_line
+		(start 0 0)
+		(end 20.32 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2687cc70-c56c-47ad-b09d-433d83399b23")
+	)
+	(fp_line
+		(start 20.32 0)
+		(end 20.32 -9.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "11c8dae0-c204-4fce-bcff-7a2deeb61139")
+	)
+	(fp_circle
+		(center -1.1 -4.75)
+		(end -1 -4.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4e6e82e2-29fc-4778-9aac-c75cb3069fc6")
+	)
+	(pad "1" thru_hole rect
+		(at 2.54 -4.75)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "22bcfce4-3eee-4c4b-81d8-2312e6e586d9")
+	)
+	(pad "2" thru_hole circle
+		(at 7.62 -4.75)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "b4d85ac4-c790-4cc0-8d4d-9728224a114d")
+	)
+	(pad "3" thru_hole circle
+		(at 12.7 -4.75)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "8a0f8436-3161-41c3-bf11-184b8509b586")
+	)
+	(pad "4" thru_hole circle
+		(at 17.78 -4.75)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "be36030d-930c-4ea0-ab0a-6e3177137746")
+	)
+	(embedded_fonts no)
+	(model "${PARTS}/Connectors/TERM BLK 4P SIDE ENT 5.08MM PCB/1888700.igs"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
